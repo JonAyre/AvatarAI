@@ -1,0 +1,2212 @@
+{
+     "content": "As economies become ever more integrated and the revolution in information and
+communications technology continues, the world is getting smaller at the same time
+that supply chains are getting more complex. The challenge that employers face to
+demonstrate that they respect human rights, to act with due diligence to avoid infringing
+the rights of others and to address adverse impacts that occur, has never been clearer.
+How to do this in contexts of widespread informality, insufficient law enforcement and
+persistent poverty, however, is far from simple. Child labour is a case in point: despite
+rapid gains in recent years, there are still 168 million child labourers in the world today,
+across all regions and sectors.
+The UN Guiding Principles on Business and Human Rights (UNGPs), adopted
+unanimously in 2011 by the UN Human Rights Council, provide a blueprint for employers
+to develop robust management systems for due diligence. Crucially, they also address
+the government duty to protect individuals from violations of human rights, including
+those in which enterprises are involved, and the need for greater access to remedy.
+The UNGPs do not create new legal obligations but clarify what existing international
+instruments mean for business, and they directly reference the ILO’s 1998 Declaration
+on Fundamental Principles and Rights at Work. ILO Convention No. 138 on Minimum
+Age (1973), and ILO Convention No. 182 on Worst Forms of Child Labour (1999) are
+among the fundamental principles and rights at work and these Conventions, though
+binding only on governments that ratify them, are the relevant child labour standards for
+supply chains.
+This Child Labour Guidance Tool was created jointly by the ILO and the International
+Organisation of Employers (IOE) as a resource for companies to meet the due diligence
+requirements laid out in the UNGPs, as they pertain to child labour. It draws on the
+long experience of the ILO’s International Programme on the Elimination of Child Labour
+(ILO-IPEC) in collaborating with employers to combat child labour in supply chains.
+Select companies have been closely involved in its development: the contributions
+of The Coca-Cola Company, AngloGold Ashanti, Vale, Japan Tobacco and Sterling
+Manufacturing have been invaluable. Working in a public-minded and open spirit of
+collaboration with the project team, comprised of ILO, IOE and Shift, a non-profit centre
+of expertise on the UNGPs, these companies brought insights and experience from
+a range of sectors and geographies to ensure that the Guidance Tool is practical and
+responsive to the key challenges faced by business.
+We are confident that this Guidance Tool will be a source of valuable support for
+employers. Our ambition as the IOE, the global voice of business, and the ILO, the
+custodian of international labour standards and the UN agency for the world of work,
+is that this new resource drives further engagement and collaboration, and adds fresh
+impetus to our common goal, the elimination of all forms of child labour.
+Beate Andrees
+Chief
+ILO’s FUNDAMENTALS Branch
+Linda Kromjong
+Secretary-General
+International Organisation of Employers (IOE)
+						
+							
+iv
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSPART A:
+INTRODUCTION:
+WHY IS THIS GUIDANCE
+TOOL IMPORTANT AND
+WHO IS IT FOR?What is the extent of
+child labour globally?
+Several decades of concerted efforts to combat child labour have led to an impressive
+reduction in absolute numbers of child labourers. Nevertheless, as of 2012, there
+were still an estimated 168 million child labourers, including over 85 million children
+in hazardous work – one of the worst forms of child labour that pose the greatest
+risks to children’s mental and physical health. Worldwide, approximately one in every
+10 children is involved in child labour, and in Sub-Saharan Africa it is one in five.1 Children
+work in fields and on farms, in factories, as domestic workers, or in informal businesses
+such as artisanal mining, as street vendors and trash pickers; they can be caught in
+commercial sexual exploitation, or forced to engage in armed conflict or drug trafficking.
+Child labour thus remains a pressing and
+large-scale problem. The ILO’s International
+Programme on the Elimination of Child
+Labour (ILO-IPEC) calls on all actors,
+including business enterprises, to meet
+their obligations to ensure the progressive
+elimination of all forms of child labour
+worldwide. This Guidance Tool forms part of
+that broader effort.
+
+Defining Child Labour
+Child labour is work that deprives
+children of their childhood, their
+potential and their dignity, and that
+is harmful to their physical or mental
+development including by interfering
+with their education.
+For more detail on defining child labour, see
+Section B.2.
+© ILO/M. Crozet
+More information:
+Section B.2 and Guide One of ILO-IOE Guides for
+Employers.2
+1
+2
+2
+ILO-IPEC: Global child labour trends 2008 to 2012 (Geneva, ILO, 2013). Available at: www.ilo.org/ipec/
+Informationresources/WCMS_IPEC_PUB_23015/lang--en/index.htm.
+ILO-IOE: Eliminating child labour: Guides for Employers (Geneva, ILO, 2007), Guide One. Available at: www.
+ilo.org/public/english/dialogue/actemp/whatwedo/projects/cl/index.htm.
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSHow could my business be
+involved with child labour?
+As a starting point, all businesses, of whatever size, need to ensure that children are not
+working in their own facilities or operations. The ILO and IOE have produced practical
+guidance for employers3 that explains how to identify child labour and prevent it in the
+employers’ own business. This Guidance Tool focuses on the three “H’s”:
+¡¡ Hiring: end the practice of hiring children;
+¡¡ Hours: reduce the working hours of any children above the minimum age to ensure
+that they do not work more than the number of hours allowed under national law for
+light work and regular work.
+
+More information:
+Section B.2 list the definitions of these three “H’s” terms.
+For many large and multinational companies, the risk of child labour in their own facilities
+may not be significant. However, child labour impacts, especially the worst forms of child
+labour, are often found throughout the supply chain, in the practices of subcontractors,
+or in local communities neighbouring certain types of company operations. While
+companies may not always have contractual or commercial relationships with the
+entities that are causing child labour impacts, the impacts may be linked to a company’s
+operations, products or services through a business relationship. For such companies,
+this type of “linkage” situation will be the leading source of child labour risks.
+Examples of Companies That Could Be Involved With Child
+Labour Impacts
+üü Companies sourcing agricultural products including cocoa, coffee, tea, sugar,
+tobacco, spices, nuts, seafood, seeds, forestry products, and meat.
+üü Apparel companies or companies sourcing clothing, shoes or accessories.
+üü Electronics companies with manufacturing supply chains.
+üü Companies sourcing metals, minerals or gems, either directly or through suppliers.
+üü Companies that make or sell products with valuable packaging that children may be
+involved in scavenging and selling.
+üü Companies offering or relying on tourism or transportation services.
+üü Companies operating in or sourcing from areas of current or recent conflict.
+üü Companies operating in or sourcing from countries with large informal sectors.
+3
+PART A: INTRODUCTION: WHY IS THIS GUIDANCETOOL IMPORTANT ANDWHO IS IT FOR?
+¡¡ Hazards: eliminate hazardous child labour;
+Idem., Guide Two, Step 3.
+3Why are expectations of business
+growing?
+Awareness of the problem of child labour in global value chains has grown in recent
+years, due to important work by the ILO, governments, social partners, civil society
+organizations, and the media. This has led to increased pressure on business to prevent
+and address such impacts, including by investors, trade unions, NGOs and consumers.
+But perhaps the most significant development is the clarification of the responsibility of all
+companies to respect human rights in their own operations and throughout their business
+relationships, as set out in the UN Guiding Principles on Business and Human
+Rights4 (UNGPs). The UNGPs were unanimously endorsed by States in the UN Human
+Rights Council in 2011 and since then have helped to drive global convergence regarding
+the expectations of business.
+
+More information:
+Section B.1 discuss in more detail the UNGPs.
+How is this Guidance Tool
+different from previous ILO-IOE
+guidance for employers?
+This Guidance Tool is grounded in the UNGPs and it builds on the ILO-IOE 2007 guides
+for employers5 by bringing the lens of the UNGPs to bear on what all companies, both
+national and multinational, are expected to do to meet the global expectation that they
+respect human rights throughout their operations, including in their value chains. It
+explores what is expected of companies when seeking to prevent and address impacts
+deep in the supply chain, including working together with other actors, particularly
+governments. This Guidance Tool refers to the relevant international standards of the
+ILO, and reflects the experiences of individual companies that are working to implement
+the UNGPs.
+Because this Guidance Tool focuses on the implications of the UNGPs for company
+efforts to prevent and address child labour, the ILO and IOE worked together with Shift
+to develop it. Shift is a non-profit organization chaired by Professor John Ruggie, the
+4
+5
+4
+OHCHR: Guiding Principles on Business and Human Rights - Implementing the United Nations “Protect,
+Respect and Remedy” Framework (New York, 2011). Available at: www.ohchr.org/Documents/Publications/
+GuidingPrinciplesBusinessHR_EN.pdf.
+ILO-IOE: Eliminating child labour (2007), op.cit.
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSauthor of the UNGPs, and the Shift team was centrally involved in helping to shape and
+draft the UNGPs.
+The Guidance Tool was developed with input from companies and other members of
+the Child Labour Platform6 of the ILO and UN Global Compact. It references existing
+reports, tools and materials on child labour wherever they add particular value.
+This Guidance Tool builds on existing ILO and IOE guidance. As noted above, the 2007
+ILO‑IOE guides for employers set out the actions that all companies should take to
+eliminate and remediate child labour in their own operations.
+By focusing on the UNGPs and their expectations about the actions companies should
+take where they are connected to child labour impacts through their value chains, this
+guidance should be particularly useful for large or multinational companies with extended
+global value chains. It should also be useful for small and medium-sized companies that
+sit within such value chains and are seeking to strengthen their own efforts against child
+labour, for example to attract or reassure business partners. It should also be useful for
+companies at risk of being involved with child labour impacts in communities that may
+be affected by their operations (particularly in the extractive and agricultural sectors) or
+through their financing or investment decisions.
+This Guidance Tool aims to support companies with different degrees of involvement in,
+knowledge about and capacity for managing child labour risks.
+6
+MY COMPANY IS
+INTERESTED IN…HOW THIS GUIDANCE TOOL MAY BE HELPFUL
+Knowing whether child
+labour is a significant risk
+for the company.üü Section B.2 describes the nature of child labour impacts.
+Understanding the
+new expectations of
+businesses set out by the
+UNGPs, as they apply to
+child labour impacts.üü Section B.1 describes the UNGPs and Section B.3
+explains how they apply to companies.
+Comparing its existing
+efforts on child labour to
+the expectations of the
+UNGPs.üü Each of the sections in Part C contains diagnostic
+questions to test existing approaches.
+üü Section B.3 explains how companies can assess whether
+child labour is a salient human rights issue for their
+company.
+üü Part C describes in detail the key policies and processes
+that companies should have in place to meet these
+expectations.
+üü Some key challenges faced by companies when
+implementing child labour programmes are dealt with in
+“Hard question” sections in Part C.
+Child Labour Platform web site: www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm.
+PART A: INTRODUCTION: WHY IS THIS GUIDANCETOOL IMPORTANT ANDWHO IS IT FOR?
+Who is this Guidance Tool for?
+5This Guidance Tool should also be useful to stakeholders other than companies who are
+interested in supporting, incentivising or requiring companies to prevent and address
+child labour impacts in their operations. These stakeholders may include investors,
+trade unions, civil society organizations and governments.
+How Was This Guidance TOOL Developed?
+üü Desktop research to review existing sources of guidance.
+üü Development of a diagnostic protocol based on the UNGPs.
+üü In-depth assessments of the efforts of five companies in different sectors to prevent
+and address child labour.
+üü Multistakeholder workshops hosted by the ILO and IOE.
+üü Bilateral conversations with companies to source further examples.
+üü Feedback from expert stakeholders on drafts.
+Can this Guidance Tool help
+me make the business case to
+colleagues?
+Preventing and addressing harm to children is a compelling human rights issue that
+many companies do not need to be persuaded to commit to. What many companies
+do need help with is understanding what action to take (beyond having a policy), how
+to assess the effectiveness of existing company approaches, and how to change
+approaches that are not working.
+However, in the face of competing priorities and limited resources, internal champions
+may need additional arguments. Points that some champions within companies have
+found helpful include:
+¡¡ Improved risk management: involvement with child labour can expose a company
+to public criticism and campaigning by civil society organizations and in the press,
+leading to reputational harm and harm to employee retention and recruitment;
+¡¡ Impacts on markets: child labour hampers the economic development of a country
+and the income of consumers that are needed for long-term business success;
+¡¡ Greater access to business opportunities: business customers increasingly
+recognise the reduced risk to themselves when working with a company that
+effectively manages its human rights risks, especially as government procurement
+requirements integrate human rights considerations with greater frequency;
+¡¡ Positive recognition: investors are increasingly concerned about human rights
+issues and also willing to acknowledge company efforts to address challenges;
+6
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESS¡¡ Growing disclosure requirements: national laws and stock exchanges are
+imposing greater demands on companies with regard to disclosure of their human
+rights management systems, as the box below summarises.
+Growing Human Rights Disclosure and Procurement
+Requirements
+üü Companies doing business in California with over US $100 million in worldwide
+revenue are required to report on their actions to eradicate slavery and human
+trafficking, including of children, in their supply chains.
+üü The UK Modern Slavery Act has introduced due diligence reporting requirements for
+companies with regard to slavery and trafficking risks throughout their supply chains.
+üü Stock exchanges in India, Malaysia, Singapore and South Africa among others
+require companies to report on how they manage their human rights impacts.
+üü US companies investing in Myanmar, a country with substantial child labour, are
+required to disclose their human rights due diligence efforts, including in relation to
+suppliers that may use child labour.
+© ILO/M. Crozet
+üü Governments are demanding increased transparency from companies through their
+procurement requirements. For example, in the Netherlands, adherence to the ILO Core
+Labour Conventions, including on child labour, is a requirement for companies to be
+eligible for government contracts. In the United States, the federal government now
+requires due diligence in relation to trafficking in persons, including for the purposes of
+forced and child labour, from companies seeking federal contracts.7
+7
+See Federal Acquisition Regulation - Ending Trafficking in Persons, available at: www.federalregister.
+gov/a/2015-01524.
+PART A: INTRODUCTION: WHY IS THIS GUIDANCETOOL IMPORTANT ANDWHO IS IT FOR?
+üü From 2016, the 6,000 largest listed companies in the European Union (EU) will be
+required to disclose how they are managing human and labour rights risks, including
+child labour impacts. EU countries are currently transposing the relevant EU Directive
+into national laws.
+7© ILO/M. Crozet
+8
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSPART B:
+THE UN GUIDING PRINCIPLES
+ON BUSINESS AND HUMAN
+RIGHTS:
+WHAT ARE COMPANIES
+EXPECTED TO DO ABOUT
+CHILD LABOUR?B.1 The implications of the
+UN Guiding Principles on
+Business and Human Rights
+What are the UN Guiding Principles on Business
+and Human Rights?
+The UN Guiding Principles on Business and Human Rights (UNGPs) were unanimously
+endorsed by the UN Human Rights Council in June 2011, supported by governments
+from all regions of the world. They were authored by Professor John Ruggie, the former
+Special Representative of the UN Secretary-General for Business and Human Rights.
+A critical contribution of the UNGPs has been to set out clearly the duties of States and
+the responsibilities of companies to ensure that businesses operate with respect for
+human rights. The UNGPs are founded on three pillars:
+¡¡ The State duty to protect human rights against abuse by third parties, including
+business, through appropriate policies, legislation, regulations and adjudication.
+¡¡ The corporate responsibility to respect human rights, meaning to act with due
+diligence to avoid infringing on the rights of others and to address negative impacts
+with which they are involved.
+¡¡ The need for greater access to effective remedy, both judicial and non-judicial,
+for victims of business-related human rights abuse.
+The UNGPs complement the ILO MNE Declaration,8 adopted in 1977. Since their
+endorsement, the UNGPs have driven a convergence in international frameworks
+and commitments on business and human rights, reinforcing the UNGPs’ position as
+the authoritative global framework on the expectations of business when it comes to
+respecting human rights. The UNGPs are reflected in frameworks such as the OECD
+Guidelines for Multinational Enterprises, the ISO 26000 standard on social responsibility,
+the IFC Performance Standards, the UN Global Compact’s Ten Principles and a growing
+number of commitments by various industry and multistakeholder initiatives.
+8
+10
+ILO: Tripartite Declaration of Principles concerning Multinational Enterprises and Social Policy. Adopted
+by the Governing Body of the International Labour Office at its 204th Session (Geneva, November 1977)
+as amended at its 279th (November 2000) and 295th Session (March 2006). Available at: www.ilo.org/
+empent/Publications/WCMS_094386/lang--en/index.htm.
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSThe expectations of business set out in the UNGPs apply to all internationally recognised
+human rights. At a minimum, this includes:
+¡¡ The International Bill of Human Rights,9 comprising:
+yy The 1948 Universal Declaration on Human Rights;
+yy The International Covenant on Civil and Political Rights;
+yy The International Covenant on Economic, Social and Cultural Rights;
+¡¡ The ILO Declaration on Fundamental Principles and Rights at Work.10
+The UNGPs clarify that companies should also pay attention to additional standards
+addressing the human rights of individuals or groups that may be particularly vulnerable
+to negative impacts, which clearly includes children.11
+States have established duties under international law to respect, protect and fulfil
+internationally recognised human rights, including the right to be free from child labour.
+The UNGPs do not create any new obligations for States; rather, they reinforce the need
+for States to consider whether national law and policy effectively protect against business
+involvement in child labour, and if not, where law and policy could be strengthened
+either in content or enforcement.
+There are various essential roles for the State to play in setting the groundwork for the
+elimination and remediation of child labour. This includes ensuring that:
+¡¡ National laws are in line with ILO Conventions regarding minimum age, hazardous
+work and broader protections for children and are effectively enforced in relation to
+both domestic and foreign companies.
+¡¡ There is an effective system of labour inspections that includes identifying and
+remedying instances of child labour.
+¡¡ Necessary wage measures, social protection and support for employment creation,
+formalising the informal economy, and other measures to combat household poverty
+are in place.
+¡¡ National policies and programmes of action to eliminate child labour are in place,
+including appropriate education and training as alternatives to child labour.
+¡¡ Schools are within reasonable travelling distance for their intended students, are
+free of cost to children and their families, and are of sufficient quality (often a local or
+provincial government responsibility).
+9
+The International Bill of Human Rights is available at: www.ohchr.org/Documents/Publications/
+Compilation1.1en.pdf.
+10 ILO: Declaration on Fundamental Principles and Rights at Work and its Follow-up. Adopted by the
+International Labour Conference at its Eighty-sixth Session, Geneva, 18 June 1998 (Annex revised 15 June
+2010). Available at: www.ilo.org/declaration/thedeclaration/textdeclaration/lang--en/index.htm.
+11 For a general explanation of the UNGPs for employers, see IOE: UN Guiding Principles on Business and
+Human Rights: Employer’s Guide (Geneva, 2012).
+PART B: THE UN GUIDING PRINCIPLES ON BUSINESS AND HUMAN RIGHTS:
+WHAT ARE COMPANIES EXPECTED TO DO ABOUT CHILD LABOUR?
+What do the UNGPs mean for the role
+of the State regarding child labour?
+11¡¡ Where child labour is systemic in certain sectors or communities, that there are
+programmes in place to transfer working children from work to full-time education,
+including by bridging education or vocational training for older children.
+¡¡ Where child labour occurs, it is appropriately remediated, taking full account of the
+best interests of the children involved.
+What do the UNGPs mean for companies
+at risk of being involved with child labour?
+The UNGPs clarify the steps companies need to take to meet the expectation that they
+should respect the right to be free from child labour, including in their own operations
+and in their business relationships. To meet this responsibility, companies that are at risk
+of being involved in child labour impacts need to put in place:
+¡¡ an appropriate policy commitment that is embedded throughout the business;
+¡¡ human rights due diligence processes to identify, prevent, manage and account for
+child labour impacts occurring in their own operations or their value chain;
+¡¡ remediation processes to provide remedy if the company has caused a negative
+impact, and/or contribute to providing remedy, if it has contributed to a negative
+impact, to the extent of its contribution.
+
+More information:
+Section B.3 explains in detail what is expected of companies
+under the UNGPs.
+Part C provides specific steps and suggestions for how companies
+can meet this responsibility in relation to child labour.
+What if the State is not fulfilling its duty to protect?
+Failure by the State to meet its duty to protect does undeniably make it harder for
+companies to meet their responsibility to respect as set out in the UNGPs. However,
+such failure is not an excuse for company inaction. For example, while it is the State’s
+responsibility to put in place an effective labour inspection system, companies also need
+to have their own policies and processes in place to verify workers’ ages in a manner
+that respects workers’ dignity.
+The UNGPs expect companies to comply with national law, even if it is not enforced.
+Where national law conflicts with international standards on child labour, the UNGPs
+expect companies to seek ways to honour the principles of the relevant international
+standards.
+12
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSMany companies have found that without meaningful State involvement at the local,
+regional and national levels, combating child labour effectively is difficult, if not impossible.
+As part of meeting their responsibility to respect, companies will often want to find ways
+to engage with States to discuss the State’s critical role in protecting children. In doing
+so, it can be particularly helpful to engage through national employers’ organizations.12
+
+More information:
+Section B.3 and Part C discuss on the process of engaging
+with governments to mitigate child labour risks.
+Employers’ and workers’ organizations, civil society organizations, international
+organizations and other stakeholders can all play constructive roles to contribute to the
+elimination of child labour. Companies often engage or partner with these actors as part
+of efforts to prevent and address child labour impacts.
+In particular, employers’ organizations can contribute to the development of national
+policies against child labour, lobby for the effective elimination of child labour, and can
+provide advice to their members about legislation related to child labour. Employers’
+organizations can also advise their members about hiring policies of suppliers,
+particularly suppliers in the informal economy. In addition, employers’ organizations can
+participate in collective action to eliminate child labour amongst their members in a
+country, region, or sector.
+Trade unions play an important role as watchdogs and can take direct action to prevent
+child labour and remove child labourers from the workplace. For example, trade unions
+can provide training and promote safe and healthy working conditions that can help
+reduce risks to working children above the minimum age as well as adult workers.
+They can also contribute to policy development and lobby at the national level. Trade
+unions are also one of the three parties in tripartite discussions to establish and update
+hazardous work lists at the national level.
+National and international civil society organizations focusing on child labour and
+children’s right more broadly can also play a variety of roles. For example, civil society
+organizations can perform a watchdog role regarding the activities of companies and
+the State, conduct field based research on child labour, be part of multistakeholder
+initiatives, engage companies to become more active in tackling child labour, or work at
+the community level to support programmes to combat child labour.
+
+More information:
+Section B.3 and Part C discuss the process of engaging with
+a variety of actors to mitigate child labour risks.
+12 ILO-IOE: Eliminating child labour (2007), op. cit., Guide Three, pp. 28-30.
+PART B: THE UN GUIDING PRINCIPLES ON BUSINESS AND HUMAN RIGHTS:
+WHAT ARE COMPANIES EXPECTED TO DO ABOUT CHILD LABOUR?
+What roles do other stakeholders have in
+preventing and addressing child labour?
+13B.2 Understanding child labour
+impacts
+What is a child labour impact?
+In general, child labour is work that deprives children of their childhood, their potential
+and their dignity, and that is harmful to their physical or mental development including
+by interfering with their education. Specifically, it means types of work that are not
+permitted for children below the relevant minimum age.
+Children have an internationally recognised right to be free from child labour. A child
+labour impact refers to an actual or potential infringement (i.e., a limitation on or
+undermining) of the right to be free from child labour.
+When is work performed by a child
+“child labour”?
+A child is a person under the age of 18. Not all work performed by children is child
+labour. Millions of young people above the relevant minimum age undertake work,
+paid or unpaid, that is lawful, appropriate for their age and maturity and part of their
+socialisation and school to work transition. By working, these young people learn to
+take responsibility, gain skills, add to their family’s or their own income and wellbeing,
+and contribute to their country’s economy.
+Child labour encompasses all unacceptable forms of work performed by children. It is
+work that exposes children to harm or abuse because: 1) it is likely to impede the child’s
+education and full development (due to the child’s age); and/or 2) it jeopardises the
+physical, mental or moral wellbeing of a child (due to the nature of the work).
+The following terms are important to understand when child work becomes child labour:
+¡¡ Light work: This is work that children can do as long as it does not threaten their
+health and safety, or hinder their education or vocational training (generally, non-
+hazardous work for fewer than 14 hours per week). It should only be performed by
+children aged 13 or over (or, provisionally, age 12 in certain developing countries)
+when permitted by local law.
+¡¡ Basic minimum age: The minimum age for work should not be below the age
+for finishing compulsory schooling, and in all cases not lower than 15 years of age
+(or, provisionally, age 14 in certain developing countries). Some countries set the
+minimum age at 16.
+14
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESS¡¡ Hazardous work: One of the worst forms of child labour, this is work that is inherently
+dangerous, such as working with pesticides or underground, or carried out under
+conditions that are particularly risky for children, such as work for excessively long
+hours or in high temperatures. It should not be performed by people under 18.
+States may create limited exceptions for children over 16, in dialogue with national
+employers’ and workers’ organizations, where the health, safety and morals of the
+children involved are fully protected and they have received specific instruction on
+the relevant activity.
+¡¡ Other worst forms of child labour: These comprise slavery, trafficking, debt
+bondage and other forms of forced labour, including forced recruitment for use
+in armed conflict, the use of children in prostitution and pornography, and in illicit
+activities such as organised begging or the trafficking or sale of narcotics. Children
+should never be involved in such activities.
+
+FIGURE 1: Restrictions on work by children and prohibitions on child labour
+Restrictions on work
+by children and prohibitions
+on child labour
+Restrictions or
+prohibitions due to
+Child’s age
+Nature or
+conditions
+of work
+Subcategories
+of workLight workBasic
+minimum ageHazardous
+work
+Age at which
+allowedFrom 13
+(12)From 15
+(14)From 18
+Other
+worst forms
+of child labour
+Never
+allowed
+PART B: THE UN GUIDING PRINCIPLES ON BUSINESS AND HUMAN RIGHTS:
+WHAT ARE COMPANIES EXPECTED TO DO ABOUT CHILD LABOUR?
+More information:
+Figure 1 summarises the implications of these terms.
+Annex provides definitions of key international standards
+and instruments that are relevant to child labour.
+15How are child labour categories defined at the
+national level?
+ILO Conventions allow certain flexibility in setting minimum ages and determining what
+constitutes hazardous work. The basic minimum age is often set at 15, but a number
+of countries set it higher. Brazil, China and Kenya, for example, are among 35 countries
+that currently set it at 16. As noted above, developing countries may, provisionally, set
+a minimum age of 14 (some 47 have done so) or apply exemptions for a set period of
+time to particular types of work (though in practice few have done this).
+National governments define what is considered hazardous work through a tripartite
+process with employers’ and workers’ organizations and list the activities in “hazardous
+work lists”. Companies may adopt policies that are more restrictive than these lists, but
+policies should never be more permissive than them.
+What are the causes of child labour and
+what contextual factors heighten the likelihood
+of child labour impacts occurring?
+Child labour is often present where the enforcement of laws against child labour is
+limited, where social protection for children and families is lacking, particularly free,
+quality education, where poverty is endemic, and where the rule of law is poor. In
+addition, there are a range of contextual factors that contribute to heightened risk of
+child labour impacts. Within contexts where child labour occurs, there are both “push”
+and “pull” factors leading to a child being more likely to become a child labourer.
+The following table builds on a more extensive discussion of the causes of child labour in
+ILO-IOE guides for employers.13 It includes general contextual factors that heighten the
+overall risk of child labour impacts, as well as specific push and pull factors.
+13 ILO-IOE: Eliminating child labour (2007), op.cit., Guide One, pp. 15-22.
+16
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSCauses and General Contextual Factors Include:
+üü Poor enforcement of child labour laws
+üü Inadequate social protections
+üü Lack of quality education for the poor
+üü Endemic poverty
+üü Weak rule of law
+üü Absence of systems for workplace collaboration
+üü Large parts of the economy are informal
+üü Rural areas with inadequate infrastructure
+Push Factors Include:Pull Factors Include:
+üü Household and community
+povertyüü Attraction of earning an income
+üü Social acceptance of child labour
+üü Insufficient educational
+opportunities and/or social or
+bureaucratic barriers to education
+üü Discrimination in access to
+schooling or certain jobs
+üü Lack of parental guidance and
+support
+üü Unregulated enterprises in informal economy
+üü Unprotected migrants seeking income
+earning opportunities
+üü Family enterprises that rely on their children’s
+work because they are not able to employ
+adult labour
+üü Certain work that is commonly organised
+such that it can be performed only by
+children (e.g., artisanal mining without proper
+equipment to dig shafts large enough for
+adults)
+üü Hiring practices of recruitment or
+employment agencies or approaches by
+individual labour brokers
+PART B: THE UN GUIDING PRINCIPLES ON BUSINESS AND HUMAN RIGHTS:
+WHAT ARE COMPANIES EXPECTED TO DO ABOUT CHILD LABOUR?
+üü Economic shocks (e.g.,
+unanticipated health problems)
+17B.3 The corporate responsibility
+to respect children’s right to
+be free from child labour
+How can my company meet its responsibility to
+respect?
+Companies should have the following elements of a management system in place to
+help prevent and address negative impacts, including child labour impacts.
+ELEMENTS OF THE RESPONSIBILITY TO RESPECT
+A policy commitment that is embedded throughout the organization.
+Human rights due diligence processes, which involve:
+üü assessing impacts, including risks of child labour;
+üü integrating the results into actions and decisions;
+üü tracking performance;
+üü being prepared to communicate about performance.
+Remediation processes, including operational-level grievance mechanisms.
+These elements may be part of a stand-alone system for managing human rights risks,
+or they may be integrated into other existing company systems. In all cases, these
+elements must focus on risk to people (in this case, risk to children) rather than risk to
+the business alone.
+There is no “one size fits all” approach, and implementation will depend on a company’s
+size, countries of operation, ownership, structure and nature of its business. It will also
+depend on whether or not child labour is a “salient human rights issue” for the company,
+which is discussed below.
+18
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSHow do we determine whether child labour is a
+“salient human rights issue” for our company?
+Salient human rights issues are those human rights that are at risk of the most severe
+negative impacts through a company’s activities or business relationships. The severity
+of an impact in the UNGPs, and in this Guidance Tool, is evaluated using three factors:
+¡¡ Scale: gravity of the impact on affected people.
+¡¡ Scope: the number of people affected.
+¡¡ Remediability: any limits on the ability to restore affected people to a situation at
+least the same as, or equivalent to, their situation before the impact.
+These three factors can be summarised as: how serious is the harm; how widespread
+is the harm; and if the harm occurs, can it be put right?
+Child labour will often involve grave harm to children that can be challenging to remediate.
+In considering how widespread the impact may be, and its likelihood, companies will
+want to consider whether they, for example:
+¡¡ Source agricultural products of which the cultivation is known to involve severe child
+labour impacts (e.g., cocoa, seeds, sugarcane, tobacco, cotton, hazelnuts, vanilla).
+¡¡ Operate in countries or areas with a high prevalence of child labour across various
+industries.
+¡¡ Operate in countries that have many of the contextual “push” or “pull” factors that
+increase the risk of or perpetuate child labour (e.g., a large informal economy),
+discussed above.
+PART B: THE UN GUIDING PRINCIPLES ON BUSINESS AND HUMAN RIGHTS:
+WHAT ARE COMPANIES EXPECTED TO DO ABOUT CHILD LABOUR?
+Where one, or a combination, of these factors exists, the impact may be severe. Where
+the likelihood of an impact occurring is also high, the salience of the issue increases.
+However, because salience focuses on the severity of the harm to people, impacts of
+high severity and low likelihood should still be prioritised for attention.
+19What are the different ways in which my
+company may be involved in child labour
+impacts?
+There are three ways in which companies can be involved in child labour impacts under
+the UNGPs:
+DESCRIPTIONEXAMPLES
+A company may cause a child
+labour impact through its own
+actions or decisions.Employing children below the minimum age
+provided for in ILO Convention No. 138.
+A company may contribute to
+a child labour impact through a
+business relationship (e.g., with a
+supplier, customer or government)
+or through its own actions in
+tandem with other parties’ actions.Repeatedly changing product requirements for
+suppliers without adjusting production deadlines
+or prices, thus incentivising them to engage
+subcontractors who rely on child labour.
+A company neither causes nor
+contributes to a child labour
+impact, but the impact is linked to
+its operations, products or services
+because it is caused by an entity
+with which the company has a
+business relationship.Embroidery on a retail company’s clothing
+products that is subcontracted by a supplier
+to child labourers in homes, in violation of
+contractual obligations and not incentivised by
+the retail company.
+Exposing children under 18 to hazardous working
+conditions.
+Contributing to the cumulative pollution of a river,
+negatively affecting local farmers’ livelihoods,
+leading them to send their children to work to
+compensate for loss of income.
+Procuring raw materials or commodities produced
+with child labour on the spot (cash) market or
+through an agent.
+
+More information:
+Part C explains in more detail the distinctions between these
+forms of involvement, especially contribution and linkage.
+20
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSWhat action are companies expected to take
+and when?
+Where a company causes or contributes to child labour through its own activities, it
+is expected to stop doing so, and remediate the harm or its contribution to the harm.
+Where child labour is linked to the company’s operations, products or services by
+a business relationship, the company is expected to take action to seek to mitigate
+the risk of the impact continuing or recurring. Under the UNGPs, the company is not
+expected to provide a remedy for the impact, though some may choose to do so.
+The table below summarises the implications for companies.
+THEN IT SHOULD…
+Has caused or may
+cause an impactPrevent or
+mitigate the impact
+Has contributed or
+may contribute to
+an impactPrevent or
+mitigate its
+contribution to the
+impact
+Has or may have
+its operations,
+products or
+services linked
+to an impact
+through a business
+relationship
+AND…
+AND…
+Remediate the
+harm if the impact
+has occurred
+Use or increase
+its leverage with
+other responsible
+parties to prevent or
+mitigate the impactContribute to
+remediating the
+harm if the impact
+has occurred, to
+the extent of its
+contribution
+Use or increase
+its leverage with
+other responsible
+parties to seek to
+prevent or mitigate
+the impactNo responsibility
+to remedy but
+company may
+choose to do so
+Efforts to seek to mitigate child labour risks that are directly linked to a company’s
+operations may involve the company contributing to broader efforts to prevent and
+address child labour, which can include remediation programmes. To be clear, where
+the UNGPs talk about providing “remedy”, what is meant is a specific remedy for the
+specific harm experienced by a specific individual.
+PART B: THE UN GUIDING PRINCIPLES ON BUSINESS AND HUMAN RIGHTS:
+WHAT ARE COMPANIES EXPECTED TO DO ABOUT CHILD LABOUR?
+IF A COMPANY…
+21What is leverage and how can my company
+build and apply it?
+Leverage is a central concept in the UNGPs. Using leverage is critical to prevent and
+address child labour in business relationships throughout the value chain.
+A company may perceive its leverage over a third
+party that is causing or contributing to an impact to
+be limited because, for example, it does not have a
+contractual relationship with the entity, or there are
+other challenges with expecting a business partner
+to change its practices. However, experience shows
+that companies often have more leverage on these
+issues than they realise, and that they can increase
+leverage where it is lacking, including through
+collaboration with others.
+Leverage is the ability of
+a business enterprise to
+affect change in the wrongful
+practices of another party that
+is causing or contributing to a
+child labour impact.
+Key forms of leverage include:14
+¡¡ Traditional commercial leverage: leverage that sits within the activities that the
+company routinely undertakes in commercial relationships, such as contracting;
+¡¡ Broader business leverage: leverage that a company can exercise on its own but
+through activities that are not routine or typical in commercial relationships, such as
+capacity building, including awareness raising and using “moral persuasion”;
+¡¡ Leverage together with business peers: leverage created through collective
+action with other companies within one or several industries;
+¡¡ Leverage through bilateral engagement: leverage generated through engaging
+one-on-one with one or more other actors, such as governments, business peers,
+trade unions, international organizations or civil society organizations;
+¡¡ Leverage through multistakeholder collaboration: leverage generated through
+collaborative action with governments, business peers, trade unions, international
+organizations and/or civil society organizations.
+
+More information:
+Part C illustrates these various types of leverage with
+practical examples.
+14 These forms of leverage are identified in Shift: Using Leverage in Business Relationships to Reduce
+Human Rights Risks (New York, 2013), p. 6. Available at: www.shiftproject.org/sites/default/files/Using%20
+Leverage%20in%20Business%20Relationships%20to%20Reduce%20Human%20Rights%20Risks.pdf.
+22
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSIs my company expected to support as well as
+respect children’s rights?
+As explained in Section B.1, respecting human rights, including the right to be free from
+child labour, is a baseline standard that all companies are expected to meet.
+A growing number of companies choose to contribute to the broader promotion of human
+rights, including children’s rights. The ILO MNE Declaration15 aims to, “encourage the
+positive contribution which multinational enterprises can make to economic and social
+progress” and calls on companies to “contribute to the realization of the ILO Declaration
+on Fundamental Principles and Rights at Work,” which includes child labour.
+In addition, companies that commit to the UN Global Compact undertake to support
+as well as respect human rights, including children’s rights. The Children’s Rights and
+Business Principles,16 developed by UNICEF, the UN Global Compact and Save the
+Children, encourage companies to support children’s rights in a variety of ways.
+Failing to take meaningful action to prevent and address child labour in the company’s
+operations or value chain cannot be offset by doing good elsewhere. However, there
+are often much closer connections between a company’s efforts to prevent and address
+systemic human rights risks, like child labour in the supply chain, and its efforts to
+support human rights – including children’s rights – than the company itself may realise.
+
+More information:
+Sections C.3 and C.7 explain in more detail this topic.
+15 ILO: Tripartite Declaration of Principles concerning Multinational Enterprises and Social Policy. Adopted
+by the Governing Body of the International Labour Office at its 204th Session (Geneva, November 1977)
+as amended at its 279th (November 2000) and 295th Session (March 2006). Available at: www.ilo.org/
+empent/Publications/WCMS_094386/lang--en/index.htm.
+16 Visit: www.childrenandbusiness.org.
+PART B: THE UN GUIDING PRINCIPLES ON BUSINESS AND HUMAN RIGHTS:
+WHAT ARE COMPANIES EXPECTED TO DO ABOUT CHILD LABOUR?
+Some multinational companies contribute positively to the prevention of child labour
+by joining national development efforts to create an enabling environment for youth
+employment. This can be done by participating in programmes encouraging skills
+formation and development as well as providing vocational guidance, as highlighted in
+the ILO MNE Declaration.
+23© ILO/M. Crozet
+24
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSPART C:
+PREVENTING AND
+ADDRESSING
+CHILD LABOUR IMPACTS:
+PRACTICAL STEPS FOR
+COMPANIES TO TAKEDevelop a policy
+commitment and embed it
+throughout the organization
+What is expected?
+Every company is expected to make a public commitment to respect internationally
+recognised human rights, which include the right to be free from child labour. Not all
+companies are expected to have a stand alone policy on child labour. Whatever approach
+a company chooses, it should reflect its potential involvement with child labour risks. For
+instance, a company in an industry with significant and widespread child labour risks may
+choose to develop a separate child labour statement. Regardless of what form it takes,
+the commitment should be embedded throughout the organization, which means driving
+respect for human rights across the organization and into its business values and culture.
+What are the key steps?
+C.1.1 Content and applicability: A specific commitment on child labour needs to take
+into account relevant international standards (see Annex A). It also needs to clearly state the
+company’s expectations of its own staff and business partners.
+üü Does the company have a public commitment to respect human rights,
+including children’s right to be free from child labour?
+üü Does the commitment reference the International Bill of Human Rights
+and/or the ILO Declaration on Fundamental Principles and Rights at
+Work? Does it reference the UNGPs?
+Diagnostic
+Questions
+üü Does it reference relevant standards relating to children’s rights, such as
+the UN Convention of the Rights of the Child and ILO Convention No. 138
+on minimum age for admission to employment and ILO Convention
+No. 182 on the worst forms of child labour?
+üü Does it permit safe work for children above the minimum age, if such
+work exists?
+üü Does the commitment make clear the company’s expectations of
+personnel, business partners and other parties directly linked to its
+operations, products or services?
+26
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSüü Is the statement informed by relevant internal and/or external expertise?
+Diagnostic
+Questions
+üü Has the statement been approved at the most senior level of the
+company?
+üü Have the perspectives of relevant business partners, including suppliers,
+been considered in its development?
+üü Have other stakeholders been involved? How?
+C.1.3 Dissemination: The company needs to consider how to best communicate its
+commitment to those who need to be part of its implementation (e.g., staff, contractors,
+suppliers), and those who have a direct interest in its implementation (e.g., potentially
+affected children and their families, local communities).
+Diagnostic
+Questions
+üü Is the commitment publicly available, and communicated internally and
+externally to all personnel, business partners, and other relevant parties?
+üü Is it available in relevant languages, and is it communicated in a manner
+that takes into account different needs of various audiences?
+C.1.4 Internal alignment: The company should consider and address any tensions
+between the commitment and other operational policies, procedures and guidance. It
+should also allocate appropriate accountability for the commitment’s implementation.
+Diagnostic
+Questions
+üü Are relevant operational policies and procedures aligned with the
+commitment, and if there are any tensions between them, are they
+addressed?
+üü Is there appropriate internal accountability for implementation of the
+commitment?
+üü Is there demonstrated leadership from the top of the organization on the
+issues raised in the policy or statement?
+C.1.5 Application to business relationships: Business partners should be made aware
+of the company’s policy commitment and be appropriately supported, incentivised or
+required to align with its contents.
+Diagnostic
+Questions
+üü How is the policy or statement embedded in the terms of business
+relationships (e.g., with suppliers, joint venture partners, customers)?
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+C.1.2 Development and approval: Development of the policy commitment should
+involve staff in key internal functions, such as procurement and human resources, as well as
+relevant children’s and wider labour rights expertise from inside and outside the company.
+It can also be helpful to test the statement with relevant business partners to whom it will
+apply and with representatives of directly affected stakeholders. The involvement of senior
+leadership in approving the commitment helps signal its importance.
+27i
+Where can I find more information?
+ The ILO Helpdesk for Business has information on child labour that can support the
+development of a policy commitment and can be contacted at assistance@ilo.org.
+ The International Organisation of Employers (IOE) and its members, including the
+representative business/employer’s organization at the national level.
+ The UN Global Compact and OHCHR: How to develop a human rights policy
+- A guide for business. Secon edition (New York, 2015). Available at: www.
+unglobalcompact.org/library/22.
+Guidance on embedding respect for human rights generally across a business:
+ UN Global Compact: Good practice note: Organizing the human rights function
+within a company (New York, 2014). Available at: www.unglobalcompact.org/
+library/921.
+ Shift: Embedding respect for human rights withing a company’s operations. Shift
+workshop report No. 1, June 2012. Available at: www.shiftproject.org/sites/default/
+files/Workshop%20Report%20Final.pdf.
+ The UN Guiding Principles Reporting Framework provides further guidance
+in regards to developing a policy commitment and embedding it throughout the
+company. Visit: www.ungpreporting.org.
+28
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSHard question No. 1
+??
+The challenge
+Companies need to comply with the laws of the countries in which they operate. However,
+the UNGPs clarify that companies are expected to seek to honour the principles underlying
+international human rights standards where domestic laws fall below or directly conflict with
+those standards.
+Gaps that frequently occur in domestic laws include:17
+¡¡ The minimum age for entry into work is
+below the compulsory school age;
+¡¡ There is a gap between the age at which a
+young person is allowed to leave school and
+the minimum age to enter work;
+¡¡ Certain types of light or hazardous work
+are permitted at ages below those set in
+relevant ILO Conventions;
+¡¡ No national hazardous work list has been
+adopted, or existing lists do not include
+forms of work that ILO Conventions and
+ILO Recommendation No. 190 consider
+hazardous, or are very general or unclear;
+COMPANY PRACTICE No. 1
+Country-specific information
+One company worked together with
+ILO-IPEC to develop country-specific
+reports on national legislation and
+other responses to hazardous work by
+children for each country in which it has
+operations. The reports were used to
+support country-level implementation
+of the company’s global child labour
+commitments.
+¡¡ Certain sectors (e.g., agriculture) or types of
+work (e.g., domestic work) are exempt from
+minimum age laws, contrary to ILO Conventions.
+Practical approaches by companies
+A critical first step for many companies has been to conduct a thorough analysis of child
+labour standards with regard to minimum age and hazardous work lists in each country
+where the company operates or sources from, in order to understand where it is likely to
+face challenges.
+The ILO has a publicly accessible database of national child labour legislation and relevant
+policies (for example, laws on compulsory education) called the Countries Dashboard. This
+database also includes assessments of the application of ILO Conventions on child labour.
+Some companies have used these databases to carry out a detailed analysis in each of their
+countries of operation. Based on that analysis, they have developed their own evaluation of
+17 For more information on child labour standards and national law and practice, see: ILO-IOE: Guides for
+Employers (2007), op. cit., Guide One, pp. 8-14.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+How should my company’s policy commitment
+address conflicts between local laws and
+ILO Conventions?
+29potentially hazardous work in line with ILO standards. Some of these companies have also
+engaged with governments to request clarification or updates about existing hazardous
+work lists (see Company practice No. 2 box).
+In addition, some multinational companies have signed International Framework
+Agreements (or Global Framework Agreements) with global trade union federations
+through which they commit to respect the same labour rights standards in all the countries
+where the company operates, including with respect to child labour.
+FIGURE 2: Pitfalls to avoid
+Pitfall
+Higher is
+not always
+better
+i
+How may fall intoHow to avoid
+To avoid confusion and to reduce
+administrative costs, companies
+may be tempted to set the
+minimum age for all employment
+at 18. In many countries this can
+lead to 15-17-year-olds being
+excluded from age-appropriate
+work. This can result in an
+“experience gap” and may lead
+young people to seek alternative
+forms of work that are illegal or
+dangerous.Companies are encouraged to not
+exceed age limits set in local
+legislation where those are
+permissible under ILO standards,
+or to do so only after careful
+consideration. If a company
+chooses to apply a higher
+minimum age, it should also
+consider offering apprenticeships
+or vocational training to young
+people to contribute to reducing
+youth employment.
+Where can I find more information?
+ ILO Conventions, including minimum age, hazardous work lists and other standards
+are explained in Section B.2 and Annex A.
+ OHCHR: The corporate responsibility to respect: An interpretative guide (New York,
+2011). Available at: www.ohchr.org/Documents/Publications/HR.PUB.12.2_En.pdf.
+The guidelines has been published with the approval of John Ruggie and contains
+further ideas about how companies can deal with conflicting domestic and
+international standards (pp. 78-79).
+30
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSCOMPANY PRACTICE No. 2
+One of the industries with a high prevalence of child labour is tobacco. Children in tobacco
+growing communities that supply large international tobacco companies (either directly
+or through agents) are often involved in child labour, including in extremely hazardous
+conditions. The Eliminating Child Labour in Tobacco Growing (ECLT) Foundation brings
+together companies (growers, buyers and manufacturers), farmers’ representatives, civil
+society organizations, international organizations, and others with the aim of ending child
+labour in tobacco growing communities.
+In late 2014, companies participating in ECLT adopted a Members’ Pledge of Commitment
+to step up action in support of the Foundation’s goals. The pledge references ILO
+Conventions Nos. 138 and 182 regarding child labour and the UNGPs. Tobacco buying and
+manufacturing companies commit to the following actions throughout their “entire tobacco-
+sourcing supply chains”:
+üü make an appropriate policy commitment to eliminate child labour;
+üü implement due diligence, consistent with the size and circumstances of the company,
+with the aim of identifying, preventing, mitigating and accounting for their adverse
+impacts on child labour;
+üü provide for or cooperate in legitimate processes of remediation;
+üü help build the capacity of farmers and farmer organizations.
+All members commit to work collaboratively with:
+üü workers’ organizations and cooperatives to promote the pledge’s requirements;
+üü a wide range of stakeholders, including but not limited to, workers’ organizations, civil
+society, educational institutions, local communities, and children, to advocate against
+child labour and support the pledge;
+© ILO/M. Crozet
+üü governments to support the state’s duty to protect under the UNGPs, and to advocate
+for and support strong national regulatory frameworks on child labour.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+Tobacco companies’ pledge
+31Assess child labour
+impacts
+What is expected?
+To manage child labour impacts, a company first needs to know what those impacts are
+or could be. The company will likely already have conducted some analysis of its human
+rights risks in order to determine its salient human rights issues. Devising effective child
+labour prevention and mitigation measures is likely to require a more detailed assessment.
+Assessments may be stand alone or integrated into broader processes, provided that they
+maintain a focus on risk to people, rather than risk to the business alone. Assessment should
+be an ongoing activity as risks change over time.
+What are the key steps?
+C.2.1 Systematic assessment processes: Impact assessment processes should
+identify where and how children may be at risk of child labour through the company’s own
+operations or business relationships.
+Diagnostic
+Questions
+üü Does the company systematically identify and assess actual or potential
+child labour impacts with which it may be involved?
+üü Does it consider its business relationships as well as its own operations?
+üü Does it take account of risks arising from particular operating contexts?
+C.2.2 Prioritisation: When legitimate resource constraints mean that it is necessary
+to prioritise certain business activities or value chain relationships for more detailed
+assessments, a company should do so on a principled basis in line with the UNGPs
+(see also Hard question No. 2).
+Diagnostic
+Questions
+üü Where the company prioritises certain activities or relationships for
+assessment, does it do so on the basis that the actual or potential
+impacts may be particularly severe (in their scale, scope or the extent to
+which they can be remediated)?
+C.2.3 Expertise and stakeholder engagement: When assessing impacts, companies
+should engage relevant staff internally (e.g., procurement staff for impacts in the
+supply chain, community relations staff for child labour in the local community), as
+well as drawing on external expertise as needed. To fully understand the impacts in
+question, a company should also engage with potentially affected stakeholders or their
+representatives, or with credible proxies for their views where direct engagement is not
+feasible. This topic is discussed further below.
+32
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSüü In assessing its impacts, does the company engage meaningfully with
+potentially affected groups (or credible proxies for their views) and other
+relevant stakeholders?
+C.2.4 Ongoing assessments: Impact assessment should not be a one-off exercise.
+Instead, it should be part of a continuous process in order to allow for changes over time.
+Diagnostic
+Questions
+i
+üü Does the company assess its involvement with child labour impacts on
+an ongoing basis?
+Where can I find more information?
+For more information on the process of assessing impacts:
+ UNICEF and the Danish Institute for Human Rights: Children’s rights in impact
+assessments - A guide for integrating chidren’s rights into impact assessments
+and taking action for children (Geneva, 2013), pp. 19-23. Available at: www.unicef.
+org/csr/css/Children_s_Rights_in_Impact_Assessments_Web_161213.pdf.
+ Shift: Business and human rights impacts: Identifying and prioritizing human
+rights risks (New York, 2014). Available at: www.shiftproject.org/publication/
+business-and-human-rights-impacts-identifying-and-prioritizing-human-rights-risks.
+Shift and the Social and Economic Rights Council of the Netherlands documented the
+lessons learned from a workshop with companies and expert stakeholders.
+ The UN Guiding Principles Reporting Framework includes guidance on identifying
+salient human rights issues and assessing impacts. Visit: www.ungpreporting.org.
+For more information on child labour impacts in particular sectors or countries:
+ ILO-IPEC website provides information on child labour impacts on a sectoral basis,
+and some country dashboards also have information about child labour impacts.
+Visit: www.ilo.org/ipec.
+ ILO Helpdesk for Business provides advice on how to align business operations
+with the principles of the MNE Declaration and international labour standards. The
+Helpdesk can be contacted at assistance@ilo.org;
+ The Business & Human Rights Resource Centre has a dedicated page on the
+issue of child labour, including an overview of incidences of alleged child labour in
+supply chains. Visit: www.business-humanrights.org/en/issues/labour/child-labour.
+ The US Department of Labor’s Bureau of International Labor Affairs publishes
+reports on goods/products and the worst forms of child labour. Visit: www.dol.gov/ilab/.
+ The Human Rights and Business Country Guide provides child labour information
+for over a dozen countries. Visit: www.hrbcountryguide.org.
+ The Human Rights Watch has issued numerous reports on the issue of child labour
+in particular countries and sectors. Visit: www.hrw.org.
+ Stop Child Labour and its members have developed research reports and related
+experience regarding particular sectors and countries. Visit: www.stopchildlabor.org.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+Diagnostic
+Questions
+üü In assessing its impacts, does the company draw on appropriate internal
+and external expertise?
+33Hard question No. 2
+??
+Can I prioritise areas of my supply chain for attention
+when I know there are multiple child labour impacts
+taking place?
+The challenge
+In line with the UNGPs, companies need to consider how they may be involved with
+child labour impacts across their value chains. However, for companies with hundreds or
+thousands of suppliers (or other business partners), this can be a daunting proposition.
+Naturally, a company in that position will focus its attention on certain areas. Currently,
+companies tend to focus on the basis of where they have the greatest control, or where the
+risk is greatest to the business. However, the UNGPs establish a different, and principled,
+basis for such prioritisation when it is necessary. Under the UNGPs, when companies need
+to prioritise suppliers or other business relationships for attention, they should do so based
+on the severity of the child labour (and other human rights) impacts involved.
+Practical approaches by companies
+Some companies have “mapped” how they may be involved in child labour
+impacts: This involves identifying the various entities in their value chain, or in the value
+chains of specific commodities, that could
+be involved in child labour impacts, their REMINDER
+(rough) number, and how the company is The severity of a child labour impact is
+connected to them.
+determined by its:
+The example below provides one illustration
+of this from the perspective of brand and
+retail companies that use sugar in their
+products. In relation to sugarcane, most
+child labour impacts are likely to occur at
+the small-holder or plantation level. In other
+commodity supply chains, impacts may
+be prevalent at other stages, all the way
+through to end use.
+üü Scale: how grave is the impact (e.g., is it
+a worst form of child labour)?
+üü Scope: what is the number of children
+affected.
+üü Remediability: can the affected children
+be restored to the situation they were in
+before they were harmed?
+Test the mapping with expert stakeholders: This can help the company to develop or
+refine the analysis, including thinking through appropriate prioritisation. It can also equip
+stakeholders to play a role in later parts of the due diligence process, where the company
+is seeking to take action or evaluate whether it has been effective.
+34
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESS(Agent
+or trader)
+Small-
+holders
+(Coope-
+rative)
+Sugar
+refinery
+company
+Sugar
+mill
+BottlerBeverage
+company
+SupplierFood
+company
+WholesaleRetail
+company
+Plantations
+Ethanol
+plant
+(Trader)
+Energy
+company
+COMPANY PRACTICE No. 3
+Value chain mapping across the business
+A food and beverage company conducted an extensive value chain mapping to systematically
+prioritise human rights risks (including child labour) across its operations. The process has
+been refined with each management cycle.
+The value chain is mapped in five parts: raw materials, production, distribution, marketing
+and recycling. The company analyses the specific stakeholders that could be affected,
+including employees, contract workers, workers in the supply chain (first tier and beyond),
+local communities and vulnerable groups, and which human rights could be impacted, with
+input from internal and external experts (including on child labour).
+The mapping revealed that child labour risks were present across the value chain but differed
+in nature. For example, child labour in raw materials sourcing is likely to involve family
+farms, whereas for recycling child labour typically relates to scavenging. The company then
+mapped specific high risk commodities to identify the number of entities in the value chain
+and its leverage with them in order to develop a strategy to address identified risks.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+FIGURE 3: Example of a commodity value chain mapping for sugarcane
+35FIGURE 4: Pitfalls to avoid
+How to avoid
+Pitfall
+36
+How may fall into
+Focussing
+only where
+there is
+pressure
+to do soCompanies focus on areas
+of their value chain where
+there is public pressure to
+do so, not necessarily where
+risks to people are most
+severe.
+Focussing
+only on the
+worst forms
+of child labourCompanies may erroneously
+assume that since the ILO
+has establiched that the
+worst forms of child labour
+should be abolished as a
+priority, they should focus
+only on those occurrences.
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESS
+The company may feel pushed to focus on
+certain areas of the value chain due to
+pressure from various sources. Yet these may
+not be, or may not include, the places where
+the most sever impacts on people are
+occurring. One of the most effective
+approaches can be to involve stakeholders in
+the company’s analysis to benefit from their
+views, as well as build their understanding of
+the company’s focus on risk to people.
+In addition to considering the scope of the
+impact (with the most grave being the worst
+forms of child labour), companies also need
+to consider the scale (number of children
+affected) and remediability (any limits on
+whether the impacts can be remediated)
+when prioritising. The company may also be
+able to address multiple child labour risks
+at the same time.üü Does decision-making involve key staff whose actions or decisions can
+affect the management of child labour impacts?PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+Integrate and
+take action on
+child labour impacts
+üü If tensions arise with other policies or business imperatives, how are
+these tensions addressed?37
+What is expected?
+Once companies have identified how they may be involved with child labour impacts, and
+have prioritised certain impacts for attention where that is necessary, they need to put
+effective prevention and mitigation measures in place. Where impacts are occurring in the
+value chain, leverage will play a key role. Leverage means a company’s ability to affect
+change in the behaviour of a third party that is causing or contributing to child labour
+impacts, or that needs to be part of the solution in order to prevent child labour impacts
+from continuing or recurring.
+As stated previously, gaps in governance such as a lack of quality education, inadequate
+enforcement of child labour laws and weak rule of law are often central causes of child labour.
+Therefore, government action is critical for the success of sustainable efforts to prevent and
+address such impacts. Companies cannot replace governments in fulfilling these essential
+duties of the State. Effective engagement and collaboration with governments will therefore
+often be key to company efforts to take action on child labour impacts.
+
+More information:
+Section C.7 discuss about ensuring remedy for child labour
+impacts that the company caused or contributed to.
+What are the key steps?
+C.3.1 Responsibility, resources and decision-making: In order to take effective
+action, the right internal decision-making structures need to be in place. The people in the
+company whose decisions or actions can affect the management of child labour impacts
+also need to be engaged.
+üü Has the company assigned appropriate responsibility internally for
+addressing child labour impacts, including impacts arising through the
+company’s business relationships?
+Diagnostic
+Questions
+üü Has the company allocated appropriate internal resources to enable
+effective responses?C.3.2 Options to prevent or mitigate potential impacts: If a company has identified
+that it may be involved in child labour impacts, the nature of its involvement (cause,
+contribution or linkage) will determine the appropriate action to take.
+
+More information:
+Section B.3 explains in more detail this topic.
+üü How does the company distinguish the ways in which it is or may be
+involved in child labour impacts?
+üü Where the company causes or may cause an impact, does it take the
+necessary steps to cease or prevent it?
+Diagnostic
+Questions
+üü Where the company contributes or may contribute to an impact, does it
+take the necessary steps to cease or prevent its contribution, and use
+(or increase) its leverage to mitigate any remaining impact to the greatest
+extent possible?
+üü Where the company’s operations, products or services are or may be
+linked to an adverse impact, does it use (or increase) its leverage in
+order to seek to prevent or mitigate the risk that the impact continues or
+recurs?
+C.3.3 Using leverage in business relationships: Leverage is critical when seeking to
+prevent or mitigate impacts in the value chain by changing the behaviour of those who
+may be causing or contributing to those impacts.
+
+More information:
+Section B.3 explains how leverage can be created
+in multiple ways.
+üü How does the company seek to use or build leverage in its business
+relationships where the risk of child labour impacts exists?
+Diagnostic
+Questions
+üü Where a company is unsuccessful in using leverage in a business
+relationship, does it consider all relevant factors (namely, how crucial
+the relationship is, the severity of the impacts at issue, and any adverse
+consequences of terminating the relationship) in determining the
+appropriate action to take?
+C.3.4 Lower or conflicting standards: Where national standards are lower, companies
+should seek to meet international child labour standards. More challenging are situations
+where companies need to consider how to cope with national laws that conflict with
+international child labour standards. The diagnostic questions below indicate some
+approaches that may be helpful.
+38
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSüü Does the company have a policy in place to address conflicts between
+international standards on child labour and domestic laws? (See also
+Hard question No. 1).
+üü Are there formal processes for making or supporting decisions in such
+cases?
+üü Are such decisions made at an appropriately senior level of the
+company?
+üü Are external experts involved in helping the company respond to such
+conflicts?
+i
+Where can I find more information?
+ The ILO Helpdesk for Business provides answers to questions about how to
+address child labour impacts and offers advice to companie. It can be contacted at
+assistance@ilo.org.
+ Shift: Using leverage in business relationships to reduce human rights risks
+(New York, 2013). Available at: www.shiftproject.org/sites/default/files/Using%20
+Leverage%20in%20Business%20Relationships%20to%20Reduce%20Human%20
+Rights%20Risks.pdf.
+The report explores potential ways in which companies can use and build leverage to
+mitigate human rights risks in a wide range of relationships including with suppliers,
+joint venture partners, business customers, and governments.
+ European Commission: Employment and recruitment agencies sector guide
+on implementing the UN Guiding Principles on Business and Human Rights
+(Brussels, 2012). Available at: https://ec.europa.eu/anti-trafficking/sites/antitrafficking/
+files/employment_and_recruitment_agencies_2.pdf.
+Particular risks may arise in relationships that a company has directly or that its
+suppliers have with recruitment or employment agencies in contexts where those
+agencies are not effectively regulated and the various “push” or “pull” factors for
+child labour are present. This report provide guidance on what the UNGPs imply for
+the practices of recruitment and employment agencies, which can help companies
+understand some of the red flags to look for in terms of their policies and processes.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+Diagnostic
+Questions
+39Hard question No. 3
+??
+How might my company contribute through our own actions
+or decisions to child labour impacts caused by a third party?
+The challenge
+The UNGPs clarify that companies can contribute to
+child labour impacts either in tandem with other actors,
+or by facilitating or incentivising a third party to cause or
+contribute to an impact. Understanding how a company’s
+own actions or decisions may facilitate or incentivise
+negative impacts by business partners or others with
+whom it has a business relationship involves going beyond
+the contractual terms of the relationship to understand
+how the relationship is conducted in practice.
+Companies can cause or
+contribute to child labour
+impacts, or their operations,
+products or services may
+be linked to child labour
+impacts (see Section B.3).
+This hard question deals
+with contribution.
+In a typical example, a company has a clear supplier policy in place that prohibits child
+labour. However, the company makes repeat changes to its order specifications to its
+supplier, without adjustments to price or delivery time. The company is unaware of the
+impact these changes have on the supplier’s ability to adhere to the company’s policy.
+A supplier may depend on a particular company’s business for various reasons:
+¡¡ Small-holder farmers (e.g., of sugarcane, tobacco, cocoa or seeds) often produce for
+a single buyer, or may have a direct contract with a large multinational company. Even
+where small-holders are contractually able to sell to another company, they may incur
+heavy penalties or face other practical barriers to doing so.
+¡¡ Suppliers in low cost/high volume production (e.g., apparel) often face fierce competition
+from factories in the same industrial zone, region, country or even from neighbouring
+countries. This competition gives buying companies significant leverage over a particular
+supplier.
+¡¡ Even where a buying company’s order may be a small portion of a supplier’s overall
+business (as is often the case in the electronics industry), the supplier may still feel that
+it needs to work hard to keep the buying company’s business for the brand recognition,
+with which it can attract other customers.
+Where these dynamics – real or perceived – exist, a supplier may be less likely to push back
+against the demands of the buying company. Where purchasing practices put pressure on
+suppliers to either reduce cost or speed up production, this can result in a range of negative
+child labour impacts. For example:
+¡¡ Temporarily hiring children, including family members of existing workers.
+¡¡ Demanding excessive working hours, which can lead young workers to work beyond
+the hours allowed under national law, or to adult workers not being home to care for
+their children, leading them to bring them to the workplace instead.
+¡¡ Refusing reasonable breaks for workers, including young workers, exposing them to
+potentially dangerous working conditions.
+40
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESS¡¡ Subcontracting part of the work to other suppliers who make use of child labour.
+COMPANY PRACTICE No. 4
+Smallholder capacity building and integration of
+supply chain management
+One company that procures an agricultural commodity in large quantities from smallholder
+farmers has begun to put in place a system of farmer coaches, who help farmers meet
+company requirements, including on child labour. The coaches also help analyse the cost of
+production and support improving yields and quality to ensure higher incomes. This helps
+decrease incentives to employ children.
+The company has also made a strategic decision to vertically integrate large parts of its
+supply chain, meaning it increasingly works directly with its smallholder suppliers, rather
+than through agents. It has also made its procurement team directly responsible for dealing
+with child labour that might occur on farms, thereby reducing the likelihood that smallholders
+will receive mixed messages from buying and sourcing staff.
+Practical approaches by companies
+Companies that have taken a close look at their purchasing practices have often found that
+they are the result of habit rather than necessity. Leading companies have taken a range of
+steps, including:
+¡¡ Proactively communicating about their short and medium-term needs to suppliers and
+other business partners so that they can plan ahead appropriately.
+¡¡ Enhancing alignment and collaboration between the purchasing team and sustainability
+or responsible sourcing experts inside the buying company.
+¡¡ Moving to integrate the two functions, making purchasing managers directly responsible
+for social compliance in relation to the suppliers they buy from.
+¡¡ Participating in industry or sector initiatives whose code requires members to evaluate
+the role that purchasing practices can play in incentivising negative impacts by suppliers.
+i
+Where can I find more information?
+ Insight Investment and Acona: Buying your way into trouble? The challenge of
+responsible supply chain management (London, 2004). Available at: www.carnstone.
+com/downloadDocumentFile?document=4.
+A study of potential conflicts between buying and responsible sourcing practices.
+ Global Social Compliance Programme: Reference tool on supply chain social
+performance management systems (Issy-les-Moulineaux, France, 2013). Available at:
+www.shiftproject.org/publication/gscp-reference-tool-supply-chain-social-performance-
+management-systems.
+A tool on how to develop a social compliance system aligned with the UNGPs.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+¡¡ While these practices may violate the company’s own supplier policy, the UNGPs make
+clear that buying companies must also examine their own purchasing practices to
+determine whether they have played a role in contributing to negative impacts.
+41Hard question No. 4
+??
+What is my company expected to do about child labour
+impacts in commodities that are linked to our products
+but occur several tiers removed from us in the value
+chain?
+The challenge
+For many companies, seeking to mitigate child labour and other human rights risks beyond
+the first tier of the value chain can feel like an overwhelming proposition. The UNGPs
+help companies make difficult choices about allocating resources to prevent and address
+impacts occurring across their value chains using the principle of severity of impact (See
+Hard question No. 2).
+Where a company has robust child labour policies and processes in place with regard to
+the value chain, and has taken to steps to ensure that it is not inadvertently incentivising
+suppliers to rely on child labour (see Hard question No. 3), it is unlikely to be contributing to
+any such impacts. However, they may still be linked to its operations, products or services
+because of the business relationships involved.
+While companies are not expected to remedy impacts that they did not cause or contribute
+to under the UNGPs, they are expected to take forward-looking steps to seek to prevent
+the continuation or recurrence of the impacts. Typically this means exploring how to best
+use leverage in relation to the most severe impacts with which they may be involved.
+COMPANY PRACTICE No. 5
+Examples of companies that are looking beyond
+the first tier
+The Coca-Cola Company has worked with ILO-IPEC and others to address child labour
+in sugar cane farms that are often up to six tiers removed. The company has developed
+publicly available due diligence checklists to support these efforts.
+Through their employers’ associations, various apparel companies have supported
+multilateral efforts to ensure that the Government of Uzbekistan ratifies and implements ILO
+child labour conventions, resulting in reduced risk of child labour in Uzbek cotton production.
+JTI has been working with ILO-IPEC to address the risk of child labour impacts at the level
+of tobacco growing communities and among their 40,000 contractor farmers.
+Nestlé is working with the Fair Labor Association to map child labour impacts in its cocoa
+supply chain in Côte d’Ivoire and work at the community level to prevent and remedy them.
+42
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSPractical approaches by companies
+For example, in the sugarcane value chain (see Hard question No. 2), the risk of child labour
+is highest for the millions of smallholder farms involved in cultivation. Smallholder farms sell
+to a relatively small number of sugar mills, which in turn deliver the raw sugar to a much
+larger group of traders, agents and companies. At the other end of the chain are a large
+number of food and beverage companies, retailers and other brands.
+Because they are the smallest in number and sit relatively close to where child labour
+occurs, sugar mills can be considered a “pinch point”, or narrowest point in the supply
+chain, where the relatively few number of actors increases the impact of any change in
+practices. For companies in the sugarcane value chain, it therefore makes sense to engage
+with the sugar mills directly where feasible, or participate in initiatives that seek to engage
+with the mills, as leverage there is likely to be greatest. This is illustrated in the hypothetical
+Figure 5.
+FIGURE 5: Hypothetical commodity value chain
+Millions
+Small-
+holders
+~100
+Processors
+1000+
+Traders
+10000+
+Manufac-
+turers
+50000+
+Retailers
+“Pinch point”
+While it is not focused on child labour impacts, the Conflict-Free Sourcing Initiative,18
+started by electronics companies and now including members from multiple different
+industries, takes a similar approach by targeting smelters as the narrowest point in the
+supply chain of certain minerals. Some companies in the initiative are up to 10 tiers
+removed from the extraction of conflict minerals.
+18 Visit: http://www.conflictfreesourcing.org.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+Devising workable approaches to child labour impacts that are far removed from the
+company’s own operations entails understanding how the value chain operates, the root
+causes that lead to the use of child labour at relevant points in the chain, and where in the
+chain a company’s leverage may be the greatest, either alone or in collaboration with other
+actors.
+43Hard question No. 5
+??
+My company participates in a multistakeholder initiative
+to address child labour impacts. How do I evaluate its
+role in light of the UNGPs?
+The challenge
+Effective approaches to risks at the far ends of the value chain will often require collaboration
+with other actors. Formal collaborations between business, civil society organizations and
+other actors – often referred to as multistakeholder initiatives (MSIs) – play an increasing role
+in seeking to address these kinds of human rights risks.
+MSIs can help set leading standards on a specific issue or for a specific sector, advocate for
+better regulation and enforcement of existing standards with governments, provide a forum
+for engagement with expert stakeholders, or help individual companies strengthen their due
+diligence approaches by sharing accumulated experience.
+In the past decade, several MSIs have been created to address child labour risks in a
+collaborative fashion. These initiatives have had various levels of success. Some companies
+have been tempted to move on individually, developing their own programmes and leaving
+the MSI.
+Ultimately, what matters from a UNGPs perspective is whether the company’s overall
+approach to preventing and addressing child labour risks takes full account of where the
+most severe impacts are occurring, and can demonstrate progress over time. Participation
+in an MSI, or any other collective initiative, should always be reviewed with that objective
+in mind.
+Practical approaches by companies
+Companies should be aware of the
+specific role(s) that an MSI is intended
+and able to play (e.g., provide a learning
+forum for those new to the agenda), any
+limitations in its ability to engage with key
+stakeholders, and the fact that MSIs often
+take time to establish a track record.
+When evaluating the effectiveness of an
+MSI in addressing child labour impacts,19
+some companies have found it helpful to
+consider a number of critical factors:
+¡¡ Does the initiative focus on addressing
+root causes of child labour?
+COMPANY PRACTICE No. 6
+Company-MSI collaboration
+A large consumer goods company worked
+with an MSI to help map its agricultural
+value chain, identify and prioritise child
+labour impacts that are or may be linked to
+its products, and help devise appropriate
+prevention and mitigation measures. The
+company shared the learning publicly to
+increase transparency about its own practices
+and to help other companies and stakeholders
+learn from its findings.
+19 The “Institute for Multi-Stakeholder Initiative Integrity” provide more information on how to evaluate the
+effectiveness of MSIs, visit: www.msi-integrity.org.
+44
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESS¡¡ To what extent will the MSI support companies’ due diligence?
+¡¡ Does the MSI focus on where the most severe child labour risks might occur?
+¡¡ Does the MSI have a strategy that is scalable in the mid- to long-term? This could
+include developing pilot programmes that can be replicated by member companies
+and others.
+¡¡ Does the MSI include child labour and other experts who are able to share different
+views to help the MSI and its members evaluate the effectiveness of their approach?
+These experts may be found amongst MSI members, or in its governance structure or
+stakeholder advisory body.
+¡¡ Does the MSI seek to engage national governments and/or local authorities to discuss
+child labour issues? Has this engagement been constructive?
+¡¡ Does the MSI provide or enable access to an effective grievance mechanism to receive
+and address complaints, either at the level of the MSI itself or by establishing minimum
+criteria for the mechanisms of its individual members?
+© ILO/M. Crozet
+¡¡ Has the MSI compared its own policies and guidance for members to the expectations
+of the UNGPs?
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+¡¡ Is the MSI focused on ‘tick-the-box’ certification, which often misses systemic risks, or
+on more holistic or collaborative approaches to risk assessment and capacity building?
+45Track performance on
+child labour
+What is expected?
+A company needs to review whether its efforts to prevent and address child labour impacts
+with which it may be involved are effective over time. This is important for three reasons.
+First, it helps strengthen the company’s efforts to prevent potential impacts. Second, where
+the company identifies that it has caused or contributed to a negative impact, it helps to
+ensure that the remedy that is provided is effective in practice (see Section C.7). Third,
+tracking performance gives a company the information it needs to be ready to communicate
+about its efforts on child labour with stakeholders (see Section C.5).
+What are the key steps?
+C.4.1 Systems for Tracking Responses: Companies will typically have a range of
+systems that may be relevant to tracking effectiveness, such as internal audits, supplier
+audits, systems to track occupational health and safety, engagement with trade unions,
+or surveys of employees or external stakeholders. Measuring the effectiveness of the
+company’s approach to addressing child labour impacts will involve both quantitative and
+qualitative approaches.
+üü What existing systems does the company rely on to track its efforts to
+prevent and address child labour impacts?
+Diagnostic
+Questions
+üü Is tracking based on appropriate qualitative and quantitative indicators
+(e.g., indicators derived from ILO child labour conventions, developed
+by the company, an industry association, an MSI or in a reporting
+framework)?
+C.4.2 Track efforts through business relationships: Given that child labour is often
+found deeper in supply chains or is otherwise linked to company operations, products
+or services, it is particularly important to track performance in the case of business
+relationships.
+Diagnostic
+Questions
+46
+üü What systems does the company have in place to track efforts to address
+child labour impacts occurring through business relationships?
+üü Does the company support or participate in any child labour monitoring
+schemes at local or provincial levels, including with other relevant non-
+business actors?
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSDiagnostic
+Questions
+üü Does tracking of responses draw on feedback from both internal and
+external stakeholders, including affected stakeholders where possible?
+üü How does tracking link to the company’s broader stakeholder
+engagement processes?
+üü Does tracking link to an operational-level grievance mechanism?
+C.4.4 Continuous Improvement: Tracking results should inform the company’s
+approaches for preventing and mitigating child labour, so that any lessons learned are
+integrated into those approaches and they are strengthened over time.
+Diagnostic
+Questions
+i
+üü Do the results of tracking responses drive continuous improvement
+processes? How?
+Where can I find more information?
+ ILO-IPEC provides extensive information on child labour monitoring (CLM),
+which is a form of tracking child labour. CLM at the local level involves regular direct
+observation to identify child labourers and to determine the risks that they are
+exposed to, referral of such children to appropriate services, verification that they have
+been removed and tracking to ensure their situation has improved. CLM should ideally
+be linked to and feed into national labour inspection systems; however, employers’
+and workers’ organizations should also be closely involved given their direct presence
+in the workplace. CLM is typically conducted through multidisciplinary teams that
+can bring the necessary mix of skills and experience to a very complex task. To be
+effective, CLM should be tied to a broader framework that brings together all parties
+involved in both monitoring and using the information generated. Visit: www.ilo.org/
+ipec/Action/Childlabourmonitoring.
+ While Hard question No. 6 encourages companies to reflect on the appropriate role
+of auditing, auditing may form part of a broader approach to tracking.
+ILO-IOE: Guide for Employers: Guide Two: How employers can eliminate child
+labour (Geneva, 2007). Available at: www.ilo.org/public/english/dialogue/actemp/
+downloads/projects/child_guide2_en.pdf.
+This guide includes a section on addressing child labour with first tier suppliers (pp.
+32-38); developing a code of conduct (pp. 39-45); on auditing, monitoring and
+certification (pp. 46-52).
+ The UN Guiding Principles Reporting Framework provides further guidance on
+tracking performance on human rights issues more broadly (pp. 81-85). Visit: www.
+ungpreporting.org.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+C.4.3 Internal and external feedback: Tracking should include feedback from both
+internal sources and external stakeholders, including affected stakeholders such as children
+and their families wherever possible, or credible proxies for their views where that is not.
+The issue of engagement with affected stakeholders is discussed further in Section C.6.
+47Hard question No. 6
+??
+What is the appropriate role of audits in tracking the
+effectiveness of our efforts on child labour impacts far
+removed from us in the value chain?
+The challenge
+Many companies have existing systems for tracking performance on human rights issues in
+their value chain, including supplier self-assessments and company-led or third party audits.
+These existing systems are likely to include child labour impacts. The question is whether or
+not they are effective.
+Most supply chain management programmes
+are currently characterised by “policing”
+approaches. The underlying assumption in
+these instances is that suppliers and other
+business partners are unable or unwilling to
+respect human rights, and therefore company
+codes of conduct need to be imposed from
+the top down. In order to avoid cheating, such
+codes need to be policed through audits.
+However,
+this
+assumption
+underlying
+compliance-based supply chain programmes
+is often wrong. Suppliers may be willing to
+meet standards but are unable to do so in
+practice. Research demonstrates that with the
+right support and enabling conditions, working
+conditions can improve considerably.20
+Leading audit firms are also recognising
+the limitations of the audit model alone in
+generating sustainable change.21
+It is becoming increasingly clear that policing-
+based audit programmes have limited effect
+on their own in improving labour conditions for
+workers and respect for their rights, including
+preventing and addressing child labour. Some
+of the reasons are summarised in the box
+above.
+In the child labour context, lessons from critical
+interventions like those in the football industry
+in Sialkot, Pakistan, illustrate the need to go
+beyond auditing (which helped diagnose the
+Reasons why the
+traditional audit paradigm
+has not produced results
+üü A lack of disclosure by suppliers
+of accurate information on their
+performance during some audit
+processes, calling into question the
+value and validity of information
+gathered.
+üü A lack of capacity among suppliers
+to address issues that have been
+identified in a sustainable way.
+üü A lack of perceived incentives
+among suppliers, both external and
+internal, to address social performance
+issues, and a corresponding lack of
+commitment to invest in sustainable
+improvements.
+üü Systemic challenges that are beyond
+the control of individual suppliers,
+including social context, regulatory
+environments, and industry-wide
+issues.
+üü The purchasing practices of global
+brands and retailers, and a need
+to recognise and improve upon the
+role they themselves may play in
+contributing to impacts on workers
+(discussed in Hard question No. 3).
+See: Shift: From audit to innovation: Advancing
+human rights in global supply chains (2013).
+20 See Locke, R.; Qin, F. and Brause, A.: “Does monitoring improve labor standards?” in Lessons from Nike, ILR
+Review (2007); and Locke, R: The promise and limits of private power (2014).
+21 See Ernst & Young: Human rights and professional wrongs (2014).
+48
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSproblem in that case) to understand and address root causes, like the extensive use of
+household-based production.22
+Practical approaches by companies
+COMPANY PRACTICE No. 7
+One company, complementary
+approaches
+A global company sourcing an agricultural product
+in large quantities complements its traditional
+approach of auditing smallholder suppliers with a
+comprehensive and holistic programme to target
+child labour in the communities where at-risk children
+live. The programme is a collaboration with the ILO
+and an international civil society organization. The
+programme seeks to address root causes of child
+labour, including by providing alternative sources
+of income for families, educational opportunities for
+young adolescents and awareness raising for parents.
+In addition, the company trains its own agronomists
+to detect child labour and escalate to the appropriate
+level so that remediation can be provided. It also
+participates in a sector-specific MSI to address child
+labour through engagement at the policy level.
+Trends among the new generation of supply chain social
+compliance programmes
+üü Providing commercial incentives to suppliers for improvements in social performance,
+such as price, volume, duration, and preferred supplier status
+üü Aligning internal purchasing practices with human rights commitments
+üü The shift from “pass/fail” compliance to comprehensive continuous improvement programmes
+üü The integration of capacity building approaches for suppliers
+üü Developing metrics to help suppliers identify the business case for better social performance
+üü Replacing audits with collaborative assessment and root cause analysis conducted
+together with suppliers
+üü Greater attention to the potential role of grievance mechanisms in improving social
+performance, without undermining the role of trade unions
+üü Efforts by buying companies to use their leverage to address systemic issues through
+different forms of partnerships with civil society organizations or through collaboration
+with business peers or in MSIs
+22 ILO-IPEC: Pakistan – Prevention and elimination of child labour in global supply chains: the soccer ball industry
+(Geneva, ILO, 2010). Available at: www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_14356/lang--en/
+index.htm.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+Understanding that auditing can be
+an important diagnostic tool but that
+it does not constitute a management
+system in itself, leading companies
+have started using a range of
+innovative approaches (see table
+below). Scaling up these approaches
+remains a challenge. However,
+companies are not expected to
+have all the answers immediately.
+Rather, they can be expected to
+recognise the limitations of existing
+audit-based approaches, and to
+start to explore options with a focus
+on the most severe risks to people
+and taking into account expert
+stakeholder views.
+49Communicate performance
+on child labour
+What is expected?
+Companies need to be prepared to communicate about their efforts to prevent and
+mitigate child labour, in particular when concerns are raised by or about potentially affected
+stakeholders. Companies that may be involved in severe child labour impacts should report
+formally on their efforts.
+What are the key steps?
+C.5.1 Communication with stakeholders: The UNGPs expect that the form and
+frequency of a company’s communications should reflect its human rights impacts.
+üü If the company is or may be involved in severe child labour impacts, does
+it report formally on how it addresses them?
+üü Do any formal communications by the company include information or
+observations from stakeholders, helping to increase its credibility?
+Diagnostic
+Questions
+üü In what other ways does the company communicate with stakeholders,
+including potentially affected stakeholders and their representatives,
+about its efforts regarding child labour?
+üü How does the company verify that information it communicates is
+accessible to its intended audiences?
+üü How does communication link to the company’s broader stakeholder
+engagement processes (see Section C.6)?
+C.5.2 Nature of the information provided: Information provided by the company,
+whether through formal reporting or otherwise, should enable stakeholders to properly
+evaluate its efforts to prevent and address child labour.
+Diagnostic
+Questions
+50
+üü Does the company provide information that is sufficient to evaluate the
+adequacy of its responses?
+üü Is the information accurate and honest?
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSDiagnostic
+Questions
+i
+üü What is the company’s general approach to transparency about its efforts
+to address identified child labour impacts?
+üü Does the company consider any risks to affected stakeholders
+(children and their families) that could result from its communications?
+Where can I find more information
+ The UN Guiding Principles Reporting Framework provides a comprehensive
+framework for companies to communicate about how they are implementing the
+UNGPs. Visit: www.ungpreporting.org.
+ UNICEF: Children’s rights in sustainability reporting - A guide for integrating
+children’s rights into the GRI reporting framework (Geneva, 2014). Available at:
+www.unicef.org/eapro/Children_s_Rights_in_Sustainability_Reporting_231213_Web.pdf.
+This report contains guidance on relevant Global Reporting Initiative (GRI) indicators
+regarding impacts on a range of children’s rights.
+ UNICEF: Children are everyone’s business: Workbook 2.0 - A guide
+for integrating children’s rights into policies, impact assessments and
+sustainability reporting (Geneva, 2013). Available at: www.unicef.org/csr/css/
+Workbook_2.0_231213_Web.pdf.
+23 OHCHR: The Corporate Responsibility to Respect Human Rights: An Interpretative Guide (Geneva, 2012),
+p. 61. Available at: www.ohchr.org/Documents/Publications/HR.PUB.12.2_En.pdf.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+C.5.3 Transparency and risks of communication: When communicating about their
+efforts, companies should err on the side of being more transparent wherever possible.
+At the same time, the UNGPs recognise that there will be legitimate limitations on the
+ability to share information in certain circumstances. Those circumstances may include
+when communicating certain information may pose risks to affected stakeholders or to
+company personnel, or as a result of legitimate requirements of commercial confidentiality.
+The OHCHR’s guide on corporate responsibility and human rights indicates that this could
+include, for example, information that is crucial to negotiations regarding a significant
+business transaction, for the duration of those negotiations, or information legally protected
+against disclosure to third parties.23
+51Hard question No. 7
+??
+What information is meaningful to report about how my
+company seeks to prevent and address child labour
+impacts, especially where those impacts are continuing?
+The challenge24
+Many companies’ sustainability or corporate responsibility reports today are produced
+using the concept of materiality. However, a focus solely on materiality, for which a multitude
+of definitions exist, may leave salient human rights issues unaddressed.
+Companies are supporting efforts to develop more refined approaches to human
+rights reporting that are aligned with the UNGPs and the human rights standards that
+it references, including the ILO Declaration on Fundamental Principles and Rights at
+Work. For example, a growing number of companies are turning to the UN Guiding
+Principles Reporting Framework to strengthen their human rights disclosure.
+The UNGP Reporting Framework is unique among existing non-financial reporting
+initiatives in its focus on salient human rights issues: those human rights at risk of the
+most severe negative impacts. The UNGP Reporting Framework helps companies
+identify their salient human rights issues and focus their reporting – as well as their
+underlying management efforts – on how these issues are prevented and addressed.
+The focus for reporting is severe risks to people, not solely to the business.
+Another challenge in human rights reporting more broadly, but particularly on an issue
+like child labour, is that the discussion often focuses on voluntary efforts that a company
+is undertaking through philanthropic or other programmes. Disclosure on philanthropic
+programmes is often disconnected from any acknowledgement that, where a company’s
+operations, products or services are linked to child labour impacts, it has a responsibility
+under the UNGPs to seek to prevent and address such impacts through the use of leverage.
+Social investment or philanthropic activities to support or promote the elimination and
+remediation of child labour may be relevant from a UNGPs perspective where these form
+part of a deliberate strategy to prevent and address child labour impacts with which
+the company may be involved. However, as Reporting Principle D of the UN Guiding
+Principles Reporting Framework makes clear, where this is not the case, a company should
+ensure that this kind of information does not obscure or detract from its disclosure on how
+it is seeking to meet its responsibility to respect human rights, including the right to be free
+from child labour.
+24 The UN Guiding Principles Reporting Framework web site, draws on the analysis of problems with current
+human rights reporting outlined at: www.ungpreporting.org/resources/faq.
+52
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSPractical approaches by companies
+¡¡ Providing details about any child labour impacts arising in audit findings (e.g., number of
+child labourers identified), and how the company uses its leverage to try to ensure that
+these impacts are addressed (e.g., helping a supplier institute procedures for verifying
+and documenting proof of age to avoid future instances of hiring underage workers).
+¡¡ Conducting and sharing research on the prevalence and nature of child labour in sub-
+sectors, communities and countries from which the company sources.
+¡¡ Explaining how the company’s operations may be directly linked to child labour impacts
+even if it does not occur in the company’s own operations or those of its immediate
+business partners (e.g., a tourism company that does not have child labour in its own
+operations but operates in contexts where child labour is a significant risk in other parts
+of the tourism value chain, such as the production and sale of souvenirs).
+¡¡ Making public full or summary versions of third party assessments of the effectiveness
+of the company’s approach to child labour in specific high-risk contexts.
+¡¡ Describing who the company works with to remediate instances of child labour where
+they are found, the partner’s relevant expertise, and how those partnerships are
+structured.
+¡¡ Sharing case studies that explain the complex dynamics that lead to child labour in a
+certain sector or country context, the various actors that need to be engaged in efforts
+to meaningfully address the situation, and the particular role the company is playing or
+intends to play as part of that picture, depending on how it is involved with the impact
+(cause, contribution or linkage).
+¡¡ Information that helps convey the company’s year-to-year performance on the issue,
+and the effect that any programmes have over time on root causes of child labour.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+Where child labour is a salient human rights issue for a company, there is a range
+of information that companies can provide to illustrate the company’s approach to
+preventing and addressing child labour impacts. Examples from recent company
+disclosure include:
+53Stakeholder engagement
+What is expected?
+Meaningful engagement with people who may be impacted, or their legitimate representatives,
+is an integral part of human rights due diligence. This includes due diligence in regard to
+child labour impacts. Such engagement helps the company to have a full understanding of
+how its actions and decisions can affect children and their families.
+Engagement with potentially affected stakeholders is particularly important under the
+UNGPs when assessing impacts (to understand how the company might be involved with
+child labour impacts) and tracking performance (to assess the extent to which prevention
+and mitigation measures have been successful). However, in the case of children at risk
+of child labour, extreme care needs to be taken in considering such direct engagement.
+Companies will often need to consult knowledgeable sources about child labour instead of
+potentially affected children themselves.
+What are the key steps?
+C.6.1 Engagement with potentially affected stakeholders: Companies should engage
+with those people who may be impacted by their operations and take their views into
+account. Where such engagement is not possible, as will often be the case with children at
+risk of child labour, the company should consider how to gain insight into those children’s
+perspectives through engagement with local and/or expert stakeholders who do have
+access to those children or can credibly reflect their perspectives. In considering direct
+engagement with children, companies need to pay particular attention to their special
+vulnerability and follow expert guidance on how to engage appropriately.
+üü Does the company seek to engage with potentially affected children
+or their families, particularly in regards to assessing its impacts and
+tracking the effectiveness of its responses?
+Diagnostic
+Questions
+üü Does the company follow expert guidance when designing or
+conducting any such direct engagement with children?
+üü Where such engagement is not possible, does the company consult
+credible proxies for children’s views, such as local children’s rights
+experts or community-based organizations?
+C.6.2 Engaging other stakeholders: As noted in Section C.3, governments are critical
+actors to engage in sustainable efforts to remediate child labour impacts. Companies will
+want to engage other relevant stakeholders at different points in their management of
+child labour risks. These other relevant stakeholders may include representatives of trade
+unions, policy-focused civil society organizations, international organizations and individual
+54
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSgovernments. These stakeholders may serve as important sources of information or as
+partners for collaborative action to prevent and address child labour impacts.
+üü How often and in what ways does the company engage with such
+stakeholders about these issues?
+Diagnostic
+Questions
+üü Can and do stakeholders themselves initiate engagement with the
+company about these issues?
+üü What are the objectives of such engagement and are these objectives
+met in practice? If not, why not?
+üü How do the views of such stakeholders influence the company’s
+decisions and actions?
+C.6.3 Vulnerable and marginalised groups: Children can be among the most
+vulnerable of potentially affected stakeholders. In addition, there may be children who
+belong to groups of people that are at heightened risk of vulnerability or marginalisation.
+These groups may include indigenous peoples, ethnic minorities, certain religious groups,
+people of a certain descent or caste, or migrant workers from another country. There may
+also be very different impacts on boys and girls.
+Diagnostic
+Questions
+i
+üü Does the company take into account impacts on children from groups
+or populations that may be at heightened risk of vulnerability or
+marginalisation? How?
+üü Does the company consider the different kinds of impacts that can be
+experienced by boys and girls? How?
+Where can I find more information
+ ILO-IPEC website provides information on the importance of social dialogue when
+addressing child labour. Visit: www.ilo.org/ipec/Action/social-dialogue.
+ UNICEF: Engaging stakeholders on children’s rights: A tool for companies
+(Geneva, 2014). Available at: www.unicef.org/csr/css/Stakeholder_Engagement_on_
+Childrens_Rights_021014.pdf.
+ Stop Child Labour: Action plan for companies to combat child labour (The Hague,
+2012). A guidance on stakeholder engagement, available at: www.stopchildlabour.
+wbbclient.com/assets/2015/06/actionplanchildlabour.pdf.
+ Shift: Bringing a Human Rights Lens to Stakeholder Engagement. Shift workshop
+report No. 3, August 2013. A publication on stakeholder engagement generally,
+available at: www.shiftproject.org/sites/default/files/ Bringing a Human Rights Lens to
+Stakeholder Engagement.pdf.
+ UN Committee on the Rights of the Child: General comment No. 16 (2013) on State
+obligations regarding the impact of the business sector on children’s rights.
+Available at: www2.ohchr.org/english/bodies/crc/docs/GC/CRC-C-GC-16_en.doc.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+üü How does the company identify other relevant stakeholders to engage
+with about child labour risks?
+55Remedy and
+grievance mechanisms
+What is expected?
+When a company identifies that it has caused or contributed to a child labour impact, it
+has a responsibility to provide for or cooperate in legitimate processes for providing remedy
+for that impact. Remediation in the context of child labour is a delicate and often complex
+process and requires appropriate expertise. It is worth reiterating that while companies are
+not expected to provide remedy for impacts that they do not cause or contribute to under
+the UNGPs, they may choose to do so or may contribute to broader remediation efforts as
+part of a forward-looking approach to seek to mitigate the risk of such impacts continuing
+or recurring (see Section B.3).
+Step 4 of the Guide Two of ILO-IOE Guides for Employers25 sets out helpful guidance for
+employers to consider when taking action to remediate child labour. In the guide, employers
+are advised to be aware that dismissal of child labourers, without considering how to
+replace the lost family income, can be very dangerous.
+Companies should establish or participate in effective operational-level grievance
+mechanisms to help identify and address instances of child labour. They should also
+encourage, and where appropriate, require their business partners to have such mechanisms
+in place. The UNGPs make clear that such grievance mechanisms should be as close to
+the level of impact as possible (e.g., the factory floor or at the community level), and should
+not preclude access to judicial mechanisms or undermine the role of trade unions, and
+applicable industrial relations processes.
+It is particularly challenging to design mechanisms that are appropriate for children to use.
+Typically, grievance mechanisms are accessed by adults on behalf of children, or with
+the interests of children in mind, such as trade unions, local community representatives,
+company staff with responsibility for visiting or engaging with field or local staff, third party
+assessors or auditors, civil society organizations championing children’s rights and others.
+Given that sustainable remediation of child labour impacts is closely linked to efforts to
+address root causes of child labour, it is usually important for companies to understand
+what remediation processes and grievance mechanisms exist at the State level, and how
+the company may rely on, or support, these processes and mechanisms through its own
+efforts. National employer organizations can advise and support companies in this regard.
+25 ILO-IOE: Eliminating child labour (2007), op. cit., Guide Two, Step 4.
+56
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSWhat are the key steps?
+üü What processes does the company have in place to provide for or
+participate in remedy where it causes or contributes to a child labour
+impact?
+Diagnostic
+Questions
+üü Are these processes reflected in company policies or procedures?
+üü Do these processes ensure that the best interests of the child are
+protected whatever approach is taken? How?
+üü Has the company experienced challenges in providing remedy in cases
+where it identifies it has caused or contributed to child labour? If so,
+how were these addressed?
+C.7.2 Operational-level grievance mechanisms: The UNGPs provide that any non-
+judicial grievance mechanism should meet certain criteria to be effective. Companies
+should make sure that their own mechanisms and others that they engage with or promote
+meet the criteria below (see Guiding Principle 31 for additional information).
+In some contexts there are specific national mechanisms focused on the protection of
+children (for example, in relation to sexual exploitation of children in travel and tourism). In
+such cases, individual companies should support those mechanisms by promoting them
+with stakeholders, business partners and others as a primary point of recourse.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+C.7.1 Establish or participate in remediation processes: A company should
+be prepared to take action to provide remedy when it has caused or contributed to a
+child labour impact. It should have established procedures in place that are in line with
+international standards and expert guidance.
+57Has the company established or does it participate in an effective,
+operational-level grievance mechanism that can help identify and address
+instances of child labour?
+Does the grievance mechanism meet the following criteria? Is it:
+üü Legitimate (is it trusted by potential users);
+üü Accessible (is it known to potential users and is assistance provided to
+those who may face barriers to accessing it);
+üü Predictable (does it offer a clear and known procedure);
+Diagnostic
+Questions
+üü Equitable (do users have sufficient access to information and support
+in order to engage on fair, informed and respectful terms);
+üü Transparent (are parties kept informed about progress);
+üü Rights-compatible (are the remedies provided in line with international
+human rights standards);
+üü A source of continuous learning (does it identify lessons for preventing
+future harm);
+üü Based on engagement and dialogue (are potential users consulted in
+the design and performance of the mechanism, and does it focus on
+dialogue as a means to resolve grievances)?
+C.7.3 The role of business partners in providing remedy: Where a company contributes
+to a child labour impact through a business partner or supplier (for example, as a result of
+pressure arising from its purchasing practices), the other party may be best placed to take
+the lead in providing remedy because it may be closest to where the impact occurred. In
+cases of contribution, the company is nonetheless also expected to participate in remedy
+to the extent of its contribution.
+Where the company has not caused or contributed to an impact, it should still encourage
+or require its business partner to provide remedy. Companies have found that they need
+to consider supporting or incentivising business partners that face legitimate constraints if
+such requirements are to be effective in practice, such as due to costs.
+Diagnostic
+Questions
+58
+üü What steps does the company take to encourage or require its
+business partners, suppliers and others to have effective grievance
+mechanisms in place and to provide remedy where they cause or
+contribute to a child labour impact?
+üü How does the company know if those mechanisms are effective, and if
+the remedies provided are in line with the best interests of the children
+involved?
+ILO-IOE CHILD LABOUR GUIDANCE TOOL FOR BUSINESSDiagnostic
+Questions
+üü Does the company participate in any industry, multistakeholder or
+collaborative initiatives to address child labour impacts? Does it have a
+grievance mechanism?
+üü How does the company know if that grievance mechanism is effective?
+i
+Where can I find more information
+ UNICEF and the Danish Institute for Human Rights: Children’s rights in impact
+assessments - A guide for integrating chidren’s rights into impact assessments
+and yaking action for children (Geneva, 2013). Available at: www.unicef.org/csr/
+css/Children_s_Rights_in_Impact_Assessments_Web_161213.pdf.
+This report provides advice on grievance mechanisms, drawing on the Children’s
+Rights and Business Principles.
+ ECPAT: Don’t Look Away project. Visit: www.ecpat.be/en/our-actions/awareness-
+raising/dont-look-away-2/.
+This project seeks to raise awareness of existing national hotlines to report abuse of
+chidren in the context of travel and tourism sexual exploitation.
+ Shift: Remediation, grievance mechanisms and the corporate responsibility to
+respect human rights. Shift workshop report No. 5, May 2014. Available at: www.
+shiftproject.org/sites/default/files/May%202014%20Shift%20BLP%20Workshop%20
+Report%20Remediation.pdf.
+ Rees, Caroline: Piloting principles for effective company-stakeholder grievance
+mechanisms: A report of lessons learned. CSR Initiative, Harvard Kennedy
+School (Cambridge, 2011). Available at: www.business-humanrights.org/sites/
+default/files/media/documents/ruggie/grievance-mechanism-pilots-report-harvard-
+csri-jun-2011.pdf.
+A report on operational-level grievance mechanisms conducted by the CSR Initiative
+on behalf of the Special Representative of the UN Secretary-General for Business
+and Human Rights.
+PART C: PREVENTING AND ADDRESSING CHILD LABOUR IMPACTS: PRACTICAL STEPS FOR COMPANIES TO TAKE
+C.7.4 Grievance mechanisms in collaborative initiatives: Grievance mechanisms
+should also be part of any external industry, multistakeholder or other collaborative initiatives
+that the company participates in to address child labour.
+59ANNEX A
+International standards
+and instruments
+ILO Convention
+No. 138 on the
+minimum age,
+197326üü Sets minimum ages for various types of work
+ILO
+Convention
+No. 182 on the
+worst forms of
+child labour,
+199927üü Defines certain types of child labour as the “worst forms”, which
+should be abolished as a matter of priority
+ILO MNE
+Declaration,
+197728
+ILO
+Declaration on
+Fundamental
+Principles and
+Rights at Work,
+199829
+UN Convention
+on the Rights
+of the Child,
+198930
+üü Ratified and implemented by 168 countries
+üü Exemptions for developing countries exist, but few have applied them
+üü Most rapidly ratified ILO Convention with 179 ratifying countries
+üü Adhering countries should develop “hazardous work lists” that
+identify activities that should not be carried out by anyone under 18
+üü Guidance for multinational companies, governments and employers’
+and workers’ organizations
+üü First ILO instrument to directly address companies
+üü Contains provisions on minimum age and worst forms of child labour
+üü Commits countries to respect, promote and realise fundamental
+principles and rights, whether or not they have ratified the relevant
+ILO Conventions
+üü Includes principles concerning the fundamental rights in
+Conventions No. 138 and No. 182 regarding child labour
+üü Referenced in the UNGPs
+üü Many companies have committed to its implementation
+üü United Nations treaty
+üü Most ratified UN treaty (194 countries)
+üü Covers a broad set of children’s rights, including child labour",
+     "url": "https://www.ilo.org/media/109996/download"
+}

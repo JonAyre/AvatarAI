@@ -1,0 +1,1485 @@
+{
+     "content": "I.
+Introduction
+1.1	Why a supplier guideline to prevent, identify and
+address child labour and provide protection for
+young workers?
+Child labour harms children’s mental and physical development.
+It also harms business and can lead to legal sanctions, a loss
+of productivity, disruptions in production, and lost orders.
+It has no place in a modern, competitive and sustainable
+garment industry. This document provides practical guidance
+for factories and other production sites to prevent child labour
+through effective age verification and the protection of young
+workers, and to effectively respond to it if it does occur.2
+Child labour in tier III of the apparel and footwear industry
+1.2 Key terms
+The key terms used in this Guidance include:
+ChildThe International Labour Organization (ILO) Worst Forms of Child
+Labour Convention (No. 182) defines a child as all persons under
+the age of 18
+Child labourILO defines child labour as work that deprives children of their
+childhood, their potential and their dignity, and that is harmful to
+physical and mental development. Child labour refers to one or
+more of the following:
+1) Work done by a child who is under the minimum age of
+admission to employment for the type of work concerned;
+2) W
+ ork that interferes with compulsory education:
+3) W
+ ork that is likely to jeopardize a child’s health, safety or morals,
+known as hazardous work;
+4) O
+ ther “worst forms of child labour” besides hazardous work.
+Young workerFor the purposes of this guidance, “young worker” refers to a
+person who has reached the minimum legal working age, usually
+15, but is under 18 years old (still a child).
+Child labour
+remediationCorrective measures taken to remove a child from child labour by
+providing alternatives and ensuring their safety and wellbeing.I. Introduction
+1.3 Key elements
+Child labour is a violation of fundamental human rights. According to international standards, work
+must not be performed by anyone under the minimum working age (usually 15 or higher if stipulated by
+national law).1 ‘Work’ refers to any work at your company, including work done under apprenticeships,
+or training and work/study schemes; it includes contractual, temporary or casual work, as well as on-site
+subcontracted work (waste, catering, delivery, cleaning, building works, etc.). This guidance applies to all
+production sites, including lower tier suppliers (e.g., material suppliers and subcontractors).
+X 1. Child labour prevention
+Clearly state the minimum ages
+for general work and hazardous
+work in your hiring policy and job
+announcements.
+See
+section
+2.1
+Hiring procedures and processes
+must include a robust age
+verification mechanism, which
+includes checking ID documents
+and in-person interviews.
+See
+section
+2.2
+Medical examinations are not an
+appropriate means of verifying age
+Risks linked to increases in
+demand, recruitment agencies,
+subcontractors and service
+providers must be managed.
+See
+section
+2.2
+1
+ILO Convention No. 138 sets a general minimum working age of 15, however it states that a country “…whose economy and educational
+facilities are insufficiently developed may, after consultation with the organizations of employers and workers concerned, where such exist,
+initially specify a minimum age of 14 years.” Some countries, however, have set a minimum age of 16 years.
+34
+Supplier guidance on preventing, identifying and addressing child labour
+X 2. Create a non-discrimitory but protective workplace for young workers
+Definition: young workers are children above the legal minimum age for work and under 18.
+See
+section
+3.1.1
+Special management measures on
+contracting: Young workers need
+contracts just like adult ones, but
+theirs should specifically mention
+the extra protections applying to
+them.
+Make sure they are subject to
+strong OSH protection and never
+do hazardous work. To ensure this,
+create a system to identify hazards
+and assess risks for young workers.
+See
+section
+3.2
+Working hours: As a rule of thumb,
+young workers should not work
+overtime or nightshifts.
+Create a low-risk environment for
+young workers by:
+X 1. Identifying low-risk jobs
+X 2. Creating a list of low-risk tasks
+& processes, consistent with
+local law
+See
+section
+3.1.2
+X 3. Through long-term measures,
+reducing the risk levels of more
+positions to create more options
+for youth
+Take young workers’ needs
+into account when setting
+up your onboarding and
+orientation training, and in your
+communication.
+See
+section
+3.1.3
+See
+section
+3.3
+X 4. Continuously raising
+awareness of factory
+management and young
+workers on how to create a safe
+workplace for young workers.I. Introduction
+X 3. Child labour remediation (after identifying child labour)
+If a child or young worker is
+found to be in child labour,
+seek together with your
+buyers, and ideally an expert
+organization, solutions that
+are in the best interests of
+the child or young worker
+concerned.
+When a young worker (above
+the minimum working age
+but under 18) is engaged
+in hazardous work, the
+following actions should be
+taken:
+1. Job re-allocation
+2. Health check
+3. Training for the young
+worker
+See
+section
+4.1
+When a child below the
+minimum age for work is
+found at the production
+facility, the following actions
+should be taken:
+1. Immediate actions,
+including taking the child to
+a safe place
+2. Providing a living stipend
+3. Enrolling him/her in a
+suitable educational/
+vocational
+See
+section
+4.2
+1.4 Guiding Principles
+Preventing child labour and ensuring special protection for young workers under 18 is not always an
+easy task and might not always follow the same pattern. Therefore, it is really important that you
+follow the following set of principles, which will always apply no matter the case:
+1.	Always apply the stricter law:
+e.g., in a case where international standards
+differ from the local law, always operate
+based on the higher standards/stricter laws
+which provide a higher level of protection (for
+instance, if the local minimum age to work is
+set at 16, and the international standard is 15,
+you will have to apply the stricter of the two –
+that is 16!).2.	Protect—but do not discriminate against—
+young workers:
+suppliers should protect young workers who
+have reached the minimum working age, but
+not exclude them from access to safe work.
+Young workers should never be involved in
+tasks that are included in “hazardous work
+lists” in national law.
+3.	Children have a right to be heard:
+children’s opinion should be taken into
+consideration in any decisions that concern
+them.4.	All interventions are aimed at positively
+impacting the child and his/her family:
+our main concern should be to act in the best
+interest of the children and to protect the
+privacy of the children and their families.
+56
+Supplier guidance on preventing, identifying and addressing child labour
+© Center for Child Rights and Corporate Social Responsibility (CCR CSR).II. Child labour prevention
+II.
+Child labour prevention
+Making age verification a central part of a clear employment policy, as well as
+managing the risk associated with recruitment agencies and subcontracting
+play a vital role in the prevention of child labour.2
+2.1 The basics
+Clearly state the minimum age
+for general work and hazardous
+work in your hiring policy and job
+announcements, e.g., “in order to
+work at our company, you need to be
+a minimum of 15 years old for general
+positions and a minimum of 18 years
+to perform hazardous work”. Make
+sure the minimum ages comply with
+international or national legislation
+(whichever provides greater
+protection).Recruitment and hiring should
+follow standardized procedures
+and include a robust age
+verification mechanism. Ensure that
+recruitment and hiring, including
+age verification, is handled by the
+appropriate department (e.g., the
+human resources or personnel
+department), by people trained to
+do so. Recruitment and hiring should
+not be managed informally, e.g., by
+a security guard, line supervisor, or
+through family members.
+Medical examinations are not an
+appropriate means of verifying age.
+Accuracy cannot be guaranteed, and
+an examination may cause a child
+unnecessary stress and violate his or
+her right to privacy.4Manage the risk of child labour
+linked with any rapid increases in
+demand for labour or the use of
+labour agents, subcontractors and
+service providers.
+78
+Supplier guidance on preventing, identifying and addressing child labour
+2.2 Steps to verify age
+2.2.1 Pre-recruitment
+Make sure your job announcements contain the following information:
+X Expected education level
+X Skills & experience required
+X Minimum working age
+Means of verifying age:
+X Indicate that all applicants must present government-issued identification
+documents to prove their age and identity; job announcements, application
+forms and notices at the facility should state that applicants with false or
+invalid documents will not be considered or hired.
+If the advertised
+position is hazardous
+(e.g., requires
+handling heavy
+machinery);
+you should indicate
+this and set the
+minimum working
+age at 18. However,
+setting a minimum
+age of 18 for non-
+hazardous work may
+be discriminatory
+and should be
+avoided.
+2.2.2 During recruitment
+Thoroughly check (and cross-check) original proof of age documents.
+Use the following steps:
+If a reliable ID card is available:
+X Make sure the photo and identity mark on the submitted documents match
+the appearance of the applicant.
+X Make sure the signature on the national ID card matches the applicant’s
+signature.
+X Check that the original seal between the photo and card is intact.
+X The date of issue should broadly tally with the condition of the card. It is
+suspicious if a card issued many years ago looks brand new.
+If no ID card is available:
+X Establish the most reliable form of documentation in your country and
+request a minimum of two forms, such as a birth certificate, household
+registry (family book), driver’s license, right to vote card, or work permit.
+In countries where
+a national identity
+card is not available,
+require applicants
+to present two
+documents to
+verify their age;
+examples include:
+a birth certificate,
+household registry
+(family book), driver’s
+license, right to vote
+card, work permit,
+or school testimony.
+At least one of these
+documents must
+contain a photo ID.II. Child labour prevention
+Additional elements to consider:
+X Certain countries require that a government agency3 (e.g., the Ministry
+of Labour) be informed when a young worker is recruited.
+Note: When
+interviewing young
+applicants, age
+verification must
+not be based on
+socially or culturally
+constructed ideas of
+what an adolescent
+should look like, or
+how they should
+behave or respond to
+particular situations,
+as children’s physical
+development varies
+owing to factors
+including diet, access
+to health care, living
+and environmental
+conditions and
+genes. Behaviour
+also varies
+according to cultural
+backgrounds and
+expectations.
+X If you suspect forged documents or are presented with a temporary
+identification card, check the document’s validity with local government
+offices and request other forms of ID.
+X Conduct in-person interviews with all applicants. At the interview,
+applicants can be asked questions such as where their documents were
+issued, where their father was born, or their date of birth. This information
+can then be cross-checked with the card.
+X Ensure that once the identity check has been completed the originals are
+immediately returned to the applicants.
+X If insufficient or suspicious ID is presented, support the applicant to
+procure proper documents (e.g., by providing information on where/how
+they can apply for proper identification documents).
+2.2.3 After recruitment
+Age verification does not stop with recruitment of staff. You should also
+implement the following measures on an ongoing basis:
+X Prepare and maintain a register4 of all workers’ application documents
+and records of employment, including daily workers, temporary workers,
+young workers and interns/apprentices or student workers. This should
+include at a minimum:
+• a valid labour contract;
+• a copy of the worker’s ID card;
+• a recent photo (taken within the past 6 months);
+• date of employment;
+• main task(s)/position;
+• work schedule; and
+• manager’s name.
+X Records of non-national employees must include records confirming their
+legal status and working permit.
+X Provide all of your employees with a facility-issued photo ID.
+X A face scanning attendance system or fingerprint identification attendance
+system reduces the risk of persons assuming the identity of workers in the
+facility.
+3
+The labour laws of China, Thailand and Singapore, for example, stipulate that employers are required to
+inform the Ministry of Labour before young workers begin to work.
+4
+In compliance with ILO C138, suppliers shall have an official list or documents that contain the names and
+ages or dates of birth, duly certified wherever possible of the workers who are below 18 years old and the list
+shall be available to competent authorities.
+910
+Supplier guidance on preventing, identifying and addressing child labour
+2.2.4 Managing risk factors
+During peak seasons or labour shortages, when large numbers of workers are
+in demand, proper hiring processes and age verification may be neglected.
+Moreover, the use of labour agents, subcontractors and service providers
+may also increase the risk of child labour. Below are a few measures to help
+you to manage this situation.
+X Ensure all your business partners are formally registered businesses.
+X Include a child labour policy and procedure for prevention and remediation
+in contracts with subcontractors and service providers.
+X Update and maintain a subcontractors list. Regularly collect updated
+information such as size of facility, production capacity and number of
+workers.
+X Avoid placing orders that exceed production capacity, taking into
+consideration orders placed by other customers.
+X Keep a record of workers hired by service providers as well as the relevant
+documents.
+X If you engage labour recruiters, use only reputable companies that comply
+with all relevant laws.
+X Verify the documents and interview workers in your facilities, even when
+you have not directly hired the workers. For your buyers, it will NOT make
+a difference if the workers in your facilities are directly hired by you or
+by a labour agent. This applies to any person working in your facilities
+and includes situations in which you outsource production lines, waste
+management, canteen services, security, dorm services etc.
+X No recruitment fees or related costs should be charged to workers or
+jobseekers.
+Do all of this BEFORE
+you are in urgent
+need of more
+employees,
+as you won’t have
+time when hiring
+becomes urgent!© Center for Child Rights and Corporate Social Responsibility (CCR CSR).III. Management of young workers
+III.
+Management of young
+workers
+Young workers below the age of 18 require special protection, but they are also valuable
+employees who form the basis of your company’s future.
+You should have systems in place to ensure a non-discriminatory but protective workplace
+for young workers, in which their occupational safety and health (OSH) is ensured. This
+includes implementing specific measures on contracting, working hours, onboarding
+and orientation, communication and ongoing OSH protection specifically aimed at young
+workers (see section 3.1). A system to identify hazards and assess risks (section 3.2)
+is essential in order to create a safe working environment for young workers (see section 3.3).
+3.1	Establishing special protective measures
+for young workers
+Adolescence is a time of dramatic physical and mental change and huge developmental strides.
+Young workers therefore need special protection at the workplace. Some of the reasons for
+this are:
+X Young workers need more oxygen. They breathe in more air (and therefore any toxic
+substances/pollutants and airborne diseases that may be present) relative to fully-grown
+adults.
+X They face health risks when assigned tasks beyond their physical capabilities, which
+can lead to developmental problems and injuries. They are generally eager to please,
+lack experience and their judgement is still in the process of developing. Without training
+they may be more prone to taking risks.
+X They need more sleep than adults. Quantity and quality of sleep directly affects young
+people’s cognitive development. They must not work long hours, while work and study
+programmes and vocational training must leave them time for enough sleep.
+1314
+Supplier guidance on preventing, identifying and addressing child labour
+3.1.1 Hiring young workers
+As outlined in section 2.2, robust systems for age verification are key. Once you have
+established that the applicant is of working age but under 18, take the following steps:
+X Ensure the young worker has a valid contract just like an adult worker. It should include
+standard terms of remuneration and benefits but also special protections related to
+safety and health, working hours, rest time and leave, etc. See Annex III for a detailed list
+of contract conditions.
+X Ensure that all young workers fully understand the terms and conditions of their
+contracts. The contract should be in a language understood by the worker.
+3.1.2 Working hours
+Many countries have specific working hour regulations for young workers (see Annex IV).
+Unless your country’s regulations are stricter, you should respect the following guidelines:
+X No night work for young workers (night work may be allowed as of 16 if necessary, for
+learning purposes during an apprenticeship, if such apprenticeship is approved by the
+competent government authority, the apprentice receives training and is allowed at least
+13 hours’ rest between shifts. Of course, the work must not be otherwise hazardous).
+X No overtime.
+X At least 12 consecutive hours of night rest each day.
+X If the young worker is still in compulsory education, their work must not interfere with
+their school attendance nor the ability to study.
+3.1.3	The first day of work for young workers: Orientation and occupational
+safety & health training
+Arrange an orientation and OSH training for all young workers before they begin
+work, which includes a review of all key terms of employment (contract, hours, factory
+regulations). Small group training, with interactive sessions and hands-on practice help
+ensure full understanding of your factory’s OSH policies and regulations. Training should
+include:
+X A clear message to ensure young workers understand the importance of safety in the
+workplace.
+X A ‘walk and talk’ safety tour for young workers highlighting particular safety concerns.
+X Review of legal requirements for the protection of young workers, e.g., regular health
+examination, working hours and types of work, processes or positions they CAN and
+CANNOT do.
+X Explanation of existing OSH risk control measures, e.g., signage for hazards, and
+resources available to support the health and safety of young workers.
+X Explanation of procedures for reporting workplace hazards/dangerous situations and
+the follow-up steps to be taken to eliminate reported hazards.
+X Explanation of procedures for evacuation in case of an emergency.III. Management of young workers
+3.1.4 Ongoing protection during employment
+What are the
+elements for an
+effective grievance
+system?
+Find out in
+Annex V
+Receiving feedback, concerns, complaints, suggestions and questions from
+young workers is a good way to identify real or potential risks and hazards and
+to ensure workers are protected. An effective grievance system accessible to
+young workers is essential in this regard.
+Trade unions can provide a valuable channel for relaying feedback and grievances,
+anonymously and without fear of reprisal. In addition, if not already in place,
+consider establishing an OSH Committee involving workers and management.
+Other channels may include accessible welfare officers, anonymous suggestion
+boxes, hotlines, and web-based platforms (such as email, SMS, app, online surveys)
+that are easily accessible to workers.
+3.2	Identifying hazardous work and conducting risk
+assessment for young workers
+A sound OSH system identifies hazards associated with the tasks and processes in
+which young workers are engaged, and estimates how likely it is that the hazard
+will cause them harm. This process is essential to managing risk and keeping young
+workers safe.
+3.2.1	Identify hazardous work tasks and processes
+and necessary protection measures
+You should have
+a detailed list of
+all work tasks
+and processes.
+Ensure that this
+list distinguishes
+between similar tasks
+and processes that
+are found at different
+workplaces. This is
+important because,
+for example, a task
+that is not in itself
+hazardous could
+become hazardous
+if located in an area
+with high levels of
+dust, noise, heat or
+chemical usage.
+Production observation
+Walk through facilities with your key staff (production managers, HR, supervisors,
+compliance & OSH experts) to identify hazardous tasks and processes, bearing
+in mind national law and international labour standards.
+Make sure the walk-through considers:
+X Activities of all persons having access to the workplace (including contractors
+and visitors) including processing, materials storage, finished products, public
+areas, offices, visiting areas and transport vehicles.
+X Infrastructure, equipment and materials at the workplace, whether provided
+by the factory or others.
+X The design of work areas, processes, installations, machinery/equipment,
+operating procedures and work organization.
+X Planned and temporary work.
+X Long-term hazards (e.g., high levels of noise or exposure to harmful
+substances).
+X Psychosocial hazards such as harassment.
+1516
+Supplier guidance on preventing, identifying and addressing child labour
+Manufacturers’ instructions
+Check manufacturers’ instructions for equipment and safety data sheets
+(SDS) for chemicals, as they can be very helpful in identifying hazards.
+Worker and expert interviews
+Talk to workers, young workers and their representatives to obtain first-hand
+experiences about the risks and hazards of different jobs. Workers may have
+noticed hazards that are not immediately obvious. Speak to OSH experts who
+have experience in the garment industry.
+Conduct individual or group interviews with workers, young workers and
+their representatives. Prepare questions before the interviews to explore
+potential risks and hazards (see Annex VI).
+Review previous accident reports
+Reports on accidents and work-related ill health can help identify less obvious
+hazards. For reference, Annex VII provides a detailed list of common hazards in
+the garment and textile industry.
+To obtain safety
+information
+about chemicals,
+suppliers can check
+the International
+Chemical Safety
+Cards, which are data
+sheets developed
+by ILO to provide
+safety and health
+information on
+chemicals:
+https://www.ilo.
+org/safework/
+info/publications/
+WCMS_113134/
+lang--en/index.htmIII. Management of young workers
+3.2.2 Risk assessment for identified hazards
+After hazards have been identified, assess the risk arising from them (a risk assessment). Risk is defined
+as “a combination of the likelihood of an occurrence of a hazardous event (probability) and the severity
+of injury or damage to the health of people caused by this event (severity)”. Risk assessments will enable
+you to assign a risk level (low to high) to individual tasks and processes, and take preventive action.
+Firstly, the probability of the harm is estimated by rating it as “Likely”, “Possible” or “Unlikely”.
+X Probability
+X Frequency of an event
+LikelyCould happen frequently
+PossibleCould happen occasionally
+UnlikelyMay occur in exceptional circumstances
+Please note: If there is any injury or accident mentioned in accident reports, the rating should be “likely”.
+Secondly, the degree of impact that may be caused by the harm is estimated by rating it as “High”,
+“Moderate” and “Low”.
+X Severity of harm
+X Type of potential harm event (incident)
+HIGH	A high potential of causing fatality, permanent disability
+Significant level of harm
+or long-term and serious injury.
+MODERATE
+Moderate level of harmPotential to cause serious but non-life-threatening injuries
+or temporary disability, that may require the worker to
+take time off for recovery. A broken arm or minor fracture 		
+is an example of a moderate injury.
+LOW
+Minor level of harmVery low potential of injury or illness that will not require
+a person to use first aid, or to temporarily suspend their
+work involvement.
+And then the risk can be assessed as “High”, “Medium” or “Low”, according to the combination of
+severity and probability.
+Level of risk = severity of harm x probability of harm
+Probability
+Severity
+LowModerateHigh
+LikelyMediumHighHigh
+PossibleMediumMediumHigh
+UnlikelyLowMediumMedium
+1718
+Supplier guidance on preventing, identifying and addressing child labour
+3.3 Create a low risk environment for young workers
+3.3.1 Immediate actions after risk assessment
+Immediate follow-up actions should be taken to manage the identified risks.
+Level of risk
+High risk
+Actions and risk controls
+(for all workers)Appropriate for
+young workers
+Remove young worker from the task/position immediately
+and initiate child labour remediation processes. Assess if the
+right safety precautions are in place:X
+	Require detailed pre-planning and substantial safe work
+controls.
+	Enhanced risk controls will be required. Closely monitor
+progress & compliance.
+Remove young worker from the task/position immediately
+and initiate child labour remediation processes. Documented
+safe work procedure to be used:
+Medium risk
+Detailed operational planning and controls.
+Risk controls to be introduced before any work.
+	Workers should understand requirements and implement
+risk controls.
+Ensure the task and working environment are safe for young
+workers. Review current controls and, if they are inadequate,
+apply more effective measures:
+Low risk
+	Check local law (i.e., the national hazardous work list) in-
+dustry regulations and existing in-house risk assessment
+reports to ensure position is not off-limits to young
+workers (see Annex VIII).
+Tasks and
+processes
+labelled as
+HIGH RISK
+should never
+be assigned to
+young workers.
+X
+Tasks and
+processes
+labelled as
+MEDIUM RISK
+should never
+be assigned to
+young workers.
+	
+Tasks and
+processes are
+likely suitable for
+young workers.
+	Review work/tasks and discuss the task with the young
+worker before they start working.
+3.3.2 Develop a list for low risk tasks and processes
+Based on your risk assessment you can now take the following steps:
+X Analyse the low risk work tasks and processes (see Annex IX).
+X Create a list of work from the “Low risk” category that is safe for young workers and
+complies with applicable laws.
+X Develop an action plan: identify gaps in current OSH management such as policy,
+procedure, communication and training; formulate corrective measures and a timeline;
+assign responsible staff; initiate corrective action, and monitor the progress.
+X Conduct regular assessments (or whenever there are changes to existing process) and
+update the low risk task list.
+X Store and file risk assessment results and the low risk task list for easy reference.
+You will find a table template table in (Annex X) to help you with that process.III. Management of young workers
+3.3.3 Long-term measures
+Effectively protecting young workers from hazardous work may mean physically removing a hazard,
+isolating workers from hazards, changing work processes and procedures, or providing improved
+working conditions. For more details on this process you may consult Annex XI.
+3.3.4 Continuously raise awareness of factory management and young workers
+In conjunction with OSH committees and trade unions, where present, ensure that awareness raising
+and OSH training, taking into account the extra need for protection of young workers, is undertaken on
+an ongoing basis. It is important to conduct regular monitoring in order to ensure compliance in daily
+operations.
+X How a factory adjusted tasks and processes to accommodate young workers
+Good
+practice
+ABC Packaging Co., Ltd. (note 1) is a factory that produces backpacks and bags for many US
+and European buyers, and they are one of the first factories in Vietnam to hire young workers
+under the age of 18. Before hiring young workers, the factory started identifying suitable jobs
+that were low risk and safe for young workers. However, the location and the work settings
+of these jobs was likely to jeopardize the health of the young workers. To create a safe and
+decent working environment for young workers, the factory conducted a job analysis and the
+following risk/challenge control measures were taken:
+TaskHazards/challengesElimination/minimization of risk
+1Thread trimmingErgonomic hazard: Work while
+standing full time on a high
+table, no chair provided.Provide adjustable tables and chairs so
+that workers can interchange between
+sitting and standing
+2Chemical hazard: Work inside
+Zipper puller lock-ing, the cutting unit, where dust
+trimming zipper tape, levels are known to be high.
+inserting the zipper
+Safety hazard: Work location
+lock
+near electric cutters.Move the work location from inside the
+cutting unit to the material ware-house
+where the safety and health risks
+are minimized, and it is easier for the
+sewing lines to collect the zipper for
+next steps.
+3Challenges: Though the jobs in
+the packing area are simpler
+Processes in the
+than in other areas, the
+packing areas such as
+em-ployer did not identify or
+inserting acces-sories
+spe-cifically point out the non-
+like paper, plastic
+hazardous tasks and processes
+parts, and folding or
+suitable for young workers.
+returning the lining,
+As a result, no one considered
+fabric products
+these positions as suitable
+positions for young workers.More tasks were identified as suitable,
+so that young workers could do at
+least two tasks in the same work area,
+thus allowing them to rotate to the
+other task when one of the tasks was
+completed.
+4Food preparation
+and serving in the
+canteensSafety hazard: Risk of fire and
+burns in the kitchen and from
+hot foodIdentify restricted area and non-
+restricted area in the kitchen to avoid
+risks for young workers.
+After the risks were removed and the work setting was re-adjusted, more non-hazardous jobs were
+created for young workers and the factory successfully allocated suitable tasks to them.
+19© Center for Child Rights and Corporate Social Responsibility (CCR CSR).IV. Child labour remediation
+IV.
+Child labour remediation
+Child labour remediation refers to the process of removing a child from a child labour
+situation to ensure safe and adequate alternatives for them, such as reintegrating them
+into the education system or, if they are above the minimum age for work, creating an
+opportunity for them to work in a non-hazardous job.
+4.1	What should you do when a young worker (above the
+minimum working age but under 18) is engaged in
+hazardous work?
+If young workers are found working in hazardous tasks or processes:
+X Remove the young workers from the hazard.
+X Offer them access to “low risk” work, without reducing salary or benefits.
+X Arrange health checks and ensure any necessary treatment is provided, including for
+long term exposure to hazards (e.g., dust, vibration, excessive noise).
+X Monitor the young worker’s situation regularly to ensure that children do not gradually
+shift back to high-risk activities.
+2122
+Supplier guidance on preventing, identifying and addressing child labour
+4.2	What should you do when a child below the general minimum
+age for work is found at the production facility?
+An underage worker may be identified by staff or other parties at the production site, or a child may
+accompany their parents or guardians to the production facilities and can either be playing or helping
+their parents with some tasks to be kept busy. The first thing to do is ensure that the child is safe and
+does not feel in any way threatened or scared by the situation. It is often preferable that a woman speaks
+with the child, particularly in the case of girls.5
+4.2.1 When a child below the general minimum age is working in the production facility
+you should:
+X Talk to the child in a calm manner, offer information about yourself and ask open-ended, general
+questions to establish a rapport. Listen to the child to understand their needs. Assure them that
+they have done nothing wrong and are not “in trouble”. In a kind manner explain why they can’t be
+working.
+X Remove the child from the workstation and arrange a safe place for the child e.g., office room,
+dormitory or home.
+X Contact the child’s parents/guardians and explain the situation to them.
+X Ensure that the child has been paid for the time worked in the factory.
+X Good practice is to provide financial support to the child and their family to cover school fees and
+living costs until the child reaches the end of compulsory schooling or the minimum age for work,
+then rehiring the young worker to do non-hazardous work.
+X Document and keep records of each child labour case.
+X If a local remediation expert is involved, inform the expert about the child labour case with a Child
+Labour Notification Form (Annex XII), and support and cooperate with the expert on the child’s
+remediation.
+X If no local experts are available, you may seek support from ILO offices and other UN agencies such
+as UNICEF for guidance.
+4.2.2 What to do when an auditor or buyer detects a child below the minimum age for
+work
+If a child below the minimum age is found during a factory audit, a remediation process will be initiated
+with the involvement of the buyer. You are expected to:
+X Fill in the Child Labour Notification Form (Annex XII), and cooperate with and support the child
+labour remediation process. A local remediation expert will:
+• interview the child concerned and their parents;
+• interview factory management and review relevant documents;
+• conduct a factory walkthrough; and
+•	if no local experts are available, you may seek support from ILO offices and other UN agencies
+such as UNICEF for guidance.
+5
+For detailed guidance on interviewing children removed from child labour see: ILO: Psycho-social rehabilitation of children withdrawn
+from trafficking and other worst forms of child labour (Geneva,2007). Available at: https://www.ilo.org/ipec/Informationresources/WCMS_
+IPEC_PUB_14755/lang--en/index.htm.IV. Child labour remediation
+X Discuss the cost of a remediation programme with buyers and subcontractors if they are involved.
+The cost usually includes:
+• a stipend for the child;
+• education fees for the child;
+• additional training in child rights and child worker policies at the factory; and
+• the local expert’s costs to monitor the factory.
+4.2.3 What to do when a supplier or factory staff find a child in the factory who is not
+working
+If a child is not working but is present in the production facility due to parents lacking alternatives for
+childcare, the supplier should:
+X Speak kindly to the parents (if they are present) and explain why the child cannot be in the factory
+and.
+X Contact the child’s parents/guardians if they are not with the child.
+X Remove the child from the workplace and arrange a safe place for the child e.g., child friendly
+space, office room, dormitory or home.
+X Explore whether the parents/guardians need childcare services.
+X If the factory has a day-care or a child-friendly space (a space with adult supervision where children
+can play and do homework), place the child there.
+X If the factory does not have a day-care or a child-friendly space, assist the parents by connecting
+them to local childcare services or a relevant organization.
+X Document and keep a record of the case.
+Good
+practice
+X Child friendly space eliminates parents’ need to bring their children
+with them to the production floor
+A factory in China had a large migrant workforce, many of whom were parents. During
+the summer months when their children were off school, parent workers found
+themselves without any viable childcare options while they worked. As a result, some
+brought their children to the production floor, believing the children to be safer by their
+side than unaccompanied at home. During an audit however, the children were flagged
+as underage workers.
+To prevent such problems in summers thereafter, the factory opened a Child Friendly
+Space on their premises. This provided workers’ children with a safe space to spend
+their summer holidays, while the parents could put their mind to rest and concentrate
+on work. The programme proved to be a win-win solution: the children had a much
+more interesting, fun, social and educational summer by doing arts and crafts, playing
+games and taking part in parent-child activities than if they had stayed at home; par-
+ents did not have to pay hefty childcare fees or take time off work to look after their
+children; and the factory enjoyed lower absenteeism and turnover, and a happier, more
+motivated workforce.
+23© ILO-IFC Better Work Programme.Annexes
+Annexes
+2526
+Supplier guidance on preventing, identifying and addressing child labour
+Annex I.
+Checklist for factory self-assessment on employment policy
+and procedures related to child labour and management
+of young workers (above the minimum age but under 18)
+This checklist is a self-assessment tool you can perform to get a sense of how well your
+employment practices and system currently help to prevent child labour and manage young
+workers. You can use it to identify where you need to make improvements and what elements
+to prioritize.
+Item
+Remarks
+I. Employment policy
+Does the facility have child labour and young worker management policy?YES / NO
+Does the policy clearly mention the minimum working age?YES / NO
+Does the policy clearly define the terms under which young workers can be offered
+decent work positions?YES / NO
+Is the policy compliant with national and international law on minimum age and
+conditions for the hiring of young workers?YES / NO
+II. Age verification procedures
+Does the facility have a hiring process that sufficiently verifies the age of workers before
+recruitment, which includes ID check and interview with each applicant?YES / NO
+Is there a proven authenticity verification step for age-related documents, including
+steps to be taken in case there are doubts?YES / NO
+Does the facility have formal channels to access the local authority in relation to
+obtaining and verifying age documents for workers?YES / NO
+Has this process been carried out by a staff member that has been trained on age
+verification?YES / NO
+Does the facility keep necessary documents in workers’ personnel files, including copies
+of ID and specific age verification documents?YES / NO
+Does the facility allocate a budget in fiscal plans to allow for child labour prevention
+training, especially regular training for HR staff on age verification?YES / NO
+Does the facility provide regular training to the HR, Production Manager, line managers
+and others who are involved in the hiring process to equip them with sufficient
+knowledge on child labour and skills on age verification?YES / NOAnnexes
+Item
+Remarks
+III. Work hours and occupational safety and health management
+Are your workers regularly required to work overtime?
+YES / NO
+If yes, which workshops/stations?
+(1)(2)(3)
+(4)(5)(6)
+(7) Others:
+Are young workers allowed to work overtime if they work in these departments?YES / NO
+Are young workers allowed to work on night shifts for urgent orders/shipments?YES / NO
+Do you use chemicals in the production processes at the factory?YES / NO
+Is heavy machinery used in the production processes at the factory?YES / NO
+Does the factory employ young workers to work in these processes handling chemicals
+and heavy machinery?YES / NO
+Has there ever been a work-related injury or accident in the factory?YES / NO
+If yes, where did it happen?
+(1)
+(2)
+(3)
+(4) Others:
+Have you conducted an occupational health & safety risk assessment at your factory?
+How frequently?
+And when was the last one?
+Have you conducted an overall working environment analysis/report of your factory?
+How frequently?
+YES / NO
+YES / NO
+And when was the last one?
+IV. Employment of young workers
+Does the facility maintain a separate procedure for recruitment, document filing and
+management of young workers (including temporary workers, student workers, and
+interns)?YES / NO
+Does the facility keep a hazardous/non-hazardous work list of your production process?YES / NO
+Is the facility’s hazardous/non-hazardous work list consistent with the national
+hazardous work list specified by the government?YES / NO
+Do the relevant managers regularly carry out on-site checks to ensure that young
+workers are not engaged in hazardous work?YES / NO
+Does the factory undertake risk management procedures on all the manufacturing
+processes and controls of subcontractors and contract partners?YES / NO
+Do you have a grievance system to communicate and receive feedback, concerns,
+complaints, suggestions and questions from workers?YES / NO
+If yes, does the grievance system have separate procedures for young workers, so that
+they do not face the risk of reprisal for raising a grievance?YES / NO
+2728
+Supplier guidance on preventing, identifying and addressing child labour
+Item
+Remarks
+IV. Child labour prevention and remediation procedure
+Does the facility have a child labour prevention and remediation procedure in place?YES / NO
+Does the above procedure consist of specific methods and detailed steps before, during
+and after hiring processes, and specify the responsibilities of each level?YES / NO
+Has the top management appointed a responsible person for supervising the
+implementation of child labour prevention, including regular monitoring of age
+verification processes?YES / NO
+Does the appointed responsible person for supervising the implementation of child
+labour prevention also oversee the processes to prevent young workers from being
+exposed to hazardous work?YES / NO
+Does the facility have a dedicated and trained HR department/staff who are familiar
+with the legal requirements of employment and understand the local context of child
+labour?YES / NO
+Has the facility set aside a budget for child labour remediation?YES / NO
+Does the facility have a procedure to check subcontractors and contract partners’
+usage of labour, which includes age verification of the apprentices, contract workers,
+temporary or casual labour used by on-site subcontractors in waste, catering, delivery,
+cleaning building works etc.?YES / NO
+Does the factory check the licenses of the subcontractors before starting production?YES / NO
+Does the facility have a procedure to regulate the use of recruitment agents before they
+are allowed to supply workers? This includes checking the labour agents’ license for
+business and confirm whether it has any records of violating child labour regulations,
+conducting age verification processes and personal interviews even if the labour agent
+has already taken those steps?YES / NO
+Do you know who to contact in case child labour is found at the factory?YES / NO
+Are you aware of any organizations that can support the factory with remediation
+processes in case child labour is found?YES / NO
+If most of your answers are “yes”, congratulations! It means that your internal system relating
+to Child Labour and Young Workers Management is relatively comprehensive. However, you
+have to regularly review and improve the process when there are gaps.
+If most of your answers are “no”, it means that you should make significant and positive
+changes to improve the current system.Annexes
+Annex II.
+Good practices for age verification
+Elements of a good age verification system must have:
+X Effective Child Labour Policy and Procedures in place (which include age verification), which are in
+line with business partners’ requirements.
+X HR staff trained on legal requirements who can carry out age verification as required and identify
+the authenticity of the ID documents.
+X Responsible person appointed, who has the authority and resources to regularly supervise the age
+verification process.
+X Risk control measures in place, concerning resources utilized in hiring and operating processes,
+including management of labour agents, subcontractors and sub-contract partners.
+X Measures for preventing young workers from conducting hazardous work, which includes
+maintaining a list of hazardous work, a regularly updated list of young workers, onsite checks to
+ensure no young workers are engaged in hazardous work.
+X Budget in place to allow for child labour prevention training and skills on age verification.
+Sample questions related to age verification (to be used in addition to requested age verification
+documents):
+Questions related to age should be natural and may start with a casual chat about the family situation.
+X Can you talk a bit about yourself? Where is your hometown? Do you like school? Why? Or why not?
+Do you have to send money back home?
+X How many members are in your family? What are your parents’ names?
+X What are your parents doing? Where are they?
+X Do you have siblings? Are they studying or working? How many years older/younger than you are
+your siblings?
+X What is your birthday by day, month and year? So, in this case, how old are you?
+X What’s your animal sign/zodiac animal? What about the animal sign of your siblings?
+X When did you start junior middle school? Have you ever skipped a grade or been held back a grade?
+X Which grade did you finish and when? In which grade are your siblings? Or when did they finish
+school and at what grade?
+X Was this a school in your hometown? Where is it?
+X Do you have friends from the same hometown/school here? Do you still keep in contact with your
+classmates? In which grade are your classmates now if some are still in school?
+X Did you ever move from one place to another place? How old were you when you moved?
+X Is this your first job? Have you ever worked before? What kind of job have you done before? How
+long did you work for in the last job?
+X Have your heard from your parents if any important event occurred in the year you were born? If
+yes, what?
+2930
+Supplier guidance on preventing, identifying and addressing child labour
+Annex III.
+Information included in a valid contract for young workers
+X Please note that for the elements written in bold you will need to take into account special
+considerations for the young workers:
+X Employer’s name, residence & legal person (responsible person)
+X Employee’s name, residence and ID
+X Domicile or place of contact
+X Duration of employment
+X Probation: probation period, salary and benefit during probation, evaluation upon completion of
+probation, termination during probation, etc.
+X Job position, location & duties/tasks
+X Working hours, rest time and leave
+X Remuneration & benefits: Young workers enjoy the same remuneration and benefits as adult
+workers.
+X Working conditions and occupational protection: The employee is entitled to a safe and hygienic
+working environment; necessary protection against risks and hazards that are related to the
+employee’s work should be provided
+X Terms on termination: Both parties are entitled to terminate the employment contract, given a
+notice period (30 days or legally required no. of days)
+X Others: e.g., training, confidentiality, factory regulations, confidentiality, settlement of labour
+dispute.Annexes
+Annex IV.
+Working hour regulations for young workers in key supplying
+countries
+This checklist is a self-assessment tool you can perform to get a sense of how well your employment
+practices and system currently help to prevent child labour and manage young workers. You can use it
+to identify where you need to make improvements and what elements to prioritize.6
+Countries
+Age range
+of young
+workers
+Basic
+working hours
+Night/overtime
+work
+Hazardous
+work
+CHINA16- 17Not exceeding 8 hrs/shift and 40
+hrs/weekProhibited
+(From 10 pm to 6 am)Prohibited
+TURKEY15- 17Not exceeding 8 hrs/day, and 40
+hrs/week, with a medical certificateProhibited
+(From 8 pm to 6 am)Prohibited
+VIETNAM15-17Not exceeding 8 hrs/day or 40 hrs/
+week in garment in-dustryProhibited (night work
+refers to work between
+10 pm and 6 am)8Prohibited
+14-17Not exceeding 5 hrs/day or 30 hrs/
+week in any factory
+Not exceeding 36 hr/week in total
+including overtime if young worker
+works overtime in a factory
+Period of work is limited to two
+shiftsProhibited
+(From 7 pm to 7 am)Prohibited
+14-17Young workers WITHOUT
+certificate to work as an adult:
+Female - prohibited to work between
+7 pm and 8 am; Male - prohibited to
+work from 10 pm to 6 am
+Young workers WITH a certificate
+of fitness to work as an adult:
+Male & Female (15-16 years old):
+prohibited to work between from 7
+pm to 6 am; Female (17 years old):
+prohibited to work from 10 pm to 5
+amProhibited
+Not exceeding 8 hrs/day and min. of
+13 consecutive hrs. of rest between Prohibited
+shiftsProhibited with
+exceptions for
+children who
+have attained
+the age of
+16 years
+under certain
+conditions*
+BANGLADESH
+INDIA
+CAMBODIA
+MYANMAR
+15-17
+14-15 child Child worker: not exceeding 4 hours
+worker a day, with a certificate of fitness
+Adolescent worker: not exceeding
+16-17
+adolescent 8 hours a day, with a medical
+worker certificate
+Child worker: prohibited
+(6 pm-7 am)
+Adolescent worker:
+allowed only with a
+medical certificate that
+s/he is fit to work during
+night time/overtime*
+*	Here the national standards are less strict than those recommended by the ILO. ILO strongly suggests to apply the stricter standards
+and refrain from asking young workers under 18 to engage in overtime and hazardous work.
+6
+Even though the law says: “underaged workers may work overtime and at night in some occupations and jobs stipulated by the
+Ministry of Labour, War Invalids and Social Affairs”, so far, the Ministry has not stipulated any occupation that could apply this exception.
+3132
+Supplier guidance on preventing, identifying and addressing child labour
+Annex V.
+Information included in a valid contract for young workers
+X Be easy to understand, so young workers fully understand how to submit complaints and
+suggestions.
+X Ensure confidentiality.
+X Have a policy to ensure workers who report a grievance can do so without fear of punishment,
+dismissal or reprisal of any kind.
+X Include proper management and handling procedures (the HR department should follow up on
+reported grievances that are communicated by workers).
+X Include a procedure so employees can report complaints about a supervisor to an impartial
+individual or entity.
+X Monitor the processing of complaints.
+X Have an appeal system.Annexes
+Annex VI.
+Worker interview guide for occupational safety & health
+hazards identification
+Please note that the questions below do not cover all cases where risks and hazards may exist.
+Factory environment
+Do you find any uneven, slippery areas or holes on the floor?YES / NO
+Have you seen any flammable substances such as white spirit or adhesives left on the
+floor?YES / NO
+Do you think the floor is always kept tidy and do you have enough space for walking
+through?YES / NO
+Do you see any boxes or objects left on the ground? Are they movable? If not, are they
+marked?YES / NO
+Do you think the ventilation is good?YES / NO
+Do you think the workplace is dusty?YES / NO
+Do you smell a strong sense of bleach or other substance in the factory?YES / NO
+Do you think the lighting at the factory is sufficient?YES / NO
+Do you know where the first-aid equipment is? Is it easily accessible?YES / NO
+Did you receive any occupational safety and health training during orientation and
+your employment period?YES / NO
+Were you given general factory PPE such as a face mask, proper footwear, etc?YES / NO
+Have you seen anyone get hurt or fall before? if yes, what was/were the reasons
+causing the accident?
+YES / NO
+Reason(s):
+Health
+Do you find your eyes get tired easily during your work? If yes, what factor do you
+think is causing that (large spatial variations in lighting, not enough lighting, excessive
+contrasts in lighting, veiling reflections etc)?
+YES / NO
+Factor(s):
+Do you know if anyone has a problem or complaint about their eyesight?YES / NO
+Do you think the machines are making a loud noise?YES / NO
+Do you need to raise your voice when you talk to people in the factory?YES / NO
+Have you noticed if you continue talking loudly to people after you finish your work?YES / NO
+Do you feel excess stress and pressures when meeting tight deadlines?YES / NO
+Do you frequently feel dizzy at work or after work?YES / NO
+3334
+Supplier guidance on preventing, identifying and addressing child labour
+Factory equipment and machines
+Do you think the design of the workstation fits your physical or work process
+movement?YES / NO
+Can you adjust the position, such as the height of the chair and table?YES / NO
+Do you see any damaged plugs, sockets, cables or lines?YES / NO
+Do you notice any strange/unusual noise coming from the machines? If yes, where is it
+and in which machine?
+YES / NO
+Location and machine:
+Do you know how to use the machine properly?
+Are you sure the safety button/device of the machine functions properly?YES / NO
+Have you seen any parts falling off from the machines?YES / NO
+Do you think the machine is properly safeguarded to prevent your body from being in
+contact with the dangerous moving parts?YES / NO
+Have you seen any accidents even when PPE is used?YES / NO
+Chemicals and explosion
+Do you know if hazardous chemical substances are used? Where are they stored?
+Storage:YES / NO
+Can you easily identify the substances that are hazardous?YES / NO
+Do you think the chemical substances are stored far enough from high temperature
+are-as?YES / NO
+Do you know the emergency escape route?YES / NO
+Do you know where the fire extinguisher and other fire-fighter equipment are located?
+Do you think they are easily accessible?YES / NOAnnexes
+Annex VII.
+Types of hazards in the garment and textile industry
+Using the methods described above assess every task and process in terms of the following elements:
+X Physical hazardsX Ergonomic hazards
+Excessive noise	Poor ergonomic design of workstations and
+work conditions
+Improper lighting level
+Insufficient ventilation
+Excessive vibration
+Extreme heat
+Poor air quality
+Untidy working environment
+	Blockage of exits (especially in case of fire)
+Absence of health and hygiene facilities
+Badly designed machinery
+Repetitive nature of tasks or movement
+Awkward postures
+Lifting heavy loads
+Prolonged working hours
+Spaces with inadequate circulation spaces
+Lack of shifts and rotation system
+X Psychological hazardsX Chemical hazards
+Stress	Emissions of toxic substances e.g., dyeing
+and printing of fabric, knitting, cleaning,
+coating and finishing
+	Strain
+	Excessive physical workload
+	Abuse/harassment
+	Dust from materials or machines
+	Fatigue (might be linked to excessive
+working hours)	Exposure to dangerous chemicals (arising
+from liquids, solids, dusts, fumes, vapours
+and gas-es)
+X Biological hazardsX Safety hazards
+	Exposure to biological agents (bacteria,
+viruses, infectious waste and infestations)	Being struck by objects, such as moving
+machinery parts and transportation vehicles
+(lift truck)
+	Poor nutrition
+	Problems due to imbalanced diets
+	Working at heights
+	Walking on untidy floors
+	Fire and explosion
+	Using dangerous machinery, equipment or
+tools
+	Driving, riding or working near vehicles
+	Flammable or explosive materials or
+substances
+3536
+Supplier guidance on preventing, identifying and addressing child labour
+Annex VIII.
+Hazardous work list for young workers regulated by the local laws in
+key supplying countries
+Please note that the questions below do not cover all cases where risks and hazards may exist.
+X China
+Legal minimum working age: 16
+Hazardous tasks/conditions:
+ mployers shall not engage juvenile worker (aged 16 but below 18) in the types of work and processes
+E
+defined by the Chinese Government.7 The following are hazardous work activities related to the garment
+industry:
+X Work in contact with dust at or above grade 1 of the state stand-ards of classification of the peril for
+work in contact with dust gen-erated through the production process including cotton wool, metal
+dust, etc:
+X Work high above the ground at or above grade 1 of the state standards of classification of work
+high above the ground;
+X Work in cold water at or above grade 1 of the state standards of classification of work in cold water;
+X Work in high temperatures at or above grade 1 of the state stand-ards of classification of work in
+high temperatures;
+X Work in low temperatures at or above grade 1 of the state stand-ards of classification of work in
+low temperatures;
+X Work with grade N physical labour intensity of the state standards of classification of work of the
+intensity of physical labour;
+X Work of continuously loading goods more than six times per hour and each time loading more than
+20 kilograms; work of discontin-uously loading goods each time loading more than 25 kilograms;
+X Flow process in which the operators have to keep changing their bodily positions such as lowering
+head, stooping, raising, squatting down for a long time, or maintain their actions each minute more
+than 50 times; and
+X Work of stocking boilers.
+7
+Ministry of Labour, the Provisions on Special Protection for Juvenile Workers - (LMI [1994] No. 498 issued by the Ministry of Labour on 9
+December 1994). Entered into Force 1 January 1995.Annexes
+X Turkey
+Legal minimum working age: 15
+Hazardous tasks/conditions:
+ mployers are prohibited from engaging young workers (having reached the age of 15 but below 18) in
+E
+the following jobs:8
+X Jobs done in the night period as defined in Article 69 of Labour Law 48579
+X Jobs in which people who are not yet 18 are forbidden to work as per the Regulations on Heavy and
+Dangerous Work10
+X Jobs which fall under the Regulations on Jobs which must be done in 7.5 hours or less per day from
+the point of view of the Health Rules
+X Jobs in wholesale or retail of flammable, explosive, harmful or dangerous materials or jobs in the
+manufacture, processing or storage of such materials and every type of job which may leave them
+exposed to these materials
+X Jobs which are done in an environment which is noisy and/or has a lot of vibration
+X Jobs which must be done in an extremely hot or cold environ-ment and jobs which are carried out
+with materials which are harmful to health or lead to occupational illnesses
+X Jobs which are done by the use of electrically powered machinery
+X Jobs which require extra vigilance, and which require continuous standing up
+X Jobs where the salary is paid on commission and on a bonus system
+X Jobs which do not provide the opportunity to go home and be with the family at the end of work
+(excluding jobs which are for the purposes of education)
+X Jobs requiring a clear level of physical or psychological adequacy or with expert medical reports
+X Jobs involving toxins, carcinogens, materials which harm the genes of offspring or are harmful to
+unborn children or which influence human health harmfully in any way
+X Jobs that carry a risk of work accidents believed impossible to avoid or notice which could expose
+young workers because of a lack of education and lack of attention to safety
+8
+Regulations on the Fundaments and Principles of the Employment of Children and Young Workers of 2004, Article 71 of Labour Law 4857.
+9
+Turkish Labour Law, Article 69 provides that “night” means the part of the day beginning not later than 20:00 hours and ending not
+earlier than 6:00 hours and lasting not longer than 11 hours in any case. Moreover, Article 73 provides that children and young employees
+under the age of 18 must not be employed in industrial work during the night.
+10
+Turkish Labour Law, Article 85
+3738
+Supplier guidance on preventing, identifying and addressing child labour
+X Viet Nam
+Legal minimum working age: 15
+Hazardous tasks/conditions:
+Employers must not employ a minor (aged 15 but below 18) to under-take the following work:11
+X Heavy, toxic and dangerous jobs, jobs that may adversely affect their personality
+X Carrying and lifting of heavy objects that are beyond a minor’s physical strength
+X Maintenance of equipment and machines
+X Other jobs that are harmful to the health, safety or morality of minor employees
+Work is prohibited in workplaces that:
+X Are harmful to the health, safety or morality of young workers
+X Include heavy and hazardous work, and work with exposure to toxic substances
+X Create a harmful influence to their dignities, as described in the list issued by the Ministry of
+Labour, Invalids and Social Affairs in coordination with the Ministry of Health
+X Bangladesh
+Legal minimum working age: 14
+Hazardous tasks/conditions:
+ o adolescent (aged 14 but below 18) shall be allowed to clean, lubricate or adjust any machinery while it
+N
+is in motion or to work between moving parts or between the fixed and moving parts of such machinery.12
+ government order issued on 13 March 2013 identified processes and activities hazardous for children
+A
+in which the following are related to the garment industry:
+X Tanning and dressing of leather
+X Dyeing or bleaching of textiles
+X Weaving
+X Electric mechanic
+ o child under the age of 14 years shall be permitted within the work rooms and godowns (warehouse
+N
+or storage area) of any factory at any time during which work is carried out.
+According to Bangladesh Factories Rules, 1979, the following work is prohibited for children;
+X “Manufactures of aerated water and processes incidental thereto
+X Liming and tanning of raw hides and skins and processes incidental thereto
+X Feeding of jute, hemp or other fibres into softening machines
+X Printing presses and type foundries wherein certain load”.
+11Vietnam Labour Code (2012), Article 163 & Article 165
+12The Bangladesh Labour Act, 2006.Annexes
+X India
+Legal minimum working age: 14
+Hazardous tasks/conditions:
+Employers are prohibited to hire children aged 14 years (but below the age of 18) in occupations and
+processes that are hazardous to the children’s lives and health.13
+The following list is in connection with the garment industry:
+X Cloth printing, dyeing and weaving including processes, preparatory and incidental thereto
+X Wool-cleaning
+X Jute textile manufacture and coir making
+X Manufacture of dyes and dye stuff
+X Skinning, dyeing and processes for manufacturing of leather and leather products
+X ‘Zari’ making (all processes)
+X Processes involving exposure to excessive heat (e.g., working near a furnace) or cold
+13
+The Child Labour (Prohibition and Regulation) Act, 1986, India.
+3940
+Supplier guidance on preventing, identifying and addressing child labour
+Annex IX.
+Basic hazardous risk assessment for young worker and action plan14
+Factory:
+Department:
+Number of workers:
+Assessment date:
+DepartmentStep 1: Identify
+Work task
+or process
+and numbers
+of workers
+involved?What are the
+hazards?
+Potential factors
+for causing
+hazards
+Severity Level
+(high, moder-ate
+& low)
+Final Risk Level
+Probability
+(likely, possible & (high, medium
+& low)
+unlikely)
+14 This basic hazardous risk assessment and action plan form is developed based on the ILO’s 5 step guide for employers, workers
+and their representatives on conducting workplace risk assessments. Available at: https://www.ilo.org/safework/info/publications/
+WCMS_232886/lang--en/index.htm.Annexes
+DepartmentStep 2: Decide
+Work task
+or process
+and numbers
+of workers
+involved?What is already being done?
+DepartmentStep 3: Plan
+Work task
+or process
+and numbers
+of workers
+involved?Who will take action?
+What further action is neces-sary?
+By when?
+When was the action
+completed?
+4142
+Supplier guidance on preventing, identifying and addressing child labour
+Annex X.
+Identification of low risk work tasks and processes
+that are suitable for young workers
+Work task and
+processes
+Examples:
+1. Screw
+inserting
+2. Ironing
+Job complexityLaw compliance
+SuitableSuitable
+Not SuitableNot Suitable
+Risk assessmentFinal job suita-
+bility decision
+SuitableSuitable
+Not Suitable
+Not Suitable
+Notes
+Job requires
+handling
+chemicalsAnnexes
+Annex XI.
+Long-term best practice to prevent potential harm to young workers
+The following best practices aim to prevent potential harm to young workers on a long-term basis.
+You should seek solutions in compliance with national laws and regulations to transform the tasks and
+processes from “Medium Risk” to “Low Risk” by following the suggested order below. This chart provides
+guidance and methods to remove or eliminate identified hazards and control risk in the most effective
+way.
+Ways of risk controlDefinitions
+Elimination and
+substitutionPhysically remove the hazard or replace the part/component
+which performs similar functions but is safer to use
+Engineering controlsIsolate people from hazards, but hazards still exist
+Most Effective Risk
+Control Measure
+Change the way people work through procedure changes,
+Administrative controls employee training, and installation of signs, warning labels,
+and so on
+Hygiene and welfareInstall and provide hygiene and welfare facilities to cope with
+the risks to reduce the effects that are caused by the hazards
+Personal protective
+equipmentProvide workers with PPE such as gloves, Nomex/uniform,
+respirators, hard hats, safety glasses, high-visibility clothing,
+and safety footwear
+Least Effective Risk
+Control Measure
+Wherever possible, hazards should be eliminated. If this is not possible look for the next most effective
+risk control measure until the position can be rated as low risk. It is important to note that in most cases,
+the use of PPE to protect young workers from hazards is not sufficient.
+Here are a few examples of concrete actions of removing or eliminating hazards and reducing risk:
+X Removing or eliminating the risk or hazard completely, e.g., changing the composition of
+components, materials etc., or changing work processes to a non-hazardous process; investing in
+newer and safer machines with better risk control etc.
+X Modifying workstations or the layout of the production line to protect young workers from
+overheating, dust or hazardous chemicals.
+X Putting controls in place to stop young workers from coming into contact with the hazard (such as
+protective shields on machinery).
+X Redesigning and setting up workstations to minimize bodily strain. This includes seating and
+standing arrangements and the reach required to obtain tools.
+X Signage/warnings in a language or medium understood by all workers and/or administrative
+controls; implement administrative controls to prevent people from coming into contact with the
+hazard, such as marked areas to keep people away from hazardous machines or machine parts;
+and graphics for hazardous substances to alert workers to stay away.
+4344
+Supplier guidance on preventing, identifying and addressing child labour
+Annex XII.
+Child labour notification form
+Notification form
+Date and time call received:
+Business partner contact person name:
+Email and phone number:
+Region where case is located:
+No. of cases identified:
+Business partner (importer or supplier) contact details (if applicable)
+Importer and/or supplier’s company name:
+Contact person name (Eng):
+Title:
+Email:
+Phone number:
+Factory site:
+Factory name:
+Address:
+Contact name (Eng):
+Email:
+Phone number:Annexes
+Case No. 1 (To multiply according to number of cases)
+Name of the child:
+ID number & copy as attachment (if any):
+Date of birth:
+Start date at the factory/site:
+Salary:
+Work position:
+Current situation and location of the child:
+Hometown or area of social registration:
+Phone number:
+Other means to keep in touch:
+Family status including primary caretaker and location of parents:
+Parents (legal guardian) name and contact number:
+Main reasons why child was in employment:
+Engaged in hazardous work: Yes / No
+Immediate actions/steps have been taken by the factory & photos:
+More information:
+45ISBN 978-92-2-032195-9
+9 789220 321959",
+     "url": "https://www.ilo.org/media/385581/download"
+}

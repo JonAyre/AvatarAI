@@ -1,0 +1,462 @@
+{
+     "content": "II.	The corporate responsibility to respect
+human rights
+A.
+Foundational principles
+11.	
+Business enterprises should respect human rights. This means that
+they should avoid infringing on the human rights of others and should
+address adverse human rights impacts with which they are involved.
+Commentary
+The responsibility to respect human rights is a global standard of expected
+conduct for all business enterprises wherever they operate. It exists
+independently of States’ abilities and/or willingness to fulfil their own
+human rights obligations, and does not diminish those obligations. And
+it exists over and above compliance with national laws and regulations
+protecting human rights.
+Addressing adverse human rights impacts requires taking adequate measures
+for their prevention, mitigation and, where appropriate, remediation.
+Business enterprises may undertake other commitments or activities to
+support and promote human rights, which may contribute to the enjoyment
+of rights. But this does not offset a failure to respect human rights throughout
+their operations.
+Business enterprises should not undermine States’ abilities to meet their
+own human rights obligations, including by actions that might weaken the
+integrity of judicial processes.
+12.	The responsibility of business enterprises to respect human rights refers
+to internationally recognized human rights – understood, at a minimum,
+as those expressed in the International Bill of Human Rights and the
+principles concerning fundamental rights set out in the International
+Labour Organization’s Declaration on Fundamental Principles and
+Rights at Work.
+Commentary
+Because business enterprises can have an impact on virtually the entire
+spectrum of internationally recognized human rights, their responsibility to14
+respect applies to all such rights. In practice, some human rights may be
+at greater risk than others in particular industries or contexts, and therefore
+will be the focus of heightened attention. However, situations may change,
+so all human rights should be the subject of periodic review.
+An authoritative list of the core internationally recognized human rights
+is contained in the International Bill of Human Rights (consisting of the
+Universal Declaration of Human Rights and the main instruments through
+which it has been codified: the International Covenant on Civil and Political
+Rights and the International Covenant on Economic, Social and Cultural
+Rights), coupled with the principles concerning fundamental rights in the
+eight ILO core conventions as set out in the Declaration on Fundamental
+Principles and Rights at Work. These are the benchmarks against which
+other social actors assess the human rights impacts of business enterprises.
+The responsibility of business enterprises to respect human rights is distinct
+from issues of legal liability and enforcement, which remain defined largely
+by national law provisions in relevant jurisdictions.
+Depending on circumstances, business enterprises may need to consider
+additional standards. For instance, enterprises should respect the human
+rights of individuals belonging to specific groups or populations that require
+particular attention, where they may have adverse human rights impacts
+on them. In this connection, United Nations instruments have elaborated
+further on the rights of indigenous peoples; women; national or ethnic,
+religious and linguistic minorities; children; persons with disabilities; and
+migrant workers and their families. Moreover, in situations of armed conflict
+enterprises should respect the standards of international humanitarian law.
+13.	
+The responsibility to respect human rights requires that business
+enterprises:
+		(a)	
+Avoid causing or contributing to adverse human rights impacts
+through their own activities, and address such impacts when they
+occur;
+		(b)	Seek to prevent or mitigate adverse human rights impacts that are
+directly linked to their operations, products or services by their
+business relationships, even if they have not contributed to those
+impacts.15
+Commentary
+Business enterprises may be involved with adverse human rights impacts either
+through their own activities or as a result of their business relationships with
+other parties. Guiding Principle 19 elaborates further on the implications for
+how business enterprises should address these situations. For the purpose of
+these Guiding Principles a business enterprise’s “activities” are understood
+to include both actions and omissions; and its “business relationships” are
+understood to include relationships with business partners, entities in its
+value chain, and any other non-State or State entity directly linked to its
+business operations, products or services.
+14.	The responsibility of business enterprises to respect human rights applies
+to all enterprises regardless of their size, sector, operational context,
+ownership and structure. Nevertheless, the scale and complexity of
+the means through which enterprises meet that responsibility may
+vary according to these factors and with the severity of the enterprise’s
+adverse human rights impacts.
+Commentary
+The means through which a business enterprise meets its responsibility to
+respect human rights will be proportional to, among other factors, its size.
+Small and medium-sized enterprises may have less capacity as well as more
+informal processes and management structures than larger companies, so
+their respective policies and processes will take on different forms. But some
+small and medium-sized enterprises can have severe human rights impacts,
+which will require corresponding measures regardless of their size. Severity
+of impacts will be judged by their scale, scope and irremediable character.
+The means through which a business enterprise meets its responsibility to
+respect human rights may also vary depending on whether, and the extent
+to which, it conducts business through a corporate group or individually.
+However, the responsibility to respect human rights applies fully and equally
+to all business enterprises.
+15.	In order to meet their responsibility to respect human rights, business
+enterprises should have in place policies and processes appropriate to
+their size and circumstances, including:16
+		(a)	A policy commitment to meet their responsibility to respect human
+rights;
+		(b)	A human rights due diligence process to identify, prevent, mitigate
+and account for how they address their impacts on human rights;
+		(c)	Processes to enable the remediation of any adverse human rights
+impacts they cause or to which they contribute.
+Commentary
+Business enterprises need to know and show that they respect human rights.
+They cannot do so unless they have certain policies and processes in place.
+Principles 16 to 24 elaborate further on these.
+B.
+Operational principles
+Policy commitment
+16.	As the basis for embedding their responsibility to respect human rights,
+business enterprises should express their commitment to meet this
+responsibility through a statement of policy that:
+		(a) Is approved at the most senior level of the business enterprise;
+		(b) Is informed by relevant internal and/or external expertise;
+		(c)	Stipulates the enterprise’s human rights expectations of personnel,
+business partners and other parties directly linked to its operations,
+products or services;
+		(d)	Is publicly available and communicated internally and externally
+to all personnel, business partners and other relevant parties;
+		(e)	Is reflected in operational policies and procedures necessary to
+embed it throughout the business enterprise.
+Commentary
+The term “statement” is used generically, to describe whatever means an
+enterprise employs to set out publicly its responsibilities, commitments, and
+expectations.
+The level of expertise required to ensure that the policy statement is adequately
+informed will vary according to the complexity of the business enterprise’s17
+operations. Expertise can be drawn from various sources, ranging from
+credible online or written resources to consultation with recognized experts.
+The statement of commitment should be publicly available. It should be
+communicated actively to entities with which the enterprise has contractual
+relationships; others directly linked to its operations, which may include
+State security forces; investors; and, in the case of operations with significant
+human rights risks, to the potentially affected stakeholders.
+Internal communication of the statement and of related policies and
+procedures should make clear what the lines and systems of accountability
+will be, and should be supported by any necessary training for personnel
+in relevant business functions.
+Just as States should work towards policy coherence, so business enterprises
+need to strive for coherence between their responsibility to respect human
+rights and policies and procedures that govern their wider business
+activities and relationships. This should include, for example, policies
+and procedures that set financial and other performance incentives for
+personnel; procurement practices; and lobbying activities where human
+rights are at stake.
+Through these and any other appropriate means, the policy statement
+should be embedded from the top of the business enterprise through all its
+functions, which otherwise may act without awareness or regard for human
+rights.
+Human rights due diligence
+17.	In order to identify, prevent, mitigate and account for how they address
+their adverse human rights impacts, business enterprises should carry
+out human rights due diligence. The process should include assessing
+actual and potential human rights impacts, integrating and acting upon
+the findings, tracking responses, and communicating how impacts are
+addressed. Human rights due diligence:
+		
+(a)	
+Should cover adverse human rights impacts that the business
+enterprise may cause or contribute to through its own activities, or
+which may be directly linked to its operations, products or services
+by its business relationships;18
+		(b)	Will vary in complexity with the size of the business enterprise, the
+risk of severe human rights impacts, and the nature and context of
+its operations;
+		(c)	Should be ongoing, recognizing that the human rights risks may
+change over time as the business enterprise’s operations and
+operating context evolve.
+Commentary
+This Principle defines the parameters for human rights due diligence, while
+Principles 18 through 21 elaborate its essential components.
+Human rights risks are understood to be the business enterprise’s potential
+adverse human rights impacts. Potential impacts should be addressed
+through prevention or mitigation, while actual impacts – those that have
+already occurred – should be a subject for remediation (Principle 22).
+Human rights due diligence can be included within broader enterprise risk-
+management systems, provided that it goes beyond simply identifying and
+managing material risks to the company itself, to include risks to rights-holders.
+Human rights due diligence should be initiated as early as possible in the
+development of a new activity or relationship, given that human rights risks
+can be increased or mitigated already at the stage of structuring contracts
+or other agreements, and may be inherited through mergers or acquisitions.
+Where business enterprises have large numbers of entities in their value
+chains it may be unreasonably difficult to conduct due diligence for adverse
+human rights impacts across them all. If so, business enterprises should
+identify general areas where the risk of adverse human rights impacts is
+most significant, whether due to certain suppliers’ or clients’ operating
+context, the particular operations, products or services involved, or other
+relevant considerations, and prioritize these for human rights due diligence.
+Questions of complicity may arise when a business enterprise contributes
+to, or is seen as contributing to, adverse human rights impacts caused by
+other parties. Complicity has both non-legal and legal meanings. As a non-
+legal matter, business enterprises may be perceived as being “complicit” in
+the acts of another party where, for example, they are seen to benefit from
+an abuse committed by that party.19
+As a legal matter, most national jurisdictions prohibit complicity in the
+commission of a crime, and a number allow for criminal liability of business
+enterprises in such cases. Typically, civil actions can also be based on
+an enterprise’s alleged contribution to a harm, although these may not
+be framed in human rights terms. The weight of international criminal law
+jurisprudence indicates that the relevant standard for aiding and abetting
+is knowingly providing practical assistance or encouragement that has a
+substantial effect on the commission of a crime.
+Conducting appropriate human rights due diligence should help business
+enterprises address the risk of legal claims against them by showing that
+they took every reasonable step to avoid involvement with an alleged human
+rights abuse. However, business enterprises conducting such due diligence
+should not assume that, by itself, this will automatically and fully absolve
+them from liability for causing or contributing to human rights abuses.
+18.	In order to gauge human rights risks, business enterprises should identify
+and assess any actual or potential adverse human rights impacts with
+which they may be involved either through their own activities or as a
+result of their business relationships. This process should:
+		(a)	
+Draw on internal and/or independent external human rights
+expertise;
+		(b)	Involve meaningful consultation with potentially affected groups
+and other relevant stakeholders, as appropriate to the size of the
+business enterprise and the nature and context of the operation.
+Commentary
+The initial step in conducting human rights due diligence is to identify
+and assess the nature of the actual and potential adverse human rights
+impacts with which a business enterprise may be involved. The purpose
+is to understand the specific impacts on specific people, given a specific
+context of operations. Typically this includes assessing the human rights
+context prior to a proposed business activity, where possible; identifying
+who may be affected; cataloguing the relevant human rights standards and
+issues; and projecting how the proposed activity and associated business
+relationships could have adverse human rights impacts on those identified.20
+In this process, business enterprises should pay special attention to any
+particular human rights impacts on individuals from groups or populations
+that may be at heightened risk of vulnerability or marginalization, and bear
+in mind the different risks that may be faced by women and men.
+While processes for assessing human rights impacts can be incorporated
+within other processes such as risk assessments or environmental and social
+impact assessments, they should include all internationally recognized
+human rights as a reference point, since enterprises may potentially impact
+virtually any of these rights.
+Because human rights situations are dynamic, assessments of human
+rights impacts should be undertaken at regular intervals: prior to a new
+activity or relationship; prior to major decisions or changes in the operation
+(e.g. market entry, product launch, policy change, or wider changes to
+the business); in response to or anticipation of changes in the operating
+environment (e.g. rising social tensions); and periodically throughout the
+life of an activity or relationship.
+To enable business enterprises to assess their human rights impacts
+accurately, they should seek to understand the concerns of potentially
+affected stakeholders by consulting them directly in a manner that takes into
+account language and other potential barriers to effective engagement.
+In situations where such consultation is not possible, business enterprises
+should consider reasonable alternatives such as consulting credible,
+independent expert resources, including human rights defenders and others
+from civil society.
+The assessment of human rights impacts informs subsequent steps in the
+human rights due diligence process.
+19.	In order to prevent and mitigate adverse human rights impacts, business
+enterprises should integrate the findings from their impact assessments
+across relevant internal functions and processes, and take appropriate
+action.
+		
+(a) Effective integration requires that:
+			
+(i)	Responsibility for addressing such impacts is assigned to the
+appropriate level and function within the business enterprise;21
+			
+		
+(ii)	
+Internal decision-making, budget allocations and oversight
+processes enable effective responses to such impacts.
+(b) Appropriate action will vary according to:
+			(i)	Whether the business enterprise causes or contributes to an
+adverse impact, or whether it is involved solely because the
+impact is directly linked to its operations, products or services
+by a business relationship;
+			(ii) The extent of its leverage in addressing the adverse impact.
+Commentary
+The horizontal integration across the business enterprise of specific findings
+from assessing human rights impacts can only be effective if its human
+rights policy commitment has been embedded into all relevant business
+functions. This is required to ensure that the assessment findings are properly
+understood, given due weight, and acted upon.
+In assessing human rights impacts, business enterprises will have looked
+for both actual and potential adverse impacts. Potential impacts should be
+prevented or mitigated through the horizontal integration of findings across
+the business enterprise, while actual impacts—those that have already
+occurred – should be a subject for remediation (Principle 22).
+Where a business enterprise causes or may cause an adverse human rights
+impact, it should take the necessary steps to cease or prevent the impact.
+Where a business enterprise contributes or may contribute to an adverse
+human rights impact, it should take the necessary steps to cease or prevent
+its contribution and use its leverage to mitigate any remaining impact to
+the greatest extent possible. Leverage is considered to exist where the
+enterprise has the ability to effect change in the wrongful practices of an
+entity that causes a harm.
+Where a business enterprise has not contributed to an adverse human
+rights impact, but that impact is nevertheless directly linked to its
+operations, products or services by its business relationship with another
+entity, the situation is more complex. Among the factors that will enter
+into the determination of the appropriate action in such situations are the22
+enterprise’s leverage over the entity concerned, how crucial the relationship
+is to the enterprise, the severity of the abuse, and whether terminating
+the relationship with the entity itself would have adverse human rights
+consequences.
+The more complex the situation and its implications for human rights, the
+stronger is the case for the enterprise to draw on independent expert advice
+in deciding how to respond.
+If the business enterprise has leverage to prevent or mitigate the adverse
+impact, it should exercise it. And if it lacks leverage there may be ways for
+the enterprise to increase it. Leverage may be increased by, for example,
+offering capacity-building or other incentives to the related entity, or
+collaborating with other actors.
+There are situations in which the enterprise lacks the leverage to prevent
+or mitigate adverse impacts and is unable to increase its leverage. Here,
+the enterprise should consider ending the relationship, taking into account
+credible assessments of potential adverse human rights impacts of doing so.
+Where the relationship is “crucial” to the enterprise, ending it raises further
+challenges. A relationship could be deemed as crucial if it provides a
+product or service that is essential to the enterprise’s business, and for which
+no reasonable alternative source exists. Here the severity of the adverse
+human rights impact must also be considered: the more severe the abuse,
+the more quickly the enterprise will need to see change before it takes a
+decision on whether it should end the relationship. In any case, for as long
+as the abuse continues and the enterprise remains in the relationship, it
+should be able to demonstrate its own ongoing efforts to mitigate the impact
+and be prepared to accept any consequences – reputational, financial or
+legal – of the continuing connection.
+20.	In order to verify whether adverse human rights impacts are being
+addressed, business enterprises should track the effectiveness of their
+response. Tracking should:
+		(a) Be based on appropriate qualitative and quantitative indicators;
+		(b)	
+Draw on feedback from both internal and external sources,
+including affected stakeholders.23
+Commentary
+Tracking is necessary in order for a business enterprise to know if its human
+rights policies are being implemented optimally, whether it has responded
+effectively to the identified human rights impacts, and to drive continuous
+improvement.
+Business enterprises should make particular efforts to track the effectiveness
+of their responses to impacts on individuals from groups or populations that
+may be at heightened risk of vulnerability or marginalization.
+Tracking should be integrated into relevant internal reporting processes.
+Business enterprises might employ tools they already use in relation to
+other issues. This could include performance contracts and reviews as well
+as surveys and audits, using gender-disaggregated data where relevant.
+Operational-level grievance mechanisms can also provide important
+feedback on the effectiveness of the business enterprise’s human rights due
+diligence from those directly affected (see Principle 29).
+21.	In order to account for how they address their human rights impacts,
+business enterprises should be prepared to communicate this externally,
+particularly when concerns are raised by or on behalf of affected
+stakeholders. Business enterprises whose operations or operating
+contexts pose risks of severe human rights impacts should report
+formally on how they address them. In all instances, communications
+should:
+		(a)	Be of a form and frequency that reflect an enterprise’s human
+rights impacts and that are accessible to its intended audiences;
+		(b)	Provide information that is sufficient to evaluate the adequacy of
+an enterprise’s response to the particular human rights impact
+involved;
+		(c)	In turn not pose risks to affected stakeholders, personnel or to
+legitimate requirements of commercial confidentiality.
+Commentary
+The responsibility to respect human rights requires that business enterprises
+have in place policies and processes through which they can both know24
+and show that they respect human rights in practice. Showing involves
+communication, providing a measure of transparency and accountability
+to individuals or groups who may be impacted and to other relevant
+stakeholders, including investors.
+Communication can take a variety of forms, including in-person meetings,
+online dialogues, consultation with affected stakeholders, and formal
+public reports. Formal reporting is itself evolving, from traditional annual
+reports and corporate responsibility/sustainability reports, to include online
+updates and integrated financial and non-financial reports.
+Formal reporting by enterprises is expected where risks of severe human
+rights impacts exist, whether this is due to the nature of the business
+operations or operating contexts. The reporting should cover topics and
+indicators concerning how enterprises identify and address adverse impacts
+on human rights. Independent verification of human rights reporting can
+strengthen its content and credibility. Sector-specific indicators can provide
+helpful additional detail.
+Remediation
+22.	
+Where business enterprises identify that they have caused or
+contributed to adverse impacts, they should provide for or cooperate in
+their remediation through legitimate processes.
+Commentary
+Even with the best policies and practices, a business enterprise may cause
+or contribute to an adverse human rights impact that it has not foreseen or
+been able to prevent.
+Where a business enterprise identifies such a situation, whether through
+its human rights due diligence process or other means, its responsibility to
+respect human rights requires active engagement in remediation, by itself or
+in cooperation with other actors. Operational-level grievance mechanisms
+for those potentially impacted by the business enterprise’s activities can be
+one effective means of enabling remediation when they meet certain core
+criteria, as set out in Principle 31.
+Where adverse impacts have occurred that the business enterprise has not
+caused or contributed to, but which are directly linked to its operations,25
+products or services by a business relationship, the responsibility to
+respect human rights does not require that the enterprise itself provide for
+remediation, though it may take a role in doing so.
+Some situations, in particular where crimes are alleged, typically will
+require cooperation with judicial mechanisms.
+Further guidance on mechanisms through which remediation may be
+sought, including where allegations of adverse human rights impacts are
+contested, is included in chapter III on access to remedy.
+Issues of context
+23. In all contexts, business enterprises should:
+		(a)	
+Comply with all applicable laws and respect internationally
+recognized human rights, wherever they operate;
+		(b)	Seek ways to honour the principles of internationally recognized
+human rights when faced with conflicting requirements;
+		(c)	Treat the risk of causing or contributing to gross human rights
+abuses as a legal compliance issue wherever they operate.
+Commentary
+Although particular country and local contexts may affect the human rights
+risks of an enterprise’s activities and business relationships, all business
+enterprises have the same responsibility to respect human rights wherever
+they operate. Where the domestic context renders it impossible to meet this
+responsibility fully, business enterprises are expected to respect the principles
+of internationally recognized human rights to the greatest extent possible in
+the circumstances, and to be able to demonstrate their efforts in this regard.
+Some operating environments, such as conflict-affected areas, may increase
+the risks of enterprises being complicit in gross human rights abuses
+committed by other actors (security forces, for example). Business enterprises
+should treat this risk as a legal compliance issue, given the expanding
+web of potential corporate legal liability arising from extraterritorial civil
+claims, and from the incorporation of the provisions of the Rome Statute of
+the International Criminal Court in jurisdictions that provide for corporate26
+criminal responsibility. In addition, corporate directors, officers and
+employees may be subject to individual liability for acts that amount to
+gross human rights abuses.
+In complex contexts such as these, business enterprises should ensure that
+they do not exacerbate the situation. In assessing how best to respond, they
+will often be well advised to draw on not only expertise and cross-functional
+consultation within the enterprise, but also to consult externally with credible,
+independent experts, including from Governments, civil society, national
+human rights institutions and relevant multi-stakeholder initiatives.
+24.	
+Where it is necessary to prioritize actions to address actual and
+potential adverse human rights impacts, business enterprises should
+first seek to prevent and mitigate those that are most severe or where
+delayed response would make them irremediable.
+Commentary
+While business enterprises should address all their adverse human rights
+impacts, it may not always be possible to address them simultaneously. In
+the absence of specific legal guidance, if prioritization is necessary business
+enterprises should begin with those human rights impacts that would be
+most severe, recognizing that a delayed response may affect remediability.
+Severity is not an absolute concept in this context, but is relative to the other
+human rights impacts the business enterprise has identified.",
+     "url": "https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf"
+}
