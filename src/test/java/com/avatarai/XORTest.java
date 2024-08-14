@@ -3,7 +3,6 @@ package com.avatarai;
 public class XORTest {
     public static void main(String[] args)
     {
-
         Avatar net = new Avatar(2, 1, 5, 1);
 
         double[][] inputs = new double[4][2];
@@ -27,7 +26,7 @@ public class XORTest {
             double netError = 0.0;
             for (int j=0; j<4; j++) // For each test set
             {
-                double[] result = net.train(inputs[j], outputs[j], 5, 0.01);
+                double[] result = net.train(inputs[j], outputs[j], 5, 0.1);
                 double error = 0.0;
                 for (int i=0; i<result.length; i++)
                 {
@@ -39,8 +38,10 @@ public class XORTest {
         }
 
         System.out.println("=========================================================");
-        System.out.print(net);
+        System.out.println(net);
         System.out.println("=========================================================");
+        System.out.println("Testing trained avatar:");
+
         // Now recheck to ensure that the learning has "stuck"
         for (int j=0; j<4; j++)
         {
@@ -49,6 +50,20 @@ public class XORTest {
             System.out.println(outputs[j][0] + " : " + output1);
         }
 
-    }
+        System.out.println("=========================================================");
+        System.out.println("Testing serialised and reconstituted avatar:");
 
+        // Reconstitute a new Avatar from the old one to test serialisation
+        String avatarString = net.toString();
+        Avatar newAvatar = new Avatar(avatarString);
+
+        // Now recheck to ensure that the avatar behaves as before
+        for (int j=0; j<4; j++)
+        {
+            double[] result = newAvatar.present(inputs[j]);
+            double output1 = Math.round(result[0]*100.0)/100.0;
+            System.out.println(outputs[j][0] + " : " + output1);
+        }
+
+    }
 }

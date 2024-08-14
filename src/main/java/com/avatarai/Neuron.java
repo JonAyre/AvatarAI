@@ -1,5 +1,8 @@
 package com.avatarai;
 
+import com.google.gson.JsonObject;
+
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class Neuron
@@ -12,16 +15,14 @@ public class Neuron
 	protected double excitation = 0.0;
     protected double output = 0.0;
 	protected double gain;
-	protected double noiseLevel;
-	private final Vector<Synapse> inputs;
-	private final Vector<Synapse> outputs;
+	protected final Vector<Synapse> inputs;
+	protected final Vector<Synapse> outputs;
 
-	public Neuron(int newId, double newGain, double newNoise)
+	public Neuron(int newId, double newGain)
 	{
 		super();
 		id = newId;
 		gain = newGain;
-		noiseLevel = newNoise;
 		inputs = new Vector<>();
 		outputs = new Vector<>();
 	}
@@ -47,16 +48,16 @@ public class Neuron
 
 	public String toString()
 	{
-        return "{" + "\"gain\":" + gain + ", " +
-                "\"noise\":" + noiseLevel + ", " +
-                "\"outputs\":" + outputs +
-                "}";
+		JsonObject json = new JsonObject();
+		json.addProperty("weights", inputs.toString());
+		return json.toString();
 	}
 
 	public void setExcitation(double newLevel)
-		{
-			excitation = newLevel;
-		}
+	{
+		excitation = newLevel;
+	}
+
 	public double getExcitation()
 	{
 		return excitation;
@@ -80,9 +81,8 @@ public class Neuron
 			setExcitation(net/Math.sqrt(getNumInputs()));
 		}
 
-		double noise = (Math.random() - 0.5) * 2.0 * noiseLevel;
 		gradient = sigmoidGrad(excitation, gain);
-		output = sigmoid(excitation+noise, gain);
+		output = sigmoid(excitation, gain);
 	}
 
 	public void backPropagate()

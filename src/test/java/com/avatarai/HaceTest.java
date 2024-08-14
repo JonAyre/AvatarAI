@@ -28,9 +28,12 @@ public class HaceTest {
 //		loadArticleEmbeds("articleEmbeds.csv");
 //		docsToEmbeddings("test_files/scraped_documents", "test_files/documentEmbeds.csv");
 // 		docsToEmbeddings("test_files/scraped_guidance", "test_files/guidanceEmbeds.csv");
+//		docsToEmbeddings("test_files/scraped_articles", "test_files/articleEmbeds.csv");
 		testScoreArticles();
 //		testScoreDocs();
 //		testCompareDocs();
+//		convertArticles();
+
 	}
 
 	public static void testCompareDocs()
@@ -58,15 +61,14 @@ public class HaceTest {
 
 	public static void docsToEmbeddings(String inputPath, String outputFile)
 	{
-		Set<String> files = Stream.of(Objects.requireNonNull(new File(inputPath).listFiles()))
-				.filter(file -> !file.isDirectory())
-				.map(File::getName)
-				.collect(Collectors.toSet());
+		File dir = new File(inputPath);
+		File[] files = dir.listFiles((dir1, name) -> name.toLowerCase().endsWith(".json"));
+		if (files == null) return;
 		try {
 			FileWriter outFile = new FileWriter(outputFile);
-			for (String file : files)
+            for (File file : files)
 			{
-				String content = Files.readString(Path.of(inputPath+'/'+file));
+				String content = Files.readString(file.toPath());
 				JsonObject json = new Gson().fromJson(content, JsonObject.class);
 				System.out.println(file);
 				double[] values = TextImporter.getEmbeddings(json.get("content").getAsString());
@@ -190,10 +192,10 @@ public class HaceTest {
 		}
 	}
 
-
 	public static void testScoreArticles()
 	{
-		Vector<Article> articles = loadArticles();
+		int inputs = 50;
+		Vector<Article> articles = loadArticles(0);
 		Vector<Article> positiveArticles = new Vector<>();
 		Vector<Article> neutralArticles = new Vector<>();
 		Vector<Article> negativeArticles = new Vector<>();
@@ -210,41 +212,41 @@ public class HaceTest {
 			else
 				unscoredArticles.add(article);
 		}
-		int inputs = 50; //articles.firstElement().entity().getFeature("Plotline").getLength();
 
-		Avatar net = new Avatar(inputs, 2, 50, 1);
+		Avatar net = new Avatar(inputs, 2, 100, 5);
 
 		ArrayList<double[]> inputSets = new ArrayList<>();
 		ArrayList<double[]> outputSets = new ArrayList<>();
+		ArrayList<Article> articleSet = new ArrayList<>();
 
 		// Set up the training cases by taking a document from each list in turn until we run out
-		int longestList = Math.max(positiveArticles.size(), Math.max(negativeArticles.size(), neutralArticles.size()));
-		for (int i=0; i<longestList; i++)
-		{
-			if (i < positiveArticles.size())
-			{
+		int longestList = Math.max(positiveArticles.size(), negativeArticles.size());
+		for (int i=0; i<longestList; i++) {
+			if (i < positiveArticles.size()) {
 				inputSets.add(positiveArticles.get(i).entity().getFeature("Content").getValues());
 				outputSets.add(new double[]{1.0, 0.0});
+				articleSet.add(positiveArticles.get(i));
 			}
-			if (i < negativeArticles.size())
-			{
+			if (i < negativeArticles.size()) {
 				inputSets.add(negativeArticles.get(i).entity().getFeature("Content").getValues());
 				outputSets.add(new double[]{0.0, 1.0});
-			}
-			if (i < neutralArticles.size())
-			{
-				inputSets.add(neutralArticles.get(i).entity().getFeature("Content").getValues());
-				outputSets.add(new double[]{0.5, 0.5});
+				articleSet.add(negativeArticles.get(i));
 			}
 		}
 
+		for (int i=0; i<neutralArticles.size(); i++)
+		{
+			inputSets.add(neutralArticles.get(i).entity().getFeature("Content").getValues());
+			outputSets.add(new double[]{0.0, 0.0});
+			articleSet.add(neutralArticles.get(i));
+		}
 
-		for (int rep=0; rep<500; rep++)
+		for (int rep=0; rep<1000; rep++)
 		{
 			double netError = 0.0;
 			for (int testSet=0; testSet<=16; testSet++)
 			{
-				double result[] = net.train(inputSets.get(testSet), outputSets.get(testSet), 5, 0.01);
+				double[] result = net.train(inputSets.get(testSet), outputSets.get(testSet), 5, 0.01);
 				double error = 0.0;
 				for (int i=0; i<result.length; i++)
 				{
@@ -261,7 +263,7 @@ public class HaceTest {
 
 		// Now recheck to ensure that the learning has "stuck"
 		String dateStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
-		//FileWriter results;
+		FileWriter results;
 		FileWriter netWriter;
 
 		try {
@@ -270,25 +272,25 @@ public class HaceTest {
 			netWriter.flush();
 			netWriter.close();
 
-			//results = new FileWriter("results_files/" + dateStamp + ".results.csv");
-			//results.write("Sentiment, Negative score, Positive score, Article URL\n");
+			results = new FileWriter("results_files/" + dateStamp + ".artresults.csv");
+			results.write("Sentiment, Positive score, Negative score, Article URL\n");
 
 			for (int testSet=0; testSet<inputSets.size(); testSet++)
 			{
 				double[] result = net.present(inputSets.get(testSet));
 
-				StringBuilder msg = new StringBuilder(outputSets.get(testSet)[0] + ", " + outputSets.get(testSet)[1] + " : ");
+				StringBuilder msg = new StringBuilder(articleSet.get(testSet).sentiment() + ", ");
 
 				for (int out=0; out<result.length; out++)
 				{
 					double output = result[out];
 					msg.append(Math.round(100 * output) / 100.0).append(", ");
 				}
-
+				msg.append(articleSet.get(testSet).entity().getId());
 				System.out.println(msg);
 
 				// Also save result in output file
-				//results.write(doc.rating() + ", " + Math.round(100*negnet.getOutput(0))/100.0 + ", " + Math.round(100*posnet.getOutput(0))/100.0 + ", " + doc.entity().getId() + "\n");
+				results.write(msg + "\n");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -297,7 +299,7 @@ public class HaceTest {
 
 	public static void testLoadArticles()
 	{
-		Vector<Article> articles = loadArticles();
+		Vector<Article> articles = loadArticles(0);
         for (Article art1 : articles) {
             Entity ent1 = art1.entity();
             System.out.printf("%-20.20s", ent1.getId());
@@ -308,6 +310,44 @@ public class HaceTest {
             }
             System.out.println();
         }
+	}
+
+	public static void convertArticles()
+	{
+		String filePath = "test_files/scraped_articles";
+		Set<String> files = Stream.of(Objects.requireNonNull(new File(filePath).listFiles()))
+				.filter(file -> !file.isDirectory())
+				.map(File::getName)
+				.collect(Collectors.toSet());
+
+		try {
+			HashMap<String, String> articles = new HashMap<>();
+			Reader reader = new FileReader("test_files/articleScores.csv");
+			CSVReader csvReader = new CSVReader(reader);
+			List<String[]> rows = csvReader.readAll();
+			rows.removeFirst(); // Remove header row
+			for (String[] row: rows)
+			{
+				if (!row[2].isEmpty())
+					articles.put(row[2], row[3]); // ID, URL
+			}
+			for (String file : files)
+			{
+				String id = file.substring(0, file.lastIndexOf('.')); // filename without .txt
+				FileWriter outFile = new FileWriter(id + ".json");
+				String content = Files.readString(Path.of(filePath+'/'+file));
+				System.out.println(file);
+				JsonObject output = new JsonObject();
+				output.addProperty("content", content);
+				output.addProperty("url", articles.get(id));
+				outFile.write(output.toString());
+				outFile.flush();
+				outFile.close();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
 	}
 
 	public static HashMap<String, String> loadArticleSentiments(String filename)
@@ -330,7 +370,7 @@ public class HaceTest {
 		return sentiments;
 	}
 
-	public static HashMap<String, String> loadArticleEmbeds(String filename)
+	public static HashMap<String, String> loadEmbeds(String filename)
 	{
 		HashMap<String, String> embeds = new HashMap<>();
 		try {
@@ -348,9 +388,9 @@ public class HaceTest {
 		return embeds;
 	}
 
-	public static Vector<Article> loadArticles() {
+	public static Vector<Article> loadArticles(int limit) {
 		HashMap<String, String> sentiments = loadArticleSentiments("test_files/articleScores.csv");
-		HashMap<String, String> embeds = loadArticleEmbeds("test_files/articleEmbeds.csv");
+		HashMap<String, String> embeds = loadEmbeds("test_files/articleEmbeds.csv");
 
 		Vector<Article> articles = new Vector<>();
 
@@ -362,6 +402,11 @@ public class HaceTest {
 			String valueString = embed.getValue();
 			values = Stream.of(valueString.substring(1, valueString.length()-1).split(",")).mapToDouble(Double::parseDouble).toArray();
 			Feature feature = new Feature(values);
+			if (limit > 0)
+			{
+				feature.truncate(limit);
+				feature.normalise();
+			}
 			entity.addFeature("Content", feature);
 			Article article = new Article(entity, sentiment);
 			articles.add(article);
@@ -390,27 +435,9 @@ public class HaceTest {
 		return scores;
 	}
 
-	public static HashMap<String, String> loadDocumentEmbeds(String filename)
-	{
-		HashMap<String, String> embeds = new HashMap<>();
-		try {
-			Reader reader = new FileReader(filename);
-			CSVReader csvReader = new CSVReader(reader);
-			List<String[]> rows = csvReader.readAll();
-			for (String[] row: rows)
-			{
-				embeds.put(row[0], row[1]);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-		return embeds;
-	}
-
 	public static Vector<Document> loadDocuments(int length) {
 		HashMap<String, String> scores = loadDocumentScores("test_files/documentScores.csv");
-		HashMap<String, String> embeds = loadDocumentEmbeds("test_files/documentEmbeds.csv");
+		HashMap<String, String> embeds = loadEmbeds("test_files/documentEmbeds.csv");
 
 		Vector<Document> docs = new Vector<>();
 
@@ -436,7 +463,7 @@ public class HaceTest {
 	}
 
 	public static Vector<Document> loadGuidanceDocuments(int length) {
-		HashMap<String, String> embeds = loadDocumentEmbeds("test_files/guidanceEmbeds.csv");
+		HashMap<String, String> embeds = loadEmbeds("test_files/guidanceEmbeds.csv");
 
 		Vector<Document> docs = new Vector<>();
 

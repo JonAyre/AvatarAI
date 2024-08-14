@@ -1,10 +1,12 @@
 package com.avatarai;
 
+import com.google.gson.JsonObject;
+
 public class Synapse
 {
-	private double weight;
-	private final Neuron input;
-	private final Neuron output;
+	protected double weight;
+	protected final Neuron input;
+	protected final Neuron output;
 	
 	public Synapse(Neuron newInput, Neuron newOutput)
 	{
@@ -53,12 +55,7 @@ public class Synapse
 
 	public String toString() 
 	{
-		StringBuilder str = new StringBuilder("{");
-		str.append("\"weight\":"+Math.round(weight*1000.0)/1000.0+", ");
-		str.append("\"neuron\":"+output.id);
-		str.append("}");
-		return str.toString();
-
+		return String.valueOf(weight);
 	}
 
 	public double getWeight()

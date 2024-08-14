@@ -19,7 +19,7 @@ public class TextImporter {
         requestBody.addProperty("input", input);
         HttpRequest request;
 
-        // Create the request for ollama API
+        // Create the request for the ollama embeddings API
         requestBody.addProperty("model", OLLAMA_EMBED_MODEL);
         request = HttpRequest.newBuilder()
                 .uri(new URI(OLLAMA_API_URL))

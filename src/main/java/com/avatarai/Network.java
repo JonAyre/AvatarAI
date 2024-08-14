@@ -1,22 +1,52 @@
 package com.avatarai;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
 import java.util.Vector;
 
 public class Network
 {
-	private final Vector<Neuron> neurons;
-	private final Vector<Neuron> nerves;
-    private final int numOuts;
-	private final int numLayers;
+	protected final Vector<Neuron> neurons;
+	protected final Vector<Neuron> nerves;
+	protected final int numOuts;
+	protected final int numLayers;
+	protected final int layerWidth;
 
-	public Network(int inputs, int outputs, int width, int hiddenLayers, double noise)
+	public static Network fromString(String networkJson)
+	{
+		JsonObject json = new Gson().fromJson(networkJson, JsonObject.class);
+		// Get the network properties
+		int inputs = json.get("inputs").getAsInt();
+		int outputs = json.get("outputs").getAsInt();
+		int width = json.get("width").getAsInt();
+		int layers = json.get("layers").getAsInt() - 2;
+		JsonArray neuronSettings = json.getAsJsonArray("neurons");
+
+		// Create the vanilla network
+		Network net = new Network(inputs, outputs, width, layers);
+		for (int i=0; i<net.neurons.size(); i++)
+		{
+			Neuron neuron = net.neurons.get(i);
+			JsonArray weights = neuronSettings.get(i).getAsJsonArray();
+			for (int j=0; j<neuron.inputs.size(); j++)
+			{
+				neuron.inputs.get(j).setWeight(weights.get(j).getAsDouble());
+			}
+		}
+		return net;
+	}
+
+	public Network(int inputs, int outputs, int width, int hiddenLayers)
 	{
 		int size = width * (hiddenLayers + 1) + outputs;
 		numOuts = outputs;
 		numLayers = 2 + hiddenLayers;
+		layerWidth = width;
 
 		// Create a single input to act as a fixed bias input to all neurons in the network
-		Neuron biasInput = new Neuron(-1, 1.0, 0.0);
+		Neuron biasInput = new Neuron(-1, 1.0);
 		biasInput.setExcitation(1.0); // Fix the bias input level at 1.0
 		biasInput.propagate(); // Push fixed input to output value
 
@@ -25,14 +55,14 @@ public class Network
 		nerves.add(biasInput);
 		for (int i=0; i<inputs; i++)
 		{
-			nerves.add(new Neuron(-1, 1.0, 0.0));
+			nerves.add(new Neuron(-1, 1.0));
 		}
 
 		// Create all the neurons for the network ready for inter-connection and connect the bias input
 		neurons = new Vector<>();
 		for (int i=0; i<size; i++)
 		{
-			Neuron cell = new Neuron(i,1.0, noise); // Create a new neuron
+			Neuron cell = new Neuron(i,1.0); // Create a new neuron
 			cell.connect(biasInput); // Connect it to a bias input
 			neurons.add(cell); // Add it to the network
 		}
@@ -79,6 +109,10 @@ public class Network
 		return nerves.size()-1;
 	}
 
+	public int getLayerWidth() {
+		return layerWidth;
+	}
+
 	public double getOutput(int number) {
 		return getOutputNeuron(number).getOutput();
 	}
@@ -99,12 +133,6 @@ public class Network
 		{
 			Neuron neuron = neurons.elementAt(i);
 			neuron.propagate();
-		}
-
-		for (int i=neurons.size()-1; i>=0; i--)
-		{
-			Neuron neuron = neurons.elementAt(i);
-			neuron.backPropagate();
 		}
 	}
 
@@ -131,6 +159,12 @@ public class Network
 	 */
 	public void teach(double rate)
 	{
+		for (int i=neurons.size()-1; i>=0; i--)
+		{
+			Neuron neuron = neurons.elementAt(i);
+			neuron.backPropagate();
+		}
+
 		for (int i=0; i<neurons.size(); i++)
 		{
 			Neuron neuron = getOutputNeuron(i);
@@ -141,10 +175,24 @@ public class Network
 	// Serialise the network in a manner suitable for saving for later use
 	public String toString()
 	{
-        String str = "{" + "\"outputs\":" + numOuts + ", " +
-                "\"nerves\":" + nerves + ", " +
-                "\"neurons\":" + neurons +
-                "}";
-		return str;
+		JsonObject json = new JsonObject();
+		json.addProperty("inputs", this.getInputCount());
+		json.addProperty("outputs", this.getOutputCount());
+		json.addProperty("width", this.getLayerWidth());
+		json.addProperty("layers", this.getLayerCount());
+		JsonArray neuronList = new JsonArray();
+		for (Neuron neuron: neurons)
+		{
+			JsonArray weightList = new JsonArray();
+			for (Synapse synapse: neuron.inputs)
+			{
+				weightList.add(synapse.weight);
+			}
+			neuronList.add(weightList);
+		}
+
+		json.add("neurons", neuronList);
+
+		return json.toString();
 	}
 }
