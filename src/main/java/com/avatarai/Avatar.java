@@ -1,12 +1,23 @@
 package com.avatarai;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 public class Avatar
 {
     private final Network network;
 
+    public Avatar(String savedAvatar) {
+        network = Network.fromString(savedAvatar);
+    }
+
     public Avatar(int inputs, int outputs, int width, int hiddenLayers)
     {
-        network = new Network(inputs, outputs, width, hiddenLayers, 0.01);
+        network = new Network(inputs, outputs, width, hiddenLayers);
     }
 
     public double[] present(double[] inputSet)

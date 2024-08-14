@@ -25,8 +25,13 @@ public class Feature {
 	public void normalise()
 	{
 		double magnitude = getMagnitude();
+		scale(1.0/magnitude);
+	}
+
+	public void scale(double factor)
+	{
 		for (int i = 0; i < values.length; i++) {
-			values[i] = values[i] / magnitude;
+			values[i] = values[i] * factor;
 		}
 	}
 
