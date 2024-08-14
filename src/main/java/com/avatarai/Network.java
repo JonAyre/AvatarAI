@@ -13,11 +13,16 @@ public class Network
 	protected final int numOuts;
 	protected final int numLayers;
 	protected final int layerWidth;
+	private final String netName;
+	private final String netDescription;
 
 	public static Network fromString(String networkJson)
 	{
 		JsonObject json = new Gson().fromJson(networkJson, JsonObject.class);
 		// Get the network properties
+		String name = json.get("name").getAsString();
+		String description = json.get("description").getAsString();
+
 		int inputs = json.get("inputs").getAsInt();
 		int outputs = json.get("outputs").getAsInt();
 		int width = json.get("width").getAsInt();
@@ -25,7 +30,7 @@ public class Network
 		JsonArray neuronSettings = json.getAsJsonArray("neurons");
 
 		// Create the vanilla network
-		Network net = new Network(inputs, outputs, width, layers);
+		Network net = new Network(name, description, inputs, outputs, width, layers);
 		for (int i=0; i<net.neurons.size(); i++)
 		{
 			Neuron neuron = net.neurons.get(i);
@@ -38,9 +43,11 @@ public class Network
 		return net;
 	}
 
-	public Network(int inputs, int outputs, int width, int hiddenLayers)
+	public Network(String name, String description, int inputs, int outputs, int width, int hiddenLayers)
 	{
 		int size = width * (hiddenLayers + 1) + outputs;
+		netName = name;
+		netDescription = description;
 		numOuts = outputs;
 		numLayers = 2 + hiddenLayers;
 		layerWidth = width;
@@ -176,6 +183,8 @@ public class Network
 	public String toString()
 	{
 		JsonObject json = new JsonObject();
+		json.addProperty("name", this.netName);
+		json.addProperty("description", this.netDescription);
 		json.addProperty("inputs", this.getInputCount());
 		json.addProperty("outputs", this.getOutputCount());
 		json.addProperty("width", this.getLayerWidth());
@@ -186,7 +195,7 @@ public class Network
 			JsonArray weightList = new JsonArray();
 			for (Synapse synapse: neuron.inputs)
 			{
-				weightList.add(synapse.weight);
+				weightList.add(Math.round(10000 * synapse.weight) / 10000.0);
 			}
 			neuronList.add(weightList);
 		}

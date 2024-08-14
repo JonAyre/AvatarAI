@@ -28,8 +28,8 @@ public class HaceTest {
 //		loadArticleEmbeds("articleEmbeds.csv");
 //		docsToEmbeddings("test_files/scraped_documents", "test_files/documentEmbeds.csv");
 // 		docsToEmbeddings("test_files/scraped_guidance", "test_files/guidanceEmbeds.csv");
-//		docsToEmbeddings("test_files/scraped_articles", "test_files/articleEmbeds.csv");
-		testScoreArticles();
+		docsToEmbeddings("test_files/temp", "test_files/temp/articleEmbeds.csv");
+//		testScoreArticles();
 //		testScoreDocs();
 //		testCompareDocs();
 //		convertArticles();
@@ -102,7 +102,7 @@ public class HaceTest {
 				otherDocuments.add(doc);
 		}
 
-		Avatar net = new Avatar(50, 2, 50, 1);
+		Avatar net = new Avatar("Governance Bot", "Trained to identify if documents are good or bad from a governance scoring perspective. Output 0 = good, output 1 = bad", inputs, 2, 50, 1);
 
 		ArrayList<double[]> inputSets = new ArrayList<>();
 		ArrayList<double[]> outputSets = new ArrayList<>();
@@ -213,7 +213,7 @@ public class HaceTest {
 				unscoredArticles.add(article);
 		}
 
-		Avatar net = new Avatar(inputs, 2, 100, 5);
+		Avatar net = new Avatar("Sentiment Bot", "Trained to rate articles positive or negative sentiment. Output 0 = positive, Output 1 = negative", 50, 2, 50, 2);
 
 		ArrayList<double[]> inputSets = new ArrayList<>();
 		ArrayList<double[]> outputSets = new ArrayList<>();
@@ -232,21 +232,24 @@ public class HaceTest {
 				outputSets.add(new double[]{0.0, 1.0});
 				articleSet.add(negativeArticles.get(i));
 			}
+			if (i < neutralArticles.size()) {
+				inputSets.add(neutralArticles.get(i).entity().getFeature("Content").getValues());
+				outputSets.add(new double[]{0.0, 0.0});
+				articleSet.add(neutralArticles.get(i));
+			}
 		}
 
 		for (int i=0; i<neutralArticles.size(); i++)
 		{
-			inputSets.add(neutralArticles.get(i).entity().getFeature("Content").getValues());
-			outputSets.add(new double[]{0.0, 0.0});
-			articleSet.add(neutralArticles.get(i));
+
 		}
 
-		for (int rep=0; rep<1000; rep++)
+		for (int rep=0; rep<1500; rep++)
 		{
 			double netError = 0.0;
-			for (int testSet=0; testSet<=16; testSet++)
+			for (int testSet=0; testSet<=35; testSet++)
 			{
-				double[] result = net.train(inputSets.get(testSet), outputSets.get(testSet), 5, 0.01);
+				double[] result = net.train(inputSets.get(testSet), outputSets.get(testSet), 2, 0.01);
 				double error = 0.0;
 				for (int i=0; i<result.length; i++)
 				{

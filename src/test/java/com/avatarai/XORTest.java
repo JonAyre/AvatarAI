@@ -3,7 +3,7 @@ package com.avatarai;
 public class XORTest {
     public static void main(String[] args)
     {
-        Avatar net = new Avatar(2, 1, 5, 1);
+        Avatar net = new Avatar("XOR", "Trained to perform exclusive or on two inputs", 2, 1, 5, 1);
 
         double[][] inputs = new double[4][2];
         double[][] outputs = new double[4][1];
