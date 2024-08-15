@@ -217,7 +217,7 @@ public class HaceTest {
 		Avatar net = new Avatar(
 				"Sentiment Bot",
 				"Trained to rate articles positive or negative sentiment. Output 0 = positive, Output 1 = negative",
-				inputs, 2, 50, 2);
+				inputs, 2, 100, 2);
 
 		ArrayList<double[]> inputSets = new ArrayList<>();
 		ArrayList<double[]> outputSets = new ArrayList<>();
@@ -250,11 +250,12 @@ public class HaceTest {
 			outputSets.add(new double[]{0.0, 0.0});
 			articleSet.add(unscoredArticles.get(i));
 		}
-
-		for (int rep=0; rep<1500; rep++)
+		int reps = 1500;
+		for (int rep=0; rep<reps; rep++)
 		{
 			double netError = 0.0;
-			for (int testSet=0; testSet<=50; testSet++)
+			int tests = 80;
+			for (int testSet=0; testSet<=tests; testSet++)
 			{
 				double[] result = net.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
 				double error = 0.0;
@@ -266,7 +267,7 @@ public class HaceTest {
 			}
 
 			if (rep%10 == 0)
-				System.out.println(rep + ", " + netError/16);
+				System.out.println(rep + " of " + reps + ", err = " + netError/tests);
 		}
 		
 		System.out.println("=========================================================");
