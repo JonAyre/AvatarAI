@@ -149,12 +149,6 @@ public class Network
 		nerve.setExcitation(value);
 	}
 
-	public double getInput(int number)
-	{
-		Neuron nerve = nerves.elementAt(number+1); // Add one to skip bias input
-		return nerve.getExcitation();
-	}
-
 	// Allows the setting of an error signal on an output neuron to be backpropagated
 	public void setError(int number, double value)
 	{

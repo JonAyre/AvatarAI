@@ -28,8 +28,9 @@ public class HaceTest {
 //		loadArticleEmbeds("articleEmbeds.csv");
 //		docsToEmbeddings("test_files/scraped_documents", "test_files/documentEmbeds.csv");
 // 		docsToEmbeddings("test_files/scraped_guidance", "test_files/guidanceEmbeds.csv");
-		docsToEmbeddings("test_files/temp", "test_files/temp/articleEmbeds.csv");
-//		testScoreArticles();
+//		docsToEmbeddings("test_files/scraped_articles", "test_files/articleEmbeds.csv");
+//		docsToEmbeddings("temp", "temp/articleEmbeds.csv");
+		testScoreArticles();
 //		testScoreDocs();
 //		testCompareDocs();
 //		convertArticles();
@@ -194,7 +195,7 @@ public class HaceTest {
 
 	public static void testScoreArticles()
 	{
-		int inputs = 50;
+		int inputs = 200;
 		Vector<Article> articles = loadArticles(0);
 		Vector<Article> positiveArticles = new Vector<>();
 		Vector<Article> neutralArticles = new Vector<>();
@@ -213,7 +214,10 @@ public class HaceTest {
 				unscoredArticles.add(article);
 		}
 
-		Avatar net = new Avatar("Sentiment Bot", "Trained to rate articles positive or negative sentiment. Output 0 = positive, Output 1 = negative", 50, 2, 50, 2);
+		Avatar net = new Avatar(
+				"Sentiment Bot",
+				"Trained to rate articles positive or negative sentiment. Output 0 = positive, Output 1 = negative",
+				inputs, 2, 50, 2);
 
 		ArrayList<double[]> inputSets = new ArrayList<>();
 		ArrayList<double[]> outputSets = new ArrayList<>();
@@ -232,24 +236,27 @@ public class HaceTest {
 				outputSets.add(new double[]{0.0, 1.0});
 				articleSet.add(negativeArticles.get(i));
 			}
-			if (i < neutralArticles.size()) {
-				inputSets.add(neutralArticles.get(i).entity().getFeature("Content").getValues());
-				outputSets.add(new double[]{0.0, 0.0});
-				articleSet.add(neutralArticles.get(i));
-			}
 		}
 
 		for (int i=0; i<neutralArticles.size(); i++)
 		{
-
+			inputSets.add(neutralArticles.get(i).entity().getFeature("Content").getValues());
+			outputSets.add(new double[]{0.0, 0.0});
+			articleSet.add(neutralArticles.get(i));
+		}
+		for (int i=0; i<unscoredArticles.size(); i++)
+		{
+			inputSets.add(unscoredArticles.get(i).entity().getFeature("Content").getValues());
+			outputSets.add(new double[]{0.0, 0.0});
+			articleSet.add(unscoredArticles.get(i));
 		}
 
 		for (int rep=0; rep<1500; rep++)
 		{
 			double netError = 0.0;
-			for (int testSet=0; testSet<=35; testSet++)
+			for (int testSet=0; testSet<=50; testSet++)
 			{
-				double[] result = net.train(inputSets.get(testSet), outputSets.get(testSet), 2, 0.01);
+				double[] result = net.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
 				double error = 0.0;
 				for (int i=0; i<result.length; i++)
 				{
@@ -317,7 +324,7 @@ public class HaceTest {
 
 	public static void convertArticles()
 	{
-		String filePath = "test_files/scraped_articles";
+		String filePath = "temp";
 		Set<String> files = Stream.of(Objects.requireNonNull(new File(filePath).listFiles()))
 				.filter(file -> !file.isDirectory())
 				.map(File::getName)
@@ -337,15 +344,17 @@ public class HaceTest {
 			for (String file : files)
 			{
 				String id = file.substring(0, file.lastIndexOf('.')); // filename without .txt
-				FileWriter outFile = new FileWriter(id + ".json");
-				String content = Files.readString(Path.of(filePath+'/'+file));
-				System.out.println(file);
-				JsonObject output = new JsonObject();
-				output.addProperty("content", content);
-				output.addProperty("url", articles.get(id));
-				outFile.write(output.toString());
-				outFile.flush();
-				outFile.close();
+				if (articles.containsKey(id)) {
+					FileWriter outFile = new FileWriter(id + ".json");
+					String content = Files.readString(Path.of(filePath + '/' + file));
+					System.out.println("Converting: " + file);
+					JsonObject output = new JsonObject();
+					output.addProperty("content", content);
+					output.addProperty("url", articles.get(id));
+					outFile.write(output.toString());
+					outFile.flush();
+					outFile.close();
+				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -402,6 +411,8 @@ public class HaceTest {
 			Entity entity = new Entity("Article", embed.getKey());
 			double[] values;
 			String sentiment = sentiments.get(entity.getId());
+			if (sentiment == null) sentiment = "<none>";
+
 			String valueString = embed.getValue();
 			values = Stream.of(valueString.substring(1, valueString.length()-1).split(",")).mapToDouble(Double::parseDouble).toArray();
 			Feature feature = new Feature(values);
