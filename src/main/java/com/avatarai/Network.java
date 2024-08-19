@@ -11,8 +11,7 @@ public class Network
 	protected final Vector<Neuron> neurons;
 	protected final Vector<Neuron> nerves;
 	protected final int numOuts;
-	protected final int numLayers;
-	protected final int layerWidth;
+	protected final int[] layerSizes;
 	private final String netName;
 	private final String netDescription;
 
@@ -25,12 +24,16 @@ public class Network
 
 		int inputs = json.get("inputs").getAsInt();
 		int outputs = json.get("outputs").getAsInt();
-		int width = json.get("width").getAsInt();
-		int layers = json.get("layers").getAsInt() - 2;
+		JsonArray layersJson = json.get("layers").getAsJsonArray();
+		int[] layers = new int[layersJson.size()];
+		for (int i = 0; i < layersJson.size(); i++)
+		{
+			layers[i] = layersJson.get(i).getAsInt();
+		}
 		JsonArray neuronSettings = json.getAsJsonArray("neurons");
 
 		// Create the vanilla network
-		Network net = new Network(name, description, inputs, outputs, width, layers);
+		Network net = new Network(name, description, inputs, outputs, layers);
 		for (int i=0; i<net.neurons.size(); i++)
 		{
 			Neuron neuron = net.neurons.get(i);
@@ -43,14 +46,19 @@ public class Network
 		return net;
 	}
 
-	public Network(String name, String description, int inputs, int outputs, int width, int hiddenLayers)
+	public Network(String name, String description, int inputs, int outputs, int[] layers)
 	{
-		int size = width * (hiddenLayers + 1) + outputs;
+		// Total number of neurons is number of output neurons plus number in each layer
+		int size = outputs;
+		layerSizes = new int[layers.length];
+		for (int i=0; i<layers.length; i++)
+		{
+			size += layers[i];
+			layerSizes[i] = layers[i];
+		}
 		netName = name;
 		netDescription = description;
 		numOuts = outputs;
-		numLayers = 2 + hiddenLayers;
-		layerWidth = width;
 
 		// Create a single input to act as a fixed bias input to all neurons in the network
 		Neuron biasInput = new Neuron(-1, 1.0);
@@ -74,33 +82,37 @@ public class Network
 			neurons.add(cell); // Add it to the network
 		}
 
-		// Connect each input to neurons in first layer
+		// Connect each input to neurons in first layer (layer 0)
 		for (int i=0; i<inputs; i++)
 		{
 			Neuron nerve = nerves.elementAt(i+1); // Skip bias input
-			for (int j=0; j<width; j++)
+			for (int j=0; j<layers[0]; j++)
 			{
 				Neuron neuron = neurons.elementAt(j);
 				neuron.connect(nerve);
 			}
 		}
 
+		int offset = 0; // USed to keep track of how far through the network we are when creating connections
+
 		// Fully forward connect the network
 		// For each layer (apart from output layer)
-		for (int layer=0; layer<=hiddenLayers; layer++)
+		for (int layer=0; layer<layers.length; layer++)
 		{
 			// For each neuron in this layer
-			for (int from=0; from<width; from++)
+			for (int from=0; from<layers[layer]; from++)
 			{
-				Neuron fromNeuron = neurons.elementAt(from+(layer*width));
-				// For each neuron in the next layer (Note: output layer is different size to hidden layers)
-				int nextLayerSize = (layer == hiddenLayers) ? outputs: width;
+				Neuron fromNeuron = neurons.elementAt(from+offset);
+				// For each neuron in the next layer (Note: output layer size is defined by number of outputs)
+				int nextLayerSize = (layer == layers.length-1) ? outputs: layers[layer+1];
 				for (int to=0; to<nextLayerSize; to++)
 				{
-					Neuron toNeuron = neurons.elementAt(to+((layer+1)*width));
+					Neuron toNeuron = neurons.elementAt(to+offset+layers[layer]);
 					toNeuron.connect(fromNeuron);
 				}
 			}
+
+			offset += layers[layer]; // Increase offset to reference neurons in the next layer
 		}
 	}
 
@@ -108,16 +120,8 @@ public class Network
 		return numOuts;
 	}
 
-	public int getLayerCount() {
-		return numLayers;
-	}
-
 	public int getInputCount() {
 		return nerves.size()-1;
-	}
-
-	public int getLayerWidth() {
-		return layerWidth;
 	}
 
 	public double getOutput(int number) {
@@ -156,7 +160,7 @@ public class Network
 	}
 
 	/*
-	 * This teach method applies backpropoagation based on output errors set by the external caller
+	 * Apply backpropagation based on output errors set by the external caller
 	 */
 	public void teach(double rate)
 	{
@@ -181,8 +185,13 @@ public class Network
 		json.addProperty("description", this.netDescription);
 		json.addProperty("inputs", this.getInputCount());
 		json.addProperty("outputs", this.getOutputCount());
-		json.addProperty("width", this.getLayerWidth());
-		json.addProperty("layers", this.getLayerCount());
+
+		JsonArray layerList = new JsonArray();
+        for (int layerSize : layerSizes) {
+            layerList.add(layerSize);
+        }
+		json.add("layers", layerList);
+
 		JsonArray neuronList = new JsonArray();
 		for (Neuron neuron: neurons)
 		{

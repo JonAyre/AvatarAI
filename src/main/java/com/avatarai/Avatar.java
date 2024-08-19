@@ -1,5 +1,7 @@
 package com.avatarai;
 
+import java.util.Arrays;
+
 public class Avatar
 {
     private final Network network;
@@ -10,7 +12,14 @@ public class Avatar
 
     public Avatar(String name, String description, int inputs, int outputs, int width, int hiddenLayers)
     {
-        network = new Network(name, description, inputs, outputs, width, hiddenLayers);
+        int[] layers = new int[hiddenLayers+1];
+        Arrays.fill(layers, width);
+        network = new Network(name, description, inputs, outputs, layers);
+    }
+
+    public Avatar(String name, String description, int inputs, int outputs, int[] layers)
+    {
+        network = new Network(name, description, inputs, outputs, layers);
     }
 
     public double[] present(double[] inputSet)
