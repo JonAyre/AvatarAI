@@ -37,7 +37,7 @@ public class Feature {
 
 	// Compare this vector with another for equality of direction and magnitude
 	// Returns a value between -1 (diametrically opposed) and +1 (exactly the same)
-	double compare(Feature v) {
+	public double compare(Feature v) {
 		int shortest = Math.min(v.values.length, this.values.length);
 		double match = 0.0;
 
@@ -59,7 +59,7 @@ public class Feature {
 	}
 
 	// Get the Y value for a given X value on the gaussian distribution curve
-	static double getGaussianValue(double x, double mean, double stdev) {
+	public static double getGaussianValue(double x, double mean, double stdev) {
 		return Math.pow(Math.exp(-(((x - mean) * (x - mean)) / ((2 * stdev * stdev)))), 1 / (stdev * Math.sqrt(2 * Math.PI)));
 	}
 
@@ -67,7 +67,7 @@ public class Feature {
 	// A weight of zero leaves this vector unchanged. 
 	// A weight of 1 replaces it with the new vector.
 	// All values in the vector are limited to +/-1
-	Feature blend(Feature v, double weight) {
+	public Feature blend(Feature v, double weight) {
 		double direction = 1.0;
 		if (weight < 0.0) {
 			weight = -weight;
@@ -82,11 +82,11 @@ public class Feature {
 		return this;
 	}
 
-	int getLength() {
+	public int getLength() {
 		return values.length;
 	}
 
-	double getMagnitude() {
+	public double getMagnitude() {
 		double mag = 0;
         for (double value : values) {
             mag += value * value;
