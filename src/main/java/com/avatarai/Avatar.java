@@ -1,5 +1,8 @@
 package com.avatarai;
 
+import java.io.File;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.Arrays;
 
 public class Avatar
@@ -37,10 +40,7 @@ public class Avatar
         network.propagate();
 
         // Collect the resulting outputs
-        for (int output=0; output<network.getOutputCount(); output++)
-        {
-            outputSet[output] = network.getOutput(output);
-        }
+        outputSet = network.getOutputs();
 
         return outputSet;
     }
@@ -65,10 +65,10 @@ public class Avatar
             network.propagate();
 
             // Calculate the output errors and feed them back in to the outputs
-            for (int output=0; output<Math.min(network.getOutputCount(), outputSet.length); output++)
+            double[] actualOutputs = network.getOutputs();
+            for (int output=0; output<Math.min(actualOutputs.length, outputSet.length); output++)
             {
-                double actualOutput = network.getOutput(output);
-                double error = outputSet[output]-actualOutput;
+                double error = outputSet[output]-actualOutputs[output];
                 network.setError(output, error);
             }
 
@@ -78,12 +78,15 @@ public class Avatar
 
         // Return the final resulting outputs of the network
         // Collect the resulting outputs
-        double[] resultSet = new double[network.getOutputCount()];
-        for (int output=0; output<network.getOutputCount(); output++)
-        {
-            resultSet[output] = network.getOutput(output);
-        }
-        return resultSet;
+        return network.getOutputs();
+    }
+
+    public double[] getLayerOutputs(int layer) {
+        return network.getLayerOutputs(layer);
+    }
+
+    public int[] getLayerSizes() {
+        return network.getLayerSizes();
     }
 
     public String toString()

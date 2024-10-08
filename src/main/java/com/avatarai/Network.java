@@ -124,12 +124,33 @@ public class Network
 		return nerves.size()-1;
 	}
 
-	public double getOutput(int number) {
-		return getOutputNeuron(number).getOutput();
+//	public double getOutput(int number) {
+//		return getOutputNeuron(number).getOutput();
+//	}
+
+	public double[] getOutputs() {
+		return getLayerOutputs(-1);
 	}
 
-	private Neuron getOutputNeuron(int number) {
-		return neurons.elementAt(neurons.size()-number-1);
+	public int[] getLayerSizes() {return layerSizes;}
+
+	public double[] getLayerOutputs(int layer) {
+		int offset = 0;
+		int numToGet = 0;
+		if (layer == -1) {
+			offset = neurons.size() - numOuts;
+			numToGet = numOuts;
+		} else {
+			for (int i=0; i<layer; i++) {
+				offset += layerSizes[i];
+			}
+			numToGet = layerSizes[layer];
+		}
+		double[] outputs = new double[numToGet];
+		for (int i=0; i<numToGet; i++) {
+			outputs[i] = neurons.elementAt(offset+i).getOutput();
+		}
+		return outputs;
 	}
 
 	public void propagate()
@@ -156,7 +177,7 @@ public class Network
 	// Allows the setting of an error signal on an output neuron to be backpropagated
 	public void setError(int number, double value)
 	{
-		getOutputNeuron(number).setError(value);
+		neurons.elementAt(neurons.size()-numOuts+number).setError(value);
 	}
 
 	/*
@@ -170,9 +191,9 @@ public class Network
 			neuron.backPropagate();
 		}
 
-		for (int i=0; i<neurons.size(); i++)
+		for (int i=neurons.size()-1; i>=0; i--)
 		{
-			Neuron neuron = getOutputNeuron(i);
+			Neuron neuron = neurons.elementAt(i);
 			neuron.teach(rate);
 		}
 	}

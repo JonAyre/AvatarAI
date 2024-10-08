@@ -51,16 +51,16 @@ public class SpectrumAnalyser extends Frame implements WindowListener, LineListe
     }
 
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-        SpectrumAnalyser app = new SpectrumAnalyser(1500, 1000, 0.075, "test_files/audio/Symphony No. 2 _Resurrection__ IV. Urlicht. O Röschen rot! - Live.wav");
+        SpectrumAnalyser app = new SpectrumAnalyser(1500, 1000, 0.1, "test_files/audio/untrained/dad_fourteen_Lyapunov 2_5.wav");
         app.start();
     }
 
     private void start() {
         this.setVisible(true);
-        audioClip.start();
         timer.schedule(new TimerTask() {
             public void run() {step();}
-        }, 0, (int)Math.rint(dt*1000));
+        }, 150+100, (int)Math.floor(dt*1000));
+        audioClip.start();
     }
 
     private synchronized void step() {

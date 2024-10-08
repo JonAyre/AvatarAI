@@ -64,20 +64,15 @@ public class SoundTest {
         MusicImporter.Spectrum spectrum = MusicImporter.sampleToSpectrum(data);
         MusicImporter.MusicalWord notes = MusicImporter.spectrumToNotes(spectrum);
         System.out.println("Note name, Octave, Note number, Level");
-        for (int octave = 0; octave < notes.levels().length; octave++) {
-            for (int note = 0; note < notes.levels()[octave].length; note++) {
-                System.out.println(MusicImporter.NOTE_NAMES[note] + octave + ", " + octave + ", " + note + ", " +notes.levels()[octave][note]);
-            }
+        for (int noteNum = 0; noteNum < notes.levels().length; noteNum++) {
+            int octave = noteNum / 12;
+            int note = noteNum % 12;
+            System.out.println(MusicImporter.NOTE_NAMES[note] + octave + ", " + octave + ", " + note + ", " +notes.levels()[noteNum]);
         }
     }
 
     public static void testSampleToEmbeddings()
     {
-        try {
-            MusicImporter.getEmbeddings("test_files/audio/sample.wav");
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
     }
 
 }

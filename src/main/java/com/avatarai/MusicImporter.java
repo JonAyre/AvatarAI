@@ -2,8 +2,6 @@ package com.avatarai;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -36,57 +34,32 @@ public class MusicImporter {
     public record Sample(double[] levels, double sampleFrequency) {}
     public record Spectrum(double[] levels, double sampleFrequency) {}
     public record MusicalNote(String name, int octave, int number) {}
-    public record MusicalWord(double[][] levels, double amplitude) {}
+    public record MusicalWord(double[] levels, double amplitude) {}
 
     public static final String[] NOTE_NAMES = new String[]{"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"};
-    public static final double[][] RELATIVE_LOUDNESS = new double[][]{
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0},
-            {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0}
-    };
     public static double MIN_FREQ = 16.351; // C0
     public static double MAX_FREQ = 15804.264; // B9
+    public static double TOKENISATION_FLOOR = 0.01; // Any peak amplitude below this is treated as this value tokenisation
+    public static double TOKENISATION_RATIO = 0.333; // The proportion of peak amplitude above which a level is considered to be 1.0 for tokenisation purposes
 //    public static double MIN_FREQ = 32.703; // C1
 //    public static double MAX_FREQ = 3951.066; // B7
 
-    public static double[] getEmbeddings(String audioFilename) throws Exception {
-        double[] embeddings = null;
-        AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(audioFilename));
-        AudioFormat format = inputStream.getFormat();
-        System.out.println(format.toString());
-        long numFrames = inputStream.getFrameLength();
-        int frameSize = format.getFrameSize();
+    private MusicEmbeddingsModel model;
 
-        inputStream.skipNBytes(512L * 1024 * frameSize); // Arbitrary skip to get past silent intro
-        double time1 = System.currentTimeMillis();
-//        for (int sample=0; sample<numFrames/8192; sample++) {
-            Sample data = readSample(inputStream, 4096);
-            Spectrum spectrum = sampleToSpectrum(data);
-            MusicalWord notes = spectrumToNotes(spectrum);
-//        }
-        double time2 = System.currentTimeMillis();
-        System.out.println("Time taken: " + (time2-time1) + "ms");
-        System.out.println("Samples taken: " + (numFrames/8192));
-        System.out.println("Note name, Octave, Note number, Level");
-        for (int octave = 0; octave < notes.levels().length; octave++) {
-            for (int note = 0; note < notes.levels()[octave].length; note++) {
-                System.out.println(NOTE_NAMES[note] + octave + ", " + octave + ", " + note + ", " +notes.levels()[octave][note]);
-            }
-        }
-        return embeddings;
+    public MusicImporter(String modelFilename) throws IOException {
+        model = new MusicEmbeddingsModel(modelFilename);
     }
 
-    public static Sample readSample(AudioInputStream inputStream, int sampleSize) throws IOException {
+    public static Sample readSample(AudioInputStream inputStream, int sampleSize) {
         double[] data = new double[sampleSize];
         AudioFormat format = inputStream.getFormat();
-        byte[] bytes = inputStream.readNBytes(sampleSize * format.getFrameSize());
+        byte[] bytes;
+        try {
+            bytes = inputStream.readNBytes(sampleSize * format.getFrameSize());
+            if (bytes.length < sampleSize * format.getFrameSize()) return null;
+        } catch (IOException e){
+            return null;
+        }
         ByteOrder byteOrder = (format.isBigEndian() ? ByteOrder.BIG_ENDIAN: ByteOrder.LITTLE_ENDIAN);
 
         for (int i = 0; i < data.length; i++) {
@@ -116,18 +89,32 @@ public class MusicImporter {
     }
 
     public static MusicalWord spectrumToNotes(Spectrum spectrum) {
-        double[][] noteLevels = new double[10][12]; // To cover 10 octaves, 12 notes each
+        double[] noteLevels = new double[120]; // To cover 10 octaves, 12 notes each
         double frequencyResolution = spectrum.sampleFrequency() / (spectrum.levels().length * 2);
         double amplitude = 0.0;
         for (int i=1; i<spectrum.levels().length; i++) {
             double freq = frequencyResolution * i;
             if (freq >= MIN_FREQ && freq <= MAX_FREQ) {
                 MusicalNote note = freqToNote(freq);
-                noteLevels[note.octave][note.number] = Math.max(noteLevels[note.octave][note.number], spectrum.levels()[i] * RELATIVE_LOUDNESS[note.octave][note.number]);
-                amplitude = Math.max(noteLevels[note.octave][note.number], amplitude);
+                int noteNum = note.octave() * 12 + note.number();
+                noteLevels[noteNum] = Math.max(noteLevels[noteNum], spectrum.levels()[i]);
+                amplitude = Math.max(noteLevels[noteNum], amplitude);
             }
         }
         return new MusicalWord(noteLevels, amplitude);
+    }
+
+    public static MusicalWord tokeniseWord(MusicalWord word) {
+        double magnitude = 0.0;
+        double[] newLevels = new double[word.levels().length];
+        for (int i=0; i<word.levels().length; i++) {
+            if (word.levels()[i] > Math.max(word.amplitude, TOKENISATION_FLOOR) * TOKENISATION_RATIO)
+                newLevels[i] = 1.0;
+            else
+                newLevels[i] = 0.0;
+            magnitude += newLevels[i];
+        }
+        return new MusicalWord(newLevels, Math.sqrt(magnitude));
     }
 
     public static Spectrum sampleToSpectrum(Sample sample) {
