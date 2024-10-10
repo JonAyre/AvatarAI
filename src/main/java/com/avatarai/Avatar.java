@@ -1,33 +1,30 @@
 package com.avatarai;
 
-import java.io.File;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.util.Arrays;
 
 public class Avatar
 {
-    private final Network network;
+    private final MatrixNetwork network;
 
     public Avatar(String savedAvatar) {
-        network = Network.fromString(savedAvatar);
+        network = MatrixNetwork.fromString(savedAvatar);
     }
 
     public Avatar(String name, String description, int inputs, int outputs, int width, int hiddenLayers)
     {
         int[] layers = new int[hiddenLayers+1];
         Arrays.fill(layers, width);
-        network = new Network(name, description, inputs, outputs, layers);
+        network = new MatrixNetwork(name, description, inputs, outputs, layers);
     }
 
     public Avatar(String name, String description, int inputs, int outputs, int[] layers)
     {
-        network = new Network(name, description, inputs, outputs, layers);
+        network = new MatrixNetwork(name, description, inputs, outputs, layers);
     }
 
     public double[] present(double[] inputSet)
     {
-        double[] outputSet = new double[network.getOutputCount()];
+        double[] outputSet;
 
         // Set the network inputs to the presented values
         for (int input=0; input<network.getInputCount(); input++)

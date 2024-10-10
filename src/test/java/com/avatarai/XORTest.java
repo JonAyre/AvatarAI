@@ -3,7 +3,7 @@ package com.avatarai;
 public class XORTest {
     public static void main(String[] args)
     {
-        Avatar net = new Avatar("XOR", "Trained to perform exclusive or on two inputs", 2, 1, 5, 1);
+        Avatar net = new Avatar("XOR", "Trained to perform exclusive or on two inputs", 2, 1, 5, 2);
 
         double[][] inputs = new double[4][2];
         double[][] outputs = new double[4][1];
@@ -20,6 +20,7 @@ public class XORTest {
         inputs[3][0] = 1.0;
         inputs[3][1] = 1.0;
         outputs[3][0] = 0.0;
+        double time1 = System.currentTimeMillis();
 
         for (int rep=0; rep<1000; rep++)
         {
@@ -49,7 +50,8 @@ public class XORTest {
             double output1 = Math.round(result[0]*100.0)/100.0;
             System.out.println(outputs[j][0] + " : " + output1);
         }
-
+        double time2 = System.currentTimeMillis();
+        System.out.println("Time taken = " + (time2 - time1) + "ms");
         System.out.println("=========================================================");
         System.out.println("Testing serialised and reconstituted avatar:");
 
