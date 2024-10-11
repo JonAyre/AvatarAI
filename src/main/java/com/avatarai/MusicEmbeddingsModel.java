@@ -41,7 +41,7 @@ public class MusicEmbeddingsModel {
 
     public static ArrayList<MusicImporter.MusicalWord> sampleAudioFile(File file) {
         ArrayList<MusicImporter.MusicalWord> words = new ArrayList<>();
-        AudioInputStream inputStream = null;
+        AudioInputStream inputStream;
         try {
             inputStream = AudioSystem.getAudioInputStream(file);
         } catch (Exception e) {
@@ -74,7 +74,7 @@ public class MusicEmbeddingsModel {
         ArrayList<double[]> inputSets = new ArrayList<>();
         ArrayList<double[]> outputSets = new ArrayList<>();
 
-        File[] files = getAudioFileList("test_files/audio/embeddings_training");
+        File[] files = getAudioFileList(sourceFileDir);
         for (File file : files) {
             System.out.println("Sampling file: " +file.getAbsolutePath());
             ArrayList<MusicImporter.MusicalWord> words = sampleAudioFile(file);
@@ -96,12 +96,12 @@ public class MusicEmbeddingsModel {
         // Now train the model based on all the input and output pairs
         System.out.println("Training the embeddings model");
 
-        int reps = 100;
+        int reps = 200;
         for (int rep=0; rep<reps; rep++) {
             double netError = 0.0;
-            int tests = inputSets.size()/2;
-            for (int testSet = 0; testSet <= tests; testSet++) {
-                double[] result = model.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.1);
+            int tests = inputSets.size();
+            for (int testSet = 0; testSet < tests; testSet++) {
+                double[] result = model.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
                 double error = 0.0;
                 for (int i = 0; i < result.length; i++) {
                     error += Math.pow(outputSets.get(testSet)[i] - result[i], 2);
@@ -143,8 +143,8 @@ public class MusicEmbeddingsModel {
 
     private static String arrayToString(double[] array) {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < array.length; i++) {
-            sb.append((array[i] > 0.333 ? "X" : "_"));
+        for (double v : array) {
+            sb.append((v > 0.333 ? "X" : "_"));
         }
         return sb.toString();
     }

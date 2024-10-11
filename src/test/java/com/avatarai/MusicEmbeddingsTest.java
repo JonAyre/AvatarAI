@@ -42,7 +42,7 @@ public class MusicEmbeddingsTest {
             double netError = 0.0;
             for (int testSet=0; testSet<tests; testSet++)
             {
-                double[] result = avatar.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.1);
+                double[] result = avatar.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
                 double error = 0.0;
                 for (int i=0; i<result.length; i++)
                 {

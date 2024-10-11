@@ -27,7 +27,7 @@ public class XORTest {
             double netError = 0.0;
             for (int j=0; j<4; j++) // For each test set
             {
-                double[] result = net.train(inputs[j], outputs[j], 5, 0.1);
+                double[] result = net.train(inputs[j], outputs[j], 5, 0.01);
                 double error = 0.0;
                 for (int i=0; i<result.length; i++)
                 {

@@ -1,5 +1,6 @@
 package com.avatarai;
 
+import java.util.Arrays;
 import java.util.Objects;
 import java.util.function.Function;
 
@@ -145,5 +146,16 @@ public class Matrix {
         if (o == null || getClass() != o.getClass()) return false;
         Matrix matrix1 = (Matrix) o;
         return Objects.deepEquals(matrix, matrix1.matrix);
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder string = new StringBuilder("[");
+        for (int i = 0; i < this.matrix.length; i++) {
+            if (i > 0) string.append(", ");
+            string.append(Arrays.toString(matrix[i]));
+        }
+        string.append("]");
+        return string.toString();
     }
 }

@@ -39,18 +39,19 @@ public class MatrixNetwork
 		// Create the vanilla network
 		MatrixNetwork net = new MatrixNetwork(name, description, numInputs, numOutputs, layers);
 
-		/*
-		JsonArray neuronSettings = json.getAsJsonArray("neurons");
-		for (int i=0; i<net.neurons.size(); i++)
-		{
-			Neuron neuron = net.neurons.get(i);
-			JsonArray weights = neuronSettings.get(i).getAsJsonArray();
-			for (int j=0; j<neuron.inputs.size(); j++)
-			{
-				neuron.inputs.get(j).setWeight(weights.get(j).getAsDouble());
+		// Overwrite the randomised weight matrices with the trained ones
+		JsonArray weightsJson = json.get("weights").getAsJsonArray();
+		for (int i = 0; i < weightsJson.size(); i++) {
+			JsonArray weightArray = weightsJson.get(i).getAsJsonObject().get("matrix").getAsJsonArray();
+			double[][] weights = new double[weightArray.size()][weightArray.get(0).getAsJsonArray().size()];
+			for (int j = 0; j < weightArray.size(); j++) {
+				for (int k = 0; k < weightArray.get(j).getAsJsonArray().size(); k++) {
+					weights[j][k] = weightArray.get(j).getAsJsonArray().get(k).getAsDouble();
+				}
+				Matrix weightMatrix = new Matrix(weights);
+				net.weights.set(i, weightMatrix);
 			}
 		}
-		*/
 		return net;
 	}
 
@@ -166,7 +167,7 @@ public class MatrixNetwork
         }
 		json.add("layers", layerList);
 
-		// Write out the hidden and output layer weight matrices
+		json.add("weights", new Gson().toJsonTree(weights));
 
 		return json.toString();
 	}
