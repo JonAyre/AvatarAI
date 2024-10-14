@@ -93,15 +93,16 @@ public class MusicEmbeddingsModel {
             }
             System.out.println("Test set size is now " + inputSets.size());
         }
+
         // Now train the model based on all the input and output pairs
         System.out.println("Training the embeddings model");
 
-        int reps = 200;
+        int reps = 30;
         for (int rep=0; rep<reps; rep++) {
             double netError = 0.0;
             int tests = inputSets.size();
             for (int testSet = 0; testSet < tests; testSet++) {
-                double[] result = model.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
+                double[] result = model.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.001);
                 double error = 0.0;
                 for (int i = 0; i < result.length; i++) {
                     error += Math.pow(outputSets.get(testSet)[i] - result[i], 2);
@@ -109,8 +110,8 @@ public class MusicEmbeddingsModel {
                 netError += Math.sqrt(error);
             }
 
-            if (rep % 10 == 0)
-                System.out.println(rep + " of " + reps + ", err = " + netError / tests);
+            //if (rep % 10 == 0)
+                System.out.println(System.currentTimeMillis() + "ms: " + rep + " of " + reps + ", err = " + netError / tests);
         }
 
         FileWriter netWriter = new FileWriter(embeddingsModelFilename);

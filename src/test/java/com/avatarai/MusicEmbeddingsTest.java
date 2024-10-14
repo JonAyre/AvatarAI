@@ -12,12 +12,13 @@ import java.util.List;
 public class MusicEmbeddingsTest {
     public static void main(String[] args) throws IOException {
         //testTrainNewModel();
+        //testTrainNewModelBig();
         //testGetEmbeddings();
         testTrainAvatar();
     }
 
     public static void testTrainAvatar() throws IOException {
-        Avatar avatar = new Avatar("Nathan Bot", "Trained on Nathan's musical preferences", 50, 2, new int[]{50, 10});
+        Avatar avatar = new Avatar("Nathan Bot", "Trained on Nathan's musical preferences", 50, 2, new int[]{50, 50});
         MusicEmbeddingsModel model = new MusicEmbeddingsModel("test_files/audio/test_model.json");
         File dir = new File("test_files/audio/avatar_training");
         File[] files = dir.listFiles((dir1, name) -> name.toLowerCase().endsWith(".wav"));
@@ -35,7 +36,7 @@ public class MusicEmbeddingsTest {
             outputSets.add(new double[]{(score > 3 ? 1.0 : 0.0), (score < 3 ? 1.0 : 0.0)});
         }
 
-        int reps = 2000;
+        int reps = 5000;
         int tests = inputSets.size();
         for (int rep=0; rep<reps; rep++)
         {
@@ -102,6 +103,11 @@ public class MusicEmbeddingsTest {
     public static void testTrainNewModel() throws IOException {
         String dateStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
         MusicEmbeddingsModel.trainEmbeddingsModel("test_files/audio/embeddings_training", "results_files/" + dateStamp + ".musicnet.json");
+    }
+
+    public static void testTrainNewModelBig() throws IOException {
+        String dateStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+        MusicEmbeddingsModel.trainEmbeddingsModel("/home/jon/Music", "results_files/" + dateStamp + ".musicnet.json");
     }
 
     public static void testGetEmbeddings() throws IOException {
