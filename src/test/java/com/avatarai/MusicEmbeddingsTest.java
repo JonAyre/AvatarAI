@@ -22,28 +22,29 @@ public class MusicEmbeddingsTest {
         MusicEmbeddingsModel model = new MusicEmbeddingsModel("test_files/audio/test_model.json");
         File dir = new File("test_files/audio/avatar_training");
         File[] files = dir.listFiles((dir1, name) -> name.toLowerCase().endsWith(".wav"));
-        HashMap<String, Integer> scores = loadTrainingScores("test_files/audio/avatar_training/scores.csv");
+        assert files != null;
+        HashMap<String, Integer> scores = extractTrainingScores(files);
 
         ArrayList<double[]> inputSets = new ArrayList<>();
         ArrayList<double[]> outputSets = new ArrayList<>();
 
-        assert files != null;
         for (File file : files) {
             System.out.println("Getting embeddings for: " + file.getAbsolutePath());
             int score = scores.get(file.getName());
             double[] embeds = model.getDocumentEmbeddings(file.getAbsolutePath());
             inputSets.add(embeds);
-            outputSets.add(new double[]{(score > 3 ? 1.0 : 0.0), (score < 3 ? 1.0 : 0.0)});
+            outputSets.add(new double[]{(score-1)*0.25, (5-score)*0.25});
+            //outputSets.add(new double[]{(score > 3 ? 1.0 : 0.0), (score < 3 ? 1.0 : 0.0)});
         }
 
-        int reps = 5000;
-        int tests = inputSets.size();
+        int reps = 15000;
+        int tests = 15;
         for (int rep=0; rep<reps; rep++)
         {
             double netError = 0.0;
             for (int testSet=0; testSet<tests; testSet++)
             {
-                double[] result = avatar.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
+                double[] result = avatar.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.001);
                 double error = 0.0;
                 for (int i=0; i<result.length; i++)
                 {
@@ -70,10 +71,11 @@ public class MusicEmbeddingsTest {
             {
                 double[] result = avatar.present(inputSets.get(testSet));
 
-                StringBuilder msg = new StringBuilder(outputSets.get(testSet)[0] + ", " + outputSets.get(testSet)[1] + ": ");
+                StringBuilder msg = new StringBuilder(files[testSet].getName() + ", " + outputSets.get(testSet)[0] + ", " + outputSets.get(testSet)[1]);
 
                 for (double output : result) {
-                    msg.append(Math.round(100 * output) / 100.0).append(", ");
+                    msg.append(", ");
+                    msg.append(Math.round(100 * output) / 100.0);
                 }
                 System.out.println(msg);
             }
@@ -81,6 +83,16 @@ public class MusicEmbeddingsTest {
             e.printStackTrace();
         }
 
+    }
+
+    public static HashMap<String, Integer> extractTrainingScores(File[] files) {
+        HashMap<String, Integer> scores = new HashMap<>();
+        for (File file : files) {
+            String filename = file.getName();
+            int score = Integer.parseInt(filename.split("\\.")[1]);
+            scores.put(filename, score);
+        }
+        return scores;
     }
 
     public static HashMap<String, Integer> loadTrainingScores(String filename) {
