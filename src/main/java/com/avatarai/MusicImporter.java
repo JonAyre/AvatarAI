@@ -61,10 +61,10 @@ public class MusicImporter {
             return null;
         }
         ByteOrder byteOrder = (format.isBigEndian() ? ByteOrder.BIG_ENDIAN: ByteOrder.LITTLE_ENDIAN);
+        int valueSize = format.getFrameSize()/format.getChannels();
 
         for (int i = 0; i < data.length; i++) {
             for (int channel = 0; channel < format.getChannels(); channel++) {
-                int valueSize = format.getFrameSize()/format.getChannels();
                 byte[] sampleBytes = new byte[valueSize];
                 System.arraycopy(bytes, (i* format.getChannels()+channel) * valueSize, sampleBytes, 0, valueSize);
                 if (valueSize == 1)

@@ -1,5 +1,6 @@
 package com.avatarai;
 
+import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import java.io.File;
@@ -27,9 +28,16 @@ public class MusicEmbeddingsModel {
     }
 
     public double[] getDocumentEmbeddings(String audioFilename) {
+        return getDocumentEmbeddings(audioFilename, 0.0, SAMPLE_DURATION);
+    }
+
+    public double[] getDocumentEmbeddings(String audioFilename, double sampleStart, double sampleDuration) {
         File file = new File(audioFilename);
         double[] documentEmbeddings = new double[model.getLayerSizes()[0]];
-        ArrayList<MusicImporter.MusicalWord> words = sampleAudioFile(file);
+        ArrayList<MusicImporter.MusicalWord> words = sampleAudioFile(file, sampleStart, sampleDuration);
+        if (words.isEmpty())
+            return null;
+
         for (MusicImporter.MusicalWord word : words) {
             double[] embed = getWordEmbeddings(word);
             for (int i = 0; i < embed.length; i++) {
@@ -39,18 +47,23 @@ public class MusicEmbeddingsModel {
         return documentEmbeddings;
     }
 
-    public static ArrayList<MusicImporter.MusicalWord> sampleAudioFile(File file) {
+    public static ArrayList<MusicImporter.MusicalWord> sampleAudioFile(File file, double sampleStart, double sampleDuration) {
         ArrayList<MusicImporter.MusicalWord> words = new ArrayList<>();
         AudioInputStream inputStream;
+        AudioFormat format;
         try {
             inputStream = AudioSystem.getAudioInputStream(file);
+            format = inputStream.getFormat();
+            long offset = (int)Math.rint(format.getFrameSize() * sampleStart * format.getSampleRate());
+            inputStream.skipNBytes(offset); // Skip forward to requested sample start time
         } catch (Exception e) {
             e.printStackTrace();
             return words;
         }
-        int sampleSize = (int)(inputStream.getFormat().getSampleRate() * WORD_LENGTH);
+
+        int sampleSize = (int)(format.getSampleRate() * WORD_LENGTH);
         sampleSize = Integer.highestOneBit(sampleSize - 1);
-        int sampleLength = (int)Math.rint(SAMPLE_DURATION/WORD_LENGTH);
+        int sampleLength = (int)Math.rint(sampleDuration/WORD_LENGTH);
         MusicImporter.Sample sample;
         int count = 0;
         while ((sample = MusicImporter.readSample(inputStream, sampleSize)) != null && count < sampleLength) {
@@ -77,7 +90,7 @@ public class MusicEmbeddingsModel {
         File[] files = getAudioFileList(sourceFileDir);
         for (File file : files) {
             System.out.println("Sampling file: " +file.getAbsolutePath());
-            ArrayList<MusicImporter.MusicalWord> words = sampleAudioFile(file);
+            ArrayList<MusicImporter.MusicalWord> words = sampleAudioFile(file, 0.0, SAMPLE_DURATION);
             // Convert list of words into test sets
             System.out.println("Creating test set using " + words.size() + " words");
             for (int i=0; i<words.size()-CONTEXT_WINDOW; i++) {

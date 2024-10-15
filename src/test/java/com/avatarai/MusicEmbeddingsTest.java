@@ -3,6 +3,9 @@ package com.avatarai;
 import com.opencsv.CSVReader;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -14,7 +17,22 @@ public class MusicEmbeddingsTest {
         //testTrainNewModel();
         //testTrainNewModelBig();
         //testGetEmbeddings();
-        testTrainAvatar();
+        //testTrainAvatar();
+        testAvatarOverTime();
+    }
+
+    public static void testAvatarOverTime() throws IOException {
+        String content = Files.readString(Path.of("test_files/audio/test_avatar.json"), StandardCharsets.UTF_8);
+        MusicEmbeddingsModel model = new MusicEmbeddingsModel("test_files/audio/test_model.json");
+        Avatar avatar = new Avatar(content);
+        double sampleStart = 0.0;
+        double sampleDuration = 30.0;
+        double[] embeddings;
+        while ((embeddings = model.getDocumentEmbeddings("test_files/audio/untrained/Götterdämmerung_Siegfried's Funeral March_mp3-to.wav", sampleStart, sampleDuration)) != null) {
+            double[] outputs = avatar.present(embeddings);
+            System.out.println(sampleStart + ", " + outputs[0]);
+            sampleStart += sampleDuration;
+        }
     }
 
     public static void testTrainAvatar() throws IOException {
