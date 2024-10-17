@@ -12,9 +12,9 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 
 public class MusicEmbeddingsModel {
-    private static final double SAMPLE_DURATION = 30; // Length in second of the proportion of each music file to sample
+    private static final double SAMPLE_DURATION = 30; // Length in seconds of the proportion of each music file to sample
     private static final double WORD_LENGTH = 0.25; // Length in seconds of a musical word
-    private static final int CONTEXT_WINDOW = 3; // Number of neighbouring samples before and after current sample to predict
+    private static final int CONTEXT_WINDOW = 1; // Number of neighbouring samples before and after current sample to predict
     private final Avatar model;
 
     public MusicEmbeddingsModel(String embeddingsModelFilename) throws IOException {
@@ -75,7 +75,7 @@ public class MusicEmbeddingsModel {
         return words;
     }
 
-    public static void trainEmbeddingsModel(String sourceFileDir, String embeddingsModelFilename) throws IOException {
+    public static void trainEmbeddingsModel(String sourceFileDir, String embeddingsModelFilename, int repetitions) throws IOException {
         int inputs = 120;
         int outputs = 120;
 
@@ -110,12 +110,11 @@ public class MusicEmbeddingsModel {
         // Now train the model based on all the input and output pairs
         System.out.println("Training the embeddings model");
 
-        int reps = 30;
-        for (int rep=0; rep<reps; rep++) {
+        for (int rep=0; rep<repetitions; rep++) {
             double netError = 0.0;
             int tests = inputSets.size();
             for (int testSet = 0; testSet < tests; testSet++) {
-                double[] result = model.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.001);
+                double[] result = model.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
                 double error = 0.0;
                 for (int i = 0; i < result.length; i++) {
                     error += Math.pow(outputSets.get(testSet)[i] - result[i], 2);
@@ -124,7 +123,7 @@ public class MusicEmbeddingsModel {
             }
 
             //if (rep % 10 == 0)
-                System.out.println(System.currentTimeMillis() + "ms: " + rep + " of " + reps + ", err = " + netError / tests);
+                System.out.println(System.currentTimeMillis() + "ms: " + rep + " of " + repetitions + ", err = " + netError / tests);
         }
 
         FileWriter netWriter = new FileWriter(embeddingsModelFilename);
