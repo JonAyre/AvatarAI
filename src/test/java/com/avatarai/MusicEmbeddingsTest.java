@@ -16,9 +16,9 @@ public class MusicEmbeddingsTest {
     public static void main(String[] args) throws IOException {
         //testTrainNewModel();
         //testTrainNewModelBig();
-        testGetEmbeddings();
+        //testGetEmbeddings();
         //testTrainAvatar();
-        //testAvatarOverTime();
+        testAvatarOverTime();
     }
 
     public static void testAvatarOverTime() throws IOException {
@@ -62,7 +62,7 @@ public class MusicEmbeddingsTest {
             double netError = 0.0;
             for (int testSet=0; testSet<tests; testSet++)
             {
-                double[] result = avatar.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.01);
+                double[] result = avatar.train(inputSets.get(testSet), outputSets.get(testSet), 1, 0.001);
                 double error = 0.0;
                 for (int i=0; i<result.length; i++)
                 {
@@ -132,12 +132,12 @@ public class MusicEmbeddingsTest {
 
     public static void testTrainNewModel() throws IOException {
         String dateStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
-        MusicEmbeddingsModel.trainEmbeddingsModel("test_files/audio/embeddings_training", "results_files/" + dateStamp + ".musicnet.json");
+        MusicEmbeddingsModel.trainEmbeddingsModel("test_files/audio/embeddings_training", "results_files/" + dateStamp + ".musicnet.json", 300);
     }
 
     public static void testTrainNewModelBig() throws IOException {
         String dateStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
-        MusicEmbeddingsModel.trainEmbeddingsModel("/home/jon/Music", "results_files/" + dateStamp + ".musicnet.json");
+        MusicEmbeddingsModel.trainEmbeddingsModel("/home/jon/Music", "results_files/" + dateStamp + ".musicnet.json", 10);
     }
 
     public static void testGetEmbeddings() throws IOException {
