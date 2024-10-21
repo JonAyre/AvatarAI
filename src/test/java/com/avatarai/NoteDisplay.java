@@ -1,6 +1,7 @@
 package com.avatarai;
 
 import java.awt.*;
+import java.awt.image.BufferStrategy;
 import java.util.ArrayList;
 
 public class NoteDisplay extends Canvas {
@@ -13,10 +14,19 @@ public class NoteDisplay extends Canvas {
 
     @Override
     public void paint(Graphics g) {
-        super.paint(g);
-        displayNoteSpectra((Graphics2D)g);
+        BufferStrategy bs = this.getBufferStrategy();
+        Graphics2D g2d = (Graphics2D) bs.getDrawGraphics();
+        super.paint(g2d);
+        displayNoteSpectra(g2d);
+        g2d.dispose();
         g.dispose();
+        bs.show();
         Toolkit.getDefaultToolkit().sync();
+    }
+
+    @Override
+    public void update(Graphics g) {
+        paint(g);
     }
 
     public void addNoteSpectrum(MusicImporter.MusicalWord word) {

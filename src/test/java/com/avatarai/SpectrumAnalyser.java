@@ -51,7 +51,7 @@ public class SpectrumAnalyser extends Frame implements WindowListener, LineListe
     }
 
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-        SpectrumAnalyser app = new SpectrumAnalyser(1500, 1000, 0.1, "test_files/audio/untrained/dad_fourteen_Lyapunov 2_5.wav");
+        SpectrumAnalyser app = new SpectrumAnalyser(1500, 1000, 0.1, "test_files/audio/untrained/Götterdämmerung_Siegfried's Funeral March_mp3-to.wav");
         app.start();
     }
 
@@ -67,9 +67,9 @@ public class SpectrumAnalyser extends Frame implements WindowListener, LineListe
         try {
             this.updateSpectrum();
             noteDisplay.repaint();
-            noteDisplay.getBufferStrategy().show();
+            //noteDisplay.getBufferStrategy().show();
             spectrumDisplay.repaint();
-            spectrumDisplay.getBufferStrategy().show();
+            //spectrumDisplay.getBufferStrategy().show();
         } catch (IOException e) {
             e.printStackTrace();
             this.windowClosing(null);

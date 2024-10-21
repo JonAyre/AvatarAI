@@ -1,6 +1,7 @@
 package com.avatarai;
 
 import java.awt.*;
+import java.awt.image.BufferStrategy;
 
 public class SpectrumDisplay extends Canvas {
     public MusicImporter.Spectrum spectrum = new MusicImporter.Spectrum(new double[10], 0.0);
@@ -11,10 +12,19 @@ public class SpectrumDisplay extends Canvas {
 
     @Override
     public void paint(Graphics g) {
-        super.paint(g);
-        displaySpectrum((Graphics2D)g);
+        BufferStrategy bs = this.getBufferStrategy();
+        Graphics2D g2d = (Graphics2D) bs.getDrawGraphics();
+        super.paint(g2d);
+        displaySpectrum(g2d);
+        g2d.dispose();
         g.dispose();
+        bs.show();
         Toolkit.getDefaultToolkit().sync();
+    }
+
+    @Override
+    public void update(Graphics g) {
+        paint(g);
     }
 
     public void displaySpectrum(Graphics2D g2d) {
