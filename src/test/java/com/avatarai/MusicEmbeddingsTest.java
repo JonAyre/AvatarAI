@@ -28,7 +28,8 @@ public class MusicEmbeddingsTest {
         double sampleStart = 0.0;
         double sampleDuration = 30.0;
         double[] embeddings;
-        while ((embeddings = model.getDocumentEmbeddings("test_files/audio/untrained/Götterdämmerung_Siegfried's Funeral March_mp3-to.wav", sampleStart, sampleDuration)) != null) {
+        while ((embeddings = model.getDocumentEmbeddings("/home/jon/Music/Brian-Symphony No. 1 in D Minor.1_mp3-to.wav", sampleStart, sampleDuration)) != null) {
+            embeddings = Avatar.limitInputRange(embeddings, 0.0);
             double[] outputs = avatar.present(embeddings);
             System.out.println(sampleStart + ", " + outputs[0]);
             sampleStart += sampleDuration;
@@ -50,6 +51,7 @@ public class MusicEmbeddingsTest {
             System.out.println("Getting embeddings for: " + file.getAbsolutePath());
             int score = scores.get(file.getName());
             double[] embeds = model.getDocumentEmbeddings(file.getAbsolutePath());
+            embeds = Avatar.limitInputRange(embeds, 0.0);
             inputSets.add(embeds);
             outputSets.add(new double[]{(score-1)*0.25, (5-score)*0.25});
             //outputSets.add(new double[]{(score > 3 ? 1.0 : 0.0), (score < 3 ? 1.0 : 0.0)});

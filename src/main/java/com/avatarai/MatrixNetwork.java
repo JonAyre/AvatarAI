@@ -101,7 +101,8 @@ public class MatrixNetwork
 	public void propagate()
 	{
 		// Propagate inputs
-		processedInputs = inputs.applyFunction(MatrixNetwork::sigmoid).scale(1.0/Math.sqrt(inputs.rows()));
+		//processedInputs = inputs.applyFunction(MatrixNetwork::sigmoid).scale(1.0/Math.sqrt(inputs.rows()));
+		processedInputs = inputs.scale(1.0/Math.sqrt(inputs.rows()));
 		Matrix inputMatrix = new Matrix(processedInputs);
 
 		// Propagate inputs through each layer
@@ -173,11 +174,11 @@ public class MatrixNetwork
 	}
 
 	public static double sigmoid(double value) {
-		return 1.0/(1.0+Math.exp(-(value*10.0))); // Sigmoid function compressed to take values between -1 and 1
+		return 1.0/(1.0+Math.exp(-(value*5.0))); // Sigmoid function compressed to take values between -1 and 1
 	}
 
 	public static double sigmoidGradient(double value) {
-		return value*(1.0-value)*10.0; // Gradient of vanilla sigmoid is ky(1-y) where k is the "gain"
+		return value*(1.0-value)*5.0; // Gradient of vanilla sigmoid is ky(1-y) where k is the "gain"
 	}
 
 }

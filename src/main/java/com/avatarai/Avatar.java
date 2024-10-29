@@ -22,6 +22,17 @@ public class Avatar
         network = new MatrixNetwork(name, description, inputs, outputs, layers);
     }
 
+    // Take an input set that varies beyond the 0 to 1 limits and use the sigmoid function to limit it.
+    // The centre parameter is the central value around which the input set varies
+    public static double[] limitInputRange(double[] inputSet, double centre)
+    {
+        double[] newInputSet = new double[inputSet.length];
+        for (int i = 0; i < inputSet.length; i++) {
+            newInputSet[i] = MatrixNetwork.sigmoid(inputSet[i] - centre);
+        }
+        return newInputSet;
+    }
+
     public double[] present(double[] inputSet)
     {
         double[] outputSet;

@@ -8,13 +8,13 @@ public class XORTest {
         double[][] inputs = new double[4][2];
         double[][] outputs = new double[4][1];
 
-        inputs[0][0] = -1.0;
-        inputs[0][1] = -1.0;
+        inputs[0][0] = 0.0;
+        inputs[0][1] = 0.0;
         outputs[0][0] = 0.0;
         inputs[1][0] = 1.0;
-        inputs[1][1] = -1.0;
+        inputs[1][1] = 0.0;
         outputs[1][0] = 1.0;
-        inputs[2][0] = -1.0;
+        inputs[2][0] = 0.0;
         inputs[2][1] = 1.0;
         outputs[2][0] = 1.0;
         inputs[3][0] = 1.0;
@@ -27,7 +27,7 @@ public class XORTest {
             double netError = 0.0;
             for (int j=0; j<4; j++) // For each test set
             {
-                double[] result = net.train(inputs[j], outputs[j], 5, 0.01);
+                double[] result = net.train(inputs[j], outputs[j], 5, 0.1);
                 double error = 0.0;
                 for (int i=0; i<result.length; i++)
                 {
