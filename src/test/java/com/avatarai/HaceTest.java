@@ -9,6 +9,8 @@ import java.util.stream.Stream;
 import java.util.List;
 
 import com.avatarai.text.TextImporter;
+import com.avatarai.utils.Entity;
+import com.avatarai.utils.Feature;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.opencsv.CSVReader;

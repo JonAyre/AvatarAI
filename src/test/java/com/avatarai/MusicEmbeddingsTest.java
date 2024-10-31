@@ -1,6 +1,7 @@
 package com.avatarai;
 
 import com.avatarai.audio.MusicEmbeddingsModel;
+import com.avatarai.utils.Feature;
 import com.opencsv.CSVReader;
 
 import java.io.*;

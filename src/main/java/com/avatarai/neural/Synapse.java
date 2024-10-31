@@ -1,6 +1,4 @@
-package com.avatarai;
-
-import com.google.gson.JsonObject;
+package com.avatarai.neural;
 
 public class Synapse
 {

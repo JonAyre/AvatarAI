@@ -1,4 +1,4 @@
-package com.avatarai.server;
+package com.avatarai.utils;
 
 import com.google.gson.*;
 

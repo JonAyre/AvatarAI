@@ -1,4 +1,4 @@
-package com.avatarai;
+package com.avatarai.neural;
 
 import com.avatarai.maths.Matrix;
 import com.google.gson.Gson;

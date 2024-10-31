@@ -1,18 +1,18 @@
-package com.avatarai;
+package com.avatarai.utils;
 
 import java.util.Arrays;
 
 public class Feature {
 	private double[] values;
 
-	Feature(int size, double value) {
+	public Feature(int size, double value) {
 		values = new double[size];
 		for (int i = 0; i < size; i++) {
 			values[i] = value;
 		}
 	}
 
-	Feature(double[] newValues) {
+	public Feature(double[] newValues) {
 		values = newValues.clone();
 	}
 

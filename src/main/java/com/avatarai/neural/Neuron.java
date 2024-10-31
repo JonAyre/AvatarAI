@@ -1,8 +1,7 @@
-package com.avatarai;
+package com.avatarai.neural;
 
 import com.google.gson.JsonObject;
 
-import java.util.ArrayList;
 import java.util.Vector;
 
 public class Neuron

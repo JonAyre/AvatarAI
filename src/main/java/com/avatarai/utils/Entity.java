@@ -1,4 +1,4 @@
-package com.avatarai;
+package com.avatarai.utils;
 
 import java.util.HashMap;
 
@@ -8,17 +8,17 @@ public class Entity {
 
 	HashMap<String, Feature> features;
 
-	Entity(String newType, String newId) {
+	public Entity(String newType, String newId) {
 		id = newId;
 		type = newType;
 		features = new HashMap<>();
 	}
 
-	void addFeature(String id, Feature feature) {
+	public void addFeature(String id, Feature feature) {
 		features.put(id, feature);
 	}
 
-	Feature getFeature(String id) {
+	public Feature getFeature(String id) {
 		return features.get(id);
 	}
 

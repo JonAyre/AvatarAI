@@ -1,5 +1,7 @@
 package com.avatarai;
 
+import com.avatarai.neural.MatrixNetwork;
+
 import java.util.Arrays;
 
 public class Avatar
