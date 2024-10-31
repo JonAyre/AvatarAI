@@ -1,5 +1,7 @@
 package com.avatarai;
 
+import com.avatarai.audio.MusicImporter;
+
 import javax.sound.sampled.*;
 import java.awt.*;
 import java.awt.event.WindowEvent;

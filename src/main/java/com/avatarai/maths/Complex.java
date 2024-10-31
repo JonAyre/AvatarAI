@@ -25,7 +25,7 @@
  *  tan(a)       = -6.685231390246571E-6 + 1.0000103108981198i
  *
  *************************************************************************/
-package com.avatarai;
+package com.avatarai.maths;
 
 public class Complex
 {

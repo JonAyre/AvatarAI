@@ -1,4 +1,7 @@
-package com.avatarai;
+package com.avatarai.audio;
+
+import com.avatarai.maths.SignalProcessor;
+import com.avatarai.maths.Complex;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;

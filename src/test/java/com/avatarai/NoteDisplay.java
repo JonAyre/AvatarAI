@@ -1,5 +1,7 @@
 package com.avatarai;
 
+import com.avatarai.audio.MusicImporter;
+
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.util.ArrayList;

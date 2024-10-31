@@ -1,4 +1,4 @@
-package com.avatarai;
+package com.avatarai.text;
 
 import java.net.URI;
 import java.net.http.HttpClient;

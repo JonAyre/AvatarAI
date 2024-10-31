@@ -1,5 +1,7 @@
 package com.avatarai;
 
+import com.avatarai.audio.MusicImporter;
+
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -20,7 +22,7 @@ public class SoundTest {
     {
         System.out.println("Frequency, Note name, Octave, Note number");
 
-        for (double freq=MusicImporter.MIN_FREQ; freq<=MusicImporter.MAX_FREQ; freq+=1.0)
+        for (double freq = MusicImporter.MIN_FREQ; freq<=MusicImporter.MAX_FREQ; freq+=1.0)
         {
             MusicImporter.MusicalNote note = MusicImporter.freqToNote(freq);
             System.out.println(freq + "," + note.name() + "," + note.octave() + "," + note.number());

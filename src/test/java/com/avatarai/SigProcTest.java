@@ -6,6 +6,9 @@
  */
 package com.avatarai;
 
+import com.avatarai.maths.Complex;
+import com.avatarai.maths.SignalProcessor;
+
 public class SigProcTest
 {
 
