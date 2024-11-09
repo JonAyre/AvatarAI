@@ -1,6 +1,6 @@
 package com.avatarai;
 
-import com.avatarai.audio.MusicImporter;
+import com.avatarai.importers.MusicImporter;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;

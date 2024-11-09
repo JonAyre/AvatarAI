@@ -1,4 +1,4 @@
-package com.avatarai.audio;
+package com.avatarai.importers;
 
 import com.avatarai.Avatar;
 

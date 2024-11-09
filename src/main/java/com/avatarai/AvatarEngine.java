@@ -11,7 +11,8 @@ public class AvatarEngine
     public static void main(String[] args) throws IOException
     {
         HashMap<String, HttpHandler> handlers = new HashMap<>();
-//        handlers.put("/finance/", new ProxyHandler());
+
+        handlers.put("/avatar/", new AvatarHandler());
 
         WebServer server = new WebServer(args, handlers);
         server.start();

@@ -1,6 +1,6 @@
 package com.avatarai;
 
-import com.avatarai.audio.MusicImporter;
+import com.avatarai.importers.MusicImporter;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;

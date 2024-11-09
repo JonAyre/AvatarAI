@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.stream.Stream;
 import java.util.List;
 
-import com.avatarai.text.TextImporter;
+import com.avatarai.importers.TextImporter;
 import com.avatarai.utils.Entity;
 import com.avatarai.utils.Feature;
 import com.google.gson.Gson;
