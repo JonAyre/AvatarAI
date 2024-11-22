@@ -30,12 +30,12 @@ public class MusicEmbeddingsTest {
         double sampleStart = 0.0;
         double sampleDuration = 30.0;
         double[] embeddings;
-        //String filename = "test_files/audio/untrained/Götterdämmerung_Siegfried's Funeral March_mp3-to.wav";
+        String filename = "test_files/audio/untrained/Götterdämmerung_Siegfried's Funeral March_mp3-to.wav";
         //String filename = "/home/jon/Music/Miaskovsky _ Pathetic Overture in C minor Op.76_mp3-to.wav";
         //String filename = "/home/jon/Music/Brian-Symphony No. 1 in D Minor.1_mp3-to.wav";
         //String filename = "/home/jon/Music/Miaskovsky _ Symphony No.24 in F minor Op.63 _ II Molto sostenuto_mp3-to.wav";
         //String filename = "/home/jon/Music/3.menuettto-Allegretto-TrioKarlBohm_mp3-to.wav";
-        String filename = "/home/jon/Music/Myaskovsky Symphony 2 movement 2 (from allegro con fuoco to the end)_mp3-to.wav";
+        //String filename = "/home/jon/Music/Myaskovsky Symphony 2 movement 2 (from allegro con fuoco to the end)_mp3-to.wav";
 
         while ((embeddings = model.getDocumentEmbeddings(filename, sampleStart, sampleDuration)) != null) {
             //embeddings = Avatar.limitInputRange(embeddings, 0.0);
@@ -55,19 +55,20 @@ public class MusicEmbeddingsTest {
 
         ArrayList<double[]> inputSets = new ArrayList<>();
         ArrayList<double[]> outputSets = new ArrayList<>();
+        int samples = 2;
 
         for (File file : files) {
             System.out.println("Getting embeddings for: " + file.getAbsolutePath());
             int score = scores.get(file.getName());
-            double[] embeds = model.getDocumentEmbeddings(file.getAbsolutePath());
-            //embeds = Avatar.limitInputRange(embeds, 0.0); // Not necessary as embeddings are already the output of a neuron layer
-            inputSets.add(embeds);
-            outputSets.add(new double[]{(score-1)*0.25, (5-score)*0.25});
-            //outputSets.add(new double[]{(score > 3 ? 1.0 : 0.0), (score < 3 ? 1.0 : 0.0)});
+            for (int sample=0; sample<samples; sample++) {
+                double[] embeds = model.getDocumentEmbeddings(file.getAbsolutePath(), sample*30.0, 30.0);
+                inputSets.add(embeds);
+                outputSets.add(new double[]{(score-1)*0.25, (5-score)*0.25});
+            }
         }
 
         int reps = 20000;
-        int tests = 15;
+        int tests = 15 * samples;
         for (int rep=0; rep<reps; rep++)
         {
             double netError = 0.0;
@@ -96,11 +97,11 @@ public class MusicEmbeddingsTest {
             netWriter.flush();
             netWriter.close();
 
-            for (int testSet=0; testSet<inputSets.size(); testSet++)
+            for (int testSet=0; testSet<inputSets.size(); testSet+=samples)
             {
                 double[] result = avatar.present(inputSets.get(testSet));
 
-                StringBuilder msg = new StringBuilder(files[testSet].getName() + ", " + outputSets.get(testSet)[0] + ", " + outputSets.get(testSet)[1]);
+                StringBuilder msg = new StringBuilder(files[testSet/samples].getName() + ", " + outputSets.get(testSet)[0] + ", " + outputSets.get(testSet)[1]);
 
                 for (double output : result) {
                     msg.append(", ");
